@@ -1,0 +1,589 @@
+/**
+ * @version $Id: template.css 10498 2008-07-04 00:05:36Z ian $
+ * @author Design & Accessible Team ( Angie Radtke / Robert Deutz )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+
+
+
+
+body
+{
+	background: #999;
+	color: #656669;
+  font-family: verdana,sans-serif;
+font-weight: 300;
+	font-size: 100.1%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+strong { font-weight: 700; }
+.wf-loading  {
+	visibility: hidden;
+}
+* html.wf-loading  {
+	visibility: visible;
+}
+#green {
+width: 978px;
+background-color: #7e1b19;
+margin: 10px auto 10px auto;
+position: relative;
+padding: 15px 0 15px 0;
+}
+
+* html #green {
+width: 980px;
+}
+
+#header {
+	text-align: left;
+	padding: 0;
+	margin: 0 15px 0 15px;
+	height: 75px;
+	background-color: #fff;
+	background-image: url(../images/r_cor_top_left.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	overflow: visible;
+}
+
+#headerBg {
+width: 100%;
+	background-image: url(../images/r_cor_top_right.gif);
+	background-repeat: no-repeat;
+	background-position: 100% 0;	
+}
+
+body.contentpane {
+
+width : auto;
+margin : 10px;
+line-height : 1.4em;
+text-align: left;
+}
+
+#contentarea {
+	position: relative;
+	padding: 0;
+	margin: 0 15px;
+	overflow: auto;
+	background-color: #fff;
+
+}
+
+#left {
+	float: left;
+	width: 203px;
+	text-align: left;
+	background-color: #fff;
+	margin-left: 12px;
+}
+
+
+#leftNarrow {
+	float: left;
+	width: 20px;
+	text-align: left;
+	background-color: #fff;
+	margin-left: 5px;
+}
+
+#main {
+	float: left;
+	width: 733px;
+	background: #fff;
+	text-align: left;
+	padding: 0;
+	overflow: auto;
+}
+
+#mainWide {
+	float: left;
+	width: 918px;
+	background: #fff;
+	text-align: left;
+	padding: 0;
+	overflow: auto;
+}
+
+#mainWide #contain p, #mainWide #contain span, #mainWide #contain h1, #mainWide #contain h2 {
+
+}
+
+#contain {
+	position: relative;
+	margin: 0 0 35px 0;
+	padding: 0 105px 0 0;
+	overflow: auto;
+}
+
+#breadbar {
+	width: 100%;
+	font-size: 79%;
+	color: #006633;
+	width: 750px;
+}
+
+#breadbar span {
+	display: block;
+	padding: 0 0 0 20px;
+}
+
+#breadbar a:link, #breadbar a:visited {
+	color: #006633;
+}
+
+#smLogo {
+	width: 69px;
+	height: 70px;
+	float: right;
+	margin: 5px 13px 0 0;
+}
+.smIcon {
+	width: 49px;
+	height: 49px;
+	float: right;
+	margin: 0 -90px 0 0;
+}
+
+/* TOC */
+table.contenttoc{
+	float: right;
+}
+
+/* Tooltips */
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+	text-align:left;
+}
+
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+}
+
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}/* These classes control the tooltips for the glossary component */
+	
+
+a.glossTip:link, a.glossTip:visited {
+    position:relative; /*this is the key*/
+    z-index:24; 
+    color:#000;
+text-decoration:none;
+border-bottom:1px dotted;
+	}
+
+a.glossTip:hover {
+z-index:25; 
+background-color:#ff0;
+cursor: help;
+}
+
+a.glossTip span { 
+display: none;
+}
+a.glossTip:hover span  { /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:2em; width:15em;
+    border-width:4px 1px 1px 1px;
+	border-style: solid;
+	 border-color: #00204a;
+    background-color:#eeeeee; color:#000;
+    text-align: left;
+	padding: 5px;
+	z-index: 100;
+	font-weight:normal;
+	font-size: 12px;
+	}
+a:link, a:visited {
+	color: #656669;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+h1, .xmap .componentheading {
+	font-size: 1.7em;
+	color: #29517c;
+	padding: 0 0 0 5px;
+	font-family: etica-1,etica-2,sans-serif;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 1.4em;
+	margin: 0;
+	padding: 0 0 10px 5px;
+	color: #29517c;
+	font-family: etica-1,etica-2,sans-serif;
+	font-weight: 400;
+	
+}
+
+h2.componentheading {
+	margin: 15px 0 0 15px;
+}
+
+h3 {
+	font-size:1em;
+	font-weight:bold;
+	margin: 0;
+	padding: 0 5px;
+	font-family: etica-1,etica-2,sans-serif;
+	font-weight: 400;
+
+	color: #1d3f69;
+}
+
+h4 {
+	border:solid 0;
+	color:#000;
+	font-size:1em;
+	font-family: etica-1,etica-2,sans-serif;
+	font-weight: 400;
+}
+	
+.unsichtbar,.u2,.invisible , .unseen {
+	display: inline;
+	height: 0px;
+	left: -3000px;
+	position: absolute;
+	top: -2000px;
+	width: 0px;
+	z-index: 200;
+}
+
+#circleDiv {
+	width: 650px;
+	height: 550px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background-image: url(../images/tc_live/ctr_circle.gif);
+	background-repeat: no-repeat;
+	background-position: 25px 100px;
+	}
+	
+#circleDisplay {
+	position: absolute;
+	top: 146px;
+	left: 68px;
+	width: 221px;
+	height: 221px;
+	padding: 0;
+	margin: 0;
+	color: #b1c3a5;
+	text-align: center;
+ }
+.moveUp #circleDisplay {
+	top: 126px;
+	font-size: 89%;
+}
+#circleDisplay span {
+	font-size: 84%;
+	color: #656669;
+}
+
+#circleDisplay h2 {
+	margin: 4px 0;
+	font-weight: 300;
+	padding: 0;
+}
+
+#circleDisplay h1 {
+	margin: 4px 0;
+	font-weight: 300;
+	padding: 0;
+}
+.iconCircle {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 103px;
+	height: 103px;
+	cursor: pointer;
+}
+.iconCircle a {
+	display: block;
+}
+
+#iconOne {
+	left: 70px;
+	top: 0;
+}
+
+#iconTwo {
+	left: 204px;
+	top: 5px;
+}
+
+#iconThree {
+	left: 311px;
+	top: 88px;
+}
+
+#iconFour {
+	left: 346px;
+	top: 209px;
+}
+
+#iconFive {
+	left: 309px;
+	top: 330px;
+}
+
+#iconSix {
+	left: 205px;
+	top: 411px;
+}
+
+#iconSeven {
+	left: 77px;
+	top: 413px;
+}
+
+.iconLabel {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	height: 18px;
+	color: #006633;
+	font-size: 85%;
+}
+
+#labelOne {
+	left: 160px;
+	top: 0;
+}
+
+#labelTwo {
+	left: 313px;
+	top: 35px;
+}
+
+#labelThree {
+	left: 423px;
+	top: 127px;
+}
+
+#labelFour {
+	left: 452px;
+	top: 242px;
+}
+
+#labelFive {
+	left: 418px;
+	top: 376px;
+}
+
+#labelSix {
+	left: 310px;
+	top: 470px;
+}
+
+#labelSeven {
+	left: 126px;
+	top: 516px;
+}
+
+ul#menulist_roottcLive { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 21px;
+}
+
+ul#menulist_roottcLive li {
+	float: left;
+	margin: 4px 0 0 12px;
+	padding: 2px 5px;
+	background-color: #d5decd;
+	border: 1px solid #29507c;
+}
+
+ul#menulist_roottcLive li a:link, ul#menulist_roottcLive li a:visited {
+	text-decoration: none;
+	font-family: etica-1,etica-2,sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #29507c;
+}
+
+ul#menulist_roottcLive li#menuitem_1tcLive {
+	background-image: url(../images/menu_home.gif);
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+	padding: 2px 5px 2px 30px;
+}
+
+ul#menulist_roottcLive li ul {
+	display: none;
+}
+ul#menulist_roottcLive li:hover ul {
+	display: block;
+	z-index: 100;
+	position: absolute;
+	margin-left: -25px;
+	margin-top: 1px;
+
+}
+ul#menulist_roottcLive li#menuitem_1tcLive ul {
+
+	background-color: #d5decd;
+	padding: 0;
+}
+ul#menulist_roottcLive li:hover ul li {
+	display: block;
+	float: none;
+	width: 169px;
+	font-size: 80%;
+	margin: 0 0 2px 0;
+
+}
+ul#menulist_roottcLive li:hover ul li a {
+	display: block;
+}
+
+
+ul#mainleveltcLiveLeft {
+	list-style: none;
+	padding: 0;
+	margin: 25px 0 0 0;
+}
+
+ul#mainleveltcLiveLeft li {
+	width: 169px;
+	list-style: none;
+	background-image: url(../images/left_menu_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-top: 10px;
+	padding: 13px 0 0 0;
+}
+
+ul#mainleveltcLiveLeft li a:link, ul#mainleveltcLiveLeft li a:visited { text-decoration: none;
+	font-family: etica-1,etica-2,sans-serif;
+	text-transform: uppercase;
+	color: #29507c;
+	display: block;
+	width: 167px;
+	border: 1px solid #b1c3a5;
+	border-top-width: 0;
+	background-color: #d5decd;
+	font-size: 81%;
+}
+* html ul#mainleveltcLiveLeft li a:link, * html ul#mainleveltcLiveLeft li a:visited { 
+	width: 169px;
+}
+
+ul#mainleveltcLiveLeft li a span {
+	padding: 0 6px 6px;
+	display: block;
+}
+#footer {
+padding:0;
+text-align: center;
+	background-color: #fff;
+	margin: 0 15px 0 15px;
+	color: #666;
+	background-image: url(../images/r_cor_bot_left.gif);
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+
+}
+
+#footerBg {
+	width: 100%;
+	background-image: url(../images/r_cor_bot_right.gif);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+}
+#footerBg span {font-size: 88%; }
+#footerBg p { margin: 0 auto; 
+	width: 200px;
+	display: block;
+	color: #1d3f69;
+	background-color: #b1c3a5;
+border: 1px solid #1d3f69;}
+	#footerBg p a:link, #footerBg p a:visited {
+color: #1d3f69;
+text-decoration: none;
+}
+.faceandtweet { 
+	margin-top: 16px;
+	padding-bottom: 10px;
+}
+#exchangeImg {
+	height: 49px;
+	padding-right: 18px;
+}
+
+#homeLink {
+position: absolute;
+top: 300px;	
+left: 30px;
+}
+#moduleMenu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+#moduleMenu li {
+	float: left;
+	margin: 0 15px 0 0;
+}
+.moduleMenuP {
+	display: block;
+	width: 322px;
+	color: #29517c;
+	font-size: 90%;
+	font-weight: bold;
+	border-top: 1px solid #29517c;
+}
+.xmap h1 {font-size: 95%; }
+.clearfix:after {
+     content: " "; 
+     display: block; 
+     height: 0; 
+     clear: both; 
+     visibility: hidden;
+	font-size: 0;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

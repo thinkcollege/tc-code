@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+ <name>Literature Database</name>
+ <creationDate>18 November 2009</creationDate>
+ <author>Christopher Nagle</author>
+ <authorEmail>Christopher.Nagle@umb.edu</authorEmail>
+ <authorUrl>http://www.thinkcollege.net/</authorUrl>
+ <copyright>Copyright 2009 Institute for Community Inclusion.</copyright>
+ <license>UMass Boston All Rights Reserved</license>
+ <version>1.2.1</version>
+ <description>A database of literature pertaining to students with learning disabilities going to college.</description>
+ <files folder="site">
+  <filename>index.html</filename>
+  <filename>literaturedatabase.php</filename>
+  <filename>controller.php</filename>
+  <filename>models/index.html</filename>
+  <filename>models/search.php</filename>
+  <filename>views/index.html</filename>
+  <filename>views/search/index.html</filename>
+  <filename>views/search/view.html.php</filename>
+  <filename>views/search/tmpl/index.html</filename>
+  <filename>views/search/tmpl/default.php</filename>
+  <filename>views/search/tmpl/results.php</filename>
+  <filename>views/search/tmpl/literature.php</filename>
+  <filename>views/search/tmpl/style.css</filename>
+ </files>
+ <install>
+  <sql>
+   <file charset="utf8" driver="mysql">install.sql</file>
+  </sql>
+ </install>
+ <uninstall>
+  <sql>
+   <file charset="utf8" driver="mysql">uninstall.sql</file>
+  </sql>
+ </uninstall>
+ <administration>
+  <menu>Literature Database</menu>
+  <files folder="admin">
+   <filename>index.html</filename>
+   <filename>install.sql</filename>
+   <filename>uninstall.sql</filename>
+  </files>      
+ </administration>
+</install>

@@ -1,0 +1,16 @@
+#system-message dt { font-weight: bold; }
+#system-message dd { margin:1em 0;  font-weight:bold; background:#fff; padding:0 }
+#system-message dd ul { color: #182b60; list-style:none; padding:0.5em 1em 0.5em 1.5em; border-top:3px solid #182b60; border-bottom:3px solid #182b60; }
+#system-message dt.message { display: none; }
+#system-message dd.message {  }
+#system-message dd.message ul { background: #ffffff}
+#system-message dt.error { display: none; }
+#system-message dd.error {  }
+#system-message dd.error ul { color: #182b60; border-top:3px solid #182b60; border-bottom:3px solid #182b60; margin:0 }
+#system-message dt.notice { display: none; }
+#system-message dd.notice {  }
+#system-message dd.notice ul { color: #182b60; background: #ffffff; border-top: 3px solid #182b60; border-bottom: 3px solid #182b60;}
+
+.choices { padding:0; margin:0 0 1em 0.25em; list-style:none; }
+#adminForm legend + p { margin-top:0; padding-top:0; }
+#adminForm .dAttr { float:left; margin:0 0.5em; }

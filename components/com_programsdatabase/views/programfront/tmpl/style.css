@@ -1,0 +1,27 @@
+.choices { padding:0; margin:0 0 1em 0.5em; list-style:none; font-size: 88%; }
+.choices label, p label { font-size: 100%; padding: 2px 5px; }
+label { font-size: 88%; padding: 2px 0 2px 25px; }
+label.primary { font-weight: bold; display: block; margin-top: 20px; margin-left: -18px;}
+#adminForm legend + p { margin-top:0; padding-top:0;}
+#adminForm { margin-left: 12px; }
+
+#system-message    { margin-bottom: 10px; padding: 0;}
+#system-message dt { font-weight: bold; }
+#system-message dd { margin: 0; font-weight: bold; text-indent: 30px; }
+#system-message dd ul { color: #0055BB; margin-bottom: 10px; list-style: none; padding: 10px; border-top: 3px solid #84A7DB; border-bottom: 3px solid #84A7DB;}
+
+/* System Standard Messages */
+#system-message dt.message { display: none; }
+#system-message dd.message {  }
+
+/* System Error Messages */
+#system-message dt.error { display: none; }
+#system-message dd.error ul { color: #c00; background-color: #E6C0C0; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B;}
+
+/* System Notice Messages */
+#system-message dt.notice { display: none; }
+#system-message dd.notice ul { color: #c00; background: #EFE7B8; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E;}
+#main #readContent h2 { margin-top: 20px; }
+#main p#q60-p, #main p#q78-p, #main p#q74-p, #main p#q76-p { margin-top: 0; margin-left: 34px; }
+#main p#q60-p label.primary, #main p#q78-p label.primary, #main p#q74-p label.primary, #main p#q76-p label.primary { margin-top: 0; }
+#main input[type="text"] { width: 250px; }

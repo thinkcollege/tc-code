@@ -1,0 +1,1187 @@
+/**
+ * @version $Id: template.css 10498 2008-07-04 00:05:36Z ian $
+ * @author Design & Accessible Team ( Angie Radtke / Robert Deutz )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+
+
+html {
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+}
+
+
+body
+{
+	background: #f7b93b;
+	color: #2e2e2e;
+  font-family: verdana, arial, sans-serif;
+	font-size: 100.1%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	cursor: url('/templates/beez_lower/images/middle_school/cursor-large.png'), auto;
+	background-image: url('/templates/beez_lower/images/middle_school/body_bg.gif');
+	background-position: center 75px;
+	background-repeat: no-repeat;
+
+}
+
+
+#containAll {
+display: none;
+position: relative;
+}
+
+body a, body .closer, .submiton, .submitoff
+{cursor: url('/templates/beez_lower/images/middle_school/ms_cursor.png'), auto;
+border: none;
+}
+body a img {
+	border: none;
+}
+.wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4 {
+	visibility: hidden;
+}
+
+#green {
+width: 848px;
+background-color: #1d3f69;
+margin: 10px auto 10px auto;
+position: relative;
+padding: 0;
+}
+
+* html #green {
+
+}
+
+#header {
+	text-align: left;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	height: 85px;
+	background-color:  #1d3f69;
+	background-image: url(../images/middle_school/header_bg.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#headerBg {
+}
+
+#headerList {
+	list-style: none;
+	position: absolute;
+	top: -80px;
+	left: 495px;
+	width: 318px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+}
+#headerList li {float: left; margin: 10px 14px 0 0;
+	list-style: none;
+	width: 64px;
+	padding: 0;}
+
+#headerList li a {
+	display: block;
+}
+#headerList li .topDrop { display: none; 
+	position: absolute;
+	z-index: 1000;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 5px;
+	border: 1px solid #fff;
+	background-image: url('http://www.thinkcollege.net/templates/beez_lower/images/middle_school/menu_bg.png');
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+border-radius: 11px;
+	font-family: "ff-duper-web-pro-1", sans-serif;
+	color: #fff;
+	}
+.topDrop a {
+color: #fff;
+}
+#headerList li:hover .topDrop {
+	
+	display: block;
+}
+#headerList li:hover .topDrop li {
+	margin: 5px 0 0 5px;
+}
+#headerList li.homeTop:hover .topDrop {
+
+	width: 500px;
+	height: 88px;
+	left: -360px;
+}
+#headerList li.homeTop:hover .topDrop li {
+	float: left;
+	margin: 4px 0 0 15px;
+	padding: 0;
+	width: 64px;
+}
+#headerList li.resourcesTop:hover .topDrop li {
+	float: left;
+	width: 114px;
+	text-align: center;
+}
+
+#headerList li.moreLinkstop:hover .topDrop li {
+	float: left;
+	width: 184px;
+	text-align: center;
+}
+
+#headerList li.faqTop:hover .topDrop {
+	right: 0;
+}
+
+#headerList li.faqTop:hover .topDrop li {
+	float: left;
+	width: 184px;
+	text-align: left;
+}
+div.faceandtweet {
+	margin-top: -45px;
+	z-index: 200;
+}
+body.contentpane {
+
+width : auto;
+margin : 10px;
+line-height : 1.4em;
+text-align: left;
+}
+
+#contentarea {
+	position: relative;
+	padding: 0;
+	margin: 0 24px;
+	overflow: visible;
+	background-color: #fff;
+
+}
+#page {
+	width: 350px;
+}
+
+
+#middleMain {
+	float: left;
+	width: 800px;
+	background-color: #fff;
+	text-align: left;
+	padding: 0;
+	overflow: visible;
+	height: 498px;
+	position: relative;
+}
+
+#contain {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+#breadbar {
+	width: 100%;
+	height: 42px;
+	position: relative;
+	font-size: 75%;
+	color: #b1c3a5;
+}
+
+#breadbar span {
+	display: block;
+	padding: 20px 0 0 20px;
+}
+
+#breadbar a:link, #breadbar a:visited {
+	color: #b1c3a5;
+}
+
+/* TOC */
+table.contenttoc{
+	float: right;
+}
+
+/* Tooltips */
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+	text-align:left;
+}
+
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+}
+
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}/* These classes control the tooltips for the glossary component */
+	
+
+a.glossTip:link, a.glossTip:visited {
+    position:relative; /*this is the key*/
+    z-index:24; 
+    color:#000;
+text-decoration:none;
+border-bottom:1px dotted;
+	}
+
+a.glossTip:hover {
+z-index:25; 
+background-color:#ff0;
+cursor: help;
+}
+
+a.glossTip span { 
+display: none;
+}
+a.glossTip:hover span  { /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:2em; width:15em;
+    border-width:4px 1px 1px 1px;
+	border-style: solid;
+	 border-color: #00204a;
+    background-color:#eeeeee; color:#000;
+    text-align: left;
+	padding: 5px;
+	z-index: 100;
+	font-weight:normal;
+	font-size: 12px;
+	}
+
+#homeTitle {
+	position: absolute;
+	color: #1d3f69;
+	top: 22px;
+	left: 254px;
+}
+
+#aboutmeTitle {
+	position: absolute;
+	color: #fff;
+	top: 66px;
+	left: 390px;
+}
+#studyislandTitle {
+	position: absolute;
+	color: #4e853d;
+	top: 16px;
+	left: 330px;
+}
+#treasureislandTitle {
+	position: absolute;
+	color: #2e2e2e;
+	top: 36px;
+	left: 380px;
+}
+#sociallifeTitle {
+	position: absolute;
+	color: #9d67ae;
+	top: 16px;
+	left: 360px;
+}
+#careerislandTitle {
+	position: absolute;
+	color: #1d3f69;
+	top: 18px;
+	left: 404px;
+}
+#skillsInterestsTitle {
+	position: absolute;
+	color: #2e2e2e;
+	top: 66px;
+	left: 234px;
+}
+
+#disabilityTitle {
+	position: absolute;
+	color: #2e2e2e;
+	top: 56px;
+	left: 394px;
+}
+
+#resourcesTitle {
+	position: absolute;
+	color: #2e2e2e;
+	top: 56px;
+	left: 394px;
+}
+#multimediaTitle {
+	position: absolute;
+	color: #2e2e2e;
+	top: 36px;
+	left: 380px;
+}
+#videoislandTitle {
+	position: absolute;
+	color: #2e2e2e;
+	top: 36px;
+	left: 380px;
+}
+#lockerTitle {
+	position: absolute;
+	color: #2e2e2e;
+	top: 36px;
+	left: 380px;
+}
+
+
+
+#middleMain h1 {
+	font-size: 2em;
+	padding: 0 0 0 25px;
+	font-family: "aurea-ultra-1","aurea-ultra-2",serif;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0 0 0 25px;
+	color: #b1c3a5;
+	font-family: "aurea-ultra-1","aurea-ultra-2",serif;
+	font-weight: normal;
+	
+}
+h2.resourcesH2 {
+	color: #1d3f69;
+	display: inline;
+	padding: 0;
+}
+
+h2.componentheading {
+	margin: 15px 0 0 15px;
+}
+
+h3 {
+	font-size:1.2em;
+	font-weight:bold;
+	margin: 0;
+	padding: 0 25px;
+	font-family: "aurea-ultra-1","aurea-ultra-2",serif;
+	font-weight: normal;
+
+	color: #1d3f69;
+}
+.popupList h3 {
+	font-size:1.2em;
+	text-align: center;
+	font-weight:normal;
+	margin: 6px 0;
+	padding: 0;
+	font-family: aurea-ultra-1,aurea-ultra-2,serif;
+
+	color: #1d3f69;
+}
+
+h4 {
+	border:solid 0;
+	color:#000;
+	font-size:1em;
+	font-family: "p22-underground-1","p22-underground-2",sans-serif;
+	font-weight: normal;
+}
+	
+.unsichtbar,.u2,.invisible , .unseen {
+	display: inline;
+	height: 0px;
+	left: -3000px;
+	position: absolute;
+	top: -2000px;
+	width: 0px;
+	z-index: 200;
+}
+
+.popupList {
+	display: none;
+}
+.clickList {
+	z-index: 5;
+}
+
+.clickList .popupList {
+	display: block;
+	position: absolute;
+	border: 2px solid black;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-radius: 15px;
+	padding: 8px 8px 0 28px;
+	z-index: 400;
+-moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+-webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.clickList .popupList ul{
+	display: block;
+	font-family: "ff-duper-web-pro-1", sans-serif;
+	font-size: 115%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+} 
+
+.clickList .popupList ul li {
+	
+margin: 0 0 14px 0;
+
+}
+
+.clickList .popupList ul li a:link, .clickList .popupList ul li a:visited {
+	text-decoration: none;
+	color: #2e2e2e; 
+}
+.clickList .popupList ul li span.linkTip {
+	display: none;
+}
+.clickList .popupList ul li:hover span.linkTip {
+	display: block;
+	float: right;
+	width: 55%;
+	color: #2e2e2e;
+	font-size: 85%;
+}
+.clickList .popupList ul li a:hover {
+text-decoration: underline;
+}
+.closerX {
+position: absolute;
+top: 8px;
+right: 8px;
+height: 20px;
+}
+
+.msIcon {
+position: absolute;
+overflow: visible;
+	
+}
+/* Home page icons */
+#aboutMe {
+	width: 128px;
+	left: 170px;
+	top: 230px;
+}
+#studyIsland {
+	width: 120px;
+left: 290px;
+	top: 290px;	
+}
+#treasureIsland {
+	width: 128px;
+left: 420px;
+	top: 220px;	
+}
+#careerIsland {
+	width: 120px;
+left: 530px;
+	top: 330px;	
+}
+#socialIsland {
+	width: 125px;
+left: 660px;
+	top: 210px;	
+}
+/* About Me page icons */
+#disabilityLarge {
+width: 120px;
+	left: 80px;
+	top: 330px;
+	
+}
+#myHealth {
+width: 120px;
+	left: 280px;
+	top: 300px;
+	
+}
+
+#myHealth .popupList {
+	width: 400px;
+	top: -300px;
+	left: 120px;
+/*	background: rgba(137, 233, 255, 0.9); */
+/* For IE 5.5 - 7 */
+
+/* For IE 8 */
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+#myInterests {
+width: 120px;
+	left: 460px;
+	top: 260px;
+	
+}
+#myWorksheets {
+width: 128px;
+	left: 650px;
+	top: 350px;
+	
+}
+
+#myWorksheets .popupList {
+	width: 400px;
+	bottom: 0;
+	right: 120px;
+/*	background: rgba(137, 233, 255, 0.9); */
+/* For IE 5.5 - 7 */
+
+/* For IE 8 */
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+/* Study Island page icons */
+#myOrganization {
+	width: 128px;
+	left: 26px;
+	top: 297px;
+}
+#myCoursework {
+	width: 128px;
+	left: 185px;
+	top: 320px;
+}
+#myLearningtype {
+	width: 128px;
+	left: 350px;
+	top: 335px;
+}
+#myLearningtype .infoBubbl {
+	top: -148px;
+}
+#myPodcasts {
+	width: 120px;
+	left: 500px;
+	top: 285px;
+}
+#myPodcasts .infoBubbl {
+	top: -148px;
+}
+#myStrengths {
+	width: 120px;
+	left: 650px;
+	top: 325px;
+}
+/* Social Life Island icons */
+#myOnline {
+	width: 128px;
+	left: 46px;
+	top: 320px;
+}
+#myOnline .popupList {
+	width: 400px;
+	top: -300px;
+	left: 120px;
+/*	background: rgba(137, 233, 255, 0.9); */
+/* For IE 5.5 - 7 */
+
+/* For IE 8 */
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+#myFeelings {
+	width: 120px;
+	left: 210px;
+	top: 290px;
+}
+#myFriends {
+	width: 120px;
+	left: 390px;
+	top: 340px;
+}
+#myFamily {
+	width: 120px;
+	left: 520px;
+	top: 250px;
+}
+#mySocialskills {
+	width: 120px;
+	left: 650px;
+	top: 300px;
+}
+/* Career Island icons */
+#myCareermatching {
+	width: 120px;
+	left: 270px;
+	top: 355px;
+}
+#myTimeline {
+	width: 120px;
+	left: 400px;
+	top: 285px;
+}
+#myCollegetours {
+	width: 128px;
+	left: 570px;
+	top: 235px;
+}
+#myCollegetours .infoBubbl {
+	top: -138px;
+}
+#myJobchoices {
+	width: 128px;
+	left: 590px;
+	top: 375px;
+}
+/* Skills and Interests icons */
+#myMath {
+	width: 120px;
+	left: 145px;
+	top: 350px;
+}
+#myInterestsandh {
+	width: 120px;
+	left: 270px;
+	top: 330px;
+}#myInterestsandh .popupList {
+	width: 400px;
+	bottom: 15px;
+	left: 120px;
+/*	background: rgba(137, 233, 255, 0.9); */
+/* For IE 5.5 - 7 */
+
+/* For IE 8 */
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+#myWriting {
+	width: 120px;
+	left: 415px;
+	top: 290px;
+}
+#mySpelling {
+	width: 120px;
+	left: 540px;
+	top: 370px;
+}
+#mySpelling .infoBubbl {
+	top: -110px;
+}
+#myOrganization2 {
+	width: 128px;
+	left: 665px;
+	top: 315px;
+}
+
+/* My Disability page icons */
+#mySelfawareness {
+	width: 120px;
+	left: 22px;
+	top: 200px;
+}
+#myIntellecdis {
+	width: 120px;
+	left: 510px;
+	top: 220px;
+}
+#myIepvideo {
+	width: 120px;
+	left: 150px;
+	top: 290px;
+}
+#myIepvideo .infoBubbl {
+	bottom: 135px;
+}
+#myIepmaterials {
+	width: 128px;
+	left: 285px;
+	top: 200px;
+}
+
+#myIepmaterials .popupList {
+	width: 440px;
+	bottom: 15px;
+	left: 120px;
+/*	background: rgba(137, 233, 255, 0.9); */
+
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+#myVoice {
+	width: 120px;
+	left: 390px;
+	top: 330px;
+}
+
+#mySelfawareness .popupList {
+	width: 400px;
+	top: -300px;
+	left: 120px;
+/*	background: rgba(137, 233, 255, 0.9); */
+
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+#myHealthtwo {
+width: 120px;
+	left: 630px;
+	top: 300px;
+	
+}
+
+#myHealthtwo .popupList {
+	width: 400px;
+	top: -300px;
+	left: -430px;
+/*	background: rgba(137, 233, 255, 0.9); */
+
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+
+
+/* My Multimedia page icons */
+#mediaPodcasts {
+	width: 120px;
+	left: 40px;
+	top: 300px;
+}
+#mediaPodcasts .infoBubbl {
+	top: -148px;
+}
+#mediaVideos {
+	width: 120px;
+	left: 240px;
+	top: 300px;
+}
+#watchKnowLearn {
+	width: 120px;
+	left: 240px;
+	top: 300px;
+}
+#mediaPresentations {
+	width: 120px;
+	left: 440px;
+	top: 300px;
+}
+
+#mediaPresentations .popupList {
+	width: 500px;
+	bottom: 20px;
+	right: 135px;
+/*	background: rgba(137, 233, 255, 0.9); */
+/* For IE 5.5 - 7 */
+
+/* For IE 8 */
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+#mediaWebsites {
+	width: 120px;
+	left: 640px;
+	top: 310px;
+}
+
+
+/* My Treasure Island page icons */
+#myLocker {
+	width: 120px;
+	left: 326px;
+	top: 300px;
+}
+
+#myLocker .popupList {
+	width: 400px;
+	top: -300px;
+	left: -445px;
+/*	background: rgba(137, 233, 255, 0.9); */
+/* For IE 5.5 - 7 */
+
+/* For IE 8 */
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}#myPortfolio {
+	width: 128px;
+	left: 546px;
+	top: 340px;
+}
+/* Video page */
+#vidVid1 { position: absolute; width: 150px; height: 114px; left: 25px; top: 60px; }
+#vidVid2 { position: absolute; width: 150px; height: 114px; left: 195px; top: 60px; }
+#vidVid3 { position: absolute; width: 150px; height: 114px; left: 25px; top: 200px; }
+#vidVid4 { position: absolute; width: 150px; height: 114px; left: 195px; top: 200px; }
+#vidVid9 { position: absolute; width: 150px; height: 114px; left: 365px; top: 200px; }
+#vidVid5 { position: absolute; width: 150px; height: 114px; left: 25px; top: 336px; }
+#vidVid6 { position: absolute; width: 150px; height: 114px; left: 195px; top: 336px; }
+#vidVid7 { position: absolute; width: 150px; height: 114px; left: 365px; top: 336px; }
+#vidVid8 { position: absolute; width: 150px; height: 114px; left: 535px; top: 200px; }
+
+#watchKnowLearn {
+	width: 120px;
+	left: 545px;
+	top: 336px;
+}
+div, li, img {
+	-webkit-transition-duration: 600ms;
+	-webkit-transition-property: -webkit-transform, opacity;
+-webkit-transition-timing-function: ease-out;
+
+-moz-transition-duration: 600ms;
+-moz-transition-timing-function: ease-out;
+
+transition-duration: 600ms;
+transition-timing-function: ease-out;
+
+}
+.clickTrans, .clickTrans img {
+-webkit-transition-duration: 600ms;
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-property: -webkit-transform, opacity;
+    -webkit-transform: scale(5);
+-moz-transition-duration: 600ms;
+-moz-transition-timing-function: ease-out;
+    -moz-transform: scale(5);
+transition-duration: 600ms;
+transition-timing-function: ease-out;
+transform: scale(5);
+opacity: .1;
+z-index: 1000;
+}
+.clickTrans ul, .clickTrans ul img, .clickTrans ul li, .clickTrans .infoBubbl, .clickTrans .bottomUp {
+-webkit-transition-duration: 600ms;
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-property: -webkit-transform, opacity;
+    -webkit-transform: scale(.01);
+-moz-transition-duration: 600ms;
+-moz-transition-timing-function: ease-out;
+    -moz-transform: scale(.01);
+transition-duration: 600ms;
+transition-timing-function: ease-out;
+transform: scale(.01);
+opacity: .1;
+z-index: 1000;
+}
+
+.msIcon .infoBubbl {
+	display: none;
+	position: absolute;
+	width: 150px;
+	background-image: url(../images/middle_school/infobubbl_top.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 19px 0 0 0;
+	bottom: 135px;
+}
+.msIcon:hover .infoBubbl {
+	display: block;
+	z-index: 1100;
+}
+.msIcon.clickList:hover .infoBubbl {
+	display: none;
+}
+.infoBubblMid {
+	background-image: url(../images/middle_school/infobubbl_bg.gif);
+	background-position: top left;
+	background-repeat: repeat-y;
+	padding: 0 8px;
+	font-size: 80%;
+font-family: "ff-duper-web-pro-1", sans-serif;
+}
+.infoBubblBot { height: 40px;
+	background-image: url(../images/middle_school/infobubbl_bot.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+#resourcesList { position: absolute;
+	top: 25px;
+	left: 10px;
+	list-style-image:url(../images/middle_school/resources_bul.png);
+	margin:0;
+	padding: 0;
+	list-style-position: inside;
+}	
+#resourcesList li {
+	margin: 5px 5px 5px 5px;
+	padding: 0;
+	position: static;
+}	
+#resourcesList li ul li {
+	position: relative;
+}
+#resourcesList ul {
+	list-style-image: none;
+	} 
+
+
+#resourcesList .popupList {
+	width: 580px;
+	top: 10px;
+	left: 200px;
+/*	background: rgba(137, 233, 255, 0.9); */
+/* For IE 5.5 - 7 */
+
+/* For IE 8 */
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+
+#resourcesList .popupList a {
+	text-decoration: underline;
+}
+
+#resourcesList .popupList a:hover {
+	text-decoration: none;
+}
+
+
+
+#lockerList { position: absolute;
+	top: 85px;
+	left: 10px;
+	list-style-image:url(../images/middle_school/my_locker_bul.png);
+	margin:0;
+	padding: 0;
+	list-style-position: inside;
+}	
+#lockerList li {
+	margin: 5px 5px 5px 5px;
+	padding: 0;
+	position: static;
+}	
+#lockerList li ul li {
+	position: relative;
+}
+#lockerList ul {
+	list-style-image: none;
+	} 
+
+
+#lockerList .popupList {
+	width: 580px;
+	top: -20px;
+	left: 200px;
+/*	background: rgba(137, 233, 255, 0.9); */
+/* For IE 5.5 - 7 */
+
+/* For IE 8 */
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+background:linear-gradient(bottom, #89E9FF, #cfd391);
+
+background: -webkit-gradient(linear,left top, left bottom, from(#89E9FF), to(#cfd391));
+background: -webkit-linear-gradient( left top, #89E9FF, #cfd391);
+background: -moz-linear-gradient(45deg,  #89E9FF,  #cfd391);
+		border: 2px solid #42961d;
+}
+#lockerList li.firstLev4 .popupList {
+	top: -160px;
+	font-size: 95%;
+}
+
+#lockerList .popupList a {
+	text-decoration: underline;
+}
+
+#lockerList .popupList a:hover {
+	text-decoration: none;
+}
+.popupList .leftFloat { 
+	float: left;
+	width: 26%;
+}
+.popupList .rightFloat {
+	float: left;
+	width: 70%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 85%;
+}
+
+#footer {
+padding:0;
+text-align: center;
+	background-color:  #1d3f69;;
+	margin: 0;
+	height: 85px;
+	color: #666;
+
+}
+#footerList, #footerList li {
+	position: relative;
+	list-style: none;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#footerList li a {
+	display: block;
+	color: #fff;
+}
+#footerList{padding-left: 20px;}
+
+#footerList li {float: left; margin: 10px 0 0 12px;}
+.bottomUp { display: none;
+	
+	position: absolute;
+	bottom: 88px;
+	left: -40px;
+	z-index: 1000;
+	list-style: none;
+	margin: 0;
+	padding: 7px;
+	border: 1px solid #fff;
+	background-image: url('../images/middle_school/menu_bg.png');
+-moz-border-radius: 11px;
+-webkit-border-radius: 11px;
+border-radius: 11px;
+	font-family: "ff-duper-web-pro-1", sans-serif;
+	color: #fff;
+	text-align: left; }
+	#footerList li.credits {
+	font-family: "ff-duper-web-pro-1", sans-serif;
+	font-size: 80%;
+	width: 315px;
+	text-align: left;
+	line-height: 1em;	
+	}
+
+#footerList li:hover .bottomUp {
+	
+	display: block;
+}
+.siteHelp .bottomUp {
+	width: 340px;
+}
+    input.submitoff {
+        background-image: url(../images/middle_school/popups_off.png);
+        background-repeat: no-repeat;
+		background-color: #1d3f69;
+        color: transparent;
+        border: 0;
+        text-indent: -1000px;
+        display: block;
+        font-size: 0px;
+        line-height: 0px;
+        width: 94px;
+        height: 72px;
+        overflow: hidden; 
+    }
+    input.submiton {
+        background-image: url(../images/middle_school/popups_on.png);
+        background-repeat: no-repeat;
+		background-color: #1d3f69;
+        color: transparent;
+        border: 0;
+        text-indent: -1000px;
+        display: block;
+        font-size: 0px;
+        line-height: 0px;
+        width: 94px;
+        height: 72px;
+        overflow: hidden; 
+    }
+#copyText {
+	background-color: #f7b93b;
+	color: #1d3f69;
+	font-size: 75%;
+	padding: 2px 48px 0 48px;
+}
+#copyText p { padding-bottom: 5px; margin-bottom: 0; }
+#copyText a {
+	color: #1d3f69;
+}
+#previewVideo {
+	position: absolute;
+	left: 283px;
+	top: 90px;
+}
+#soundBlock, #preloadAudio { position: absolute; display: block; margin: 0; padding: 0; }
+.msIcon .popAudio { display: none; }
+.clearfix:after {
+     content: " "; 
+     display: block; 
+     height: 0; 
+     clear: both; 
+     visibility: hidden;
+	font-size: 0;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

@@ -1,0 +1,13 @@
+JShare Version History
+
+JShare module
+
+v1.5.1
+2008-09
+
+v1.5.1a 
+2008-03-15
+
+
+v1.5.7
+2008-10-23

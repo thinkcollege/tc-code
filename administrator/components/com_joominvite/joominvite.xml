@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mosinstall type="component">
+   <name>JoomInvite</name>
+   <creationDate>June, 2008</creationDate>
+   <author>Anikendra Das Choudhury</author>
+   <copyright>Copyright 2008 Anikendra Das Choudhury. This component is released under the GNU/GPL version 2 License. All copyright statements must be kept and derivate work must prominently duly acknowledge original work on web interface and on website where downloaded.</copyright>
+   <authorEmail>anikendra@gmail.com</authorEmail>
+   <authorUrl>www.barakbangla.com</authorUrl>
+   <version>1.0.1</version>
+   <description><![CDATA[
+<h2>Thank you for installing JoomInvite Component.</h2>
+<p>Special thanks to Yves Christian for integrating JoomInvite with OpenInviter.
+<p>This component lets your users to grab contacts from their email account and send them invites to join your website, at the same time building you an mailing list which you can use later.  Note that CURL library must be enabled in your server.
+<p>For any queries visit the support <a href="http://barakbangla.com/forums/" target="_new">Forum</a>. 
+<p>If you like the component, please write a review <a href="http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,5301/Itemid,35/" target="_new">here</a>
+]]></description>
+   <files>
+      <filename>joominvite.php</filename>
+      <filename>joominvite.html.php</filename>
+      <filename>joominvite.class.php</filename>
+      <filename>tmp/index.html</filename>
+	<filename>images/aol.png</filename>
+	<filename>images/gmail.png</filename>
+	<filename>images/hotmail.png</filename>
+	<filename>images/index.html</filename>
+	<filename>images/lycos.png</filename>
+	<filename>images/mail_com.png</filename>
+	<filename>images/mail_ru.png</filename>
+	<filename>images/rambler.png</filename>
+	<filename>images/rediff.png</filename>
+	<filename>images/yahoo.png</filename>
+	<filename>images/facebook.png</filename>
+	<filename>images/friendster.png</filename>
+	<filename>images/gmx.png</filename>
+	<filename>images/hi5.png</filename>
+	<filename>images/katamail.png</filename>
+	<filename>images/linkedin.png</filename>
+	<filename>images/myspace.png</filename>
+	<filename>images/operamail.png</filename>
+	<filename>images/orkut.png</filename>
+	<filename>images/twitter.png</filename>
+	<filename>images/yandex.png</filename>
+	<filename>images/libero.png</filename>
+	<filename>images/fastmail.png</filename>
+	<filename>images/flickr.png</filename>
+	<filename>images/flixster.png</filename>
+	<filename>images/lastfm.png</filename>
+	<filename>openinviter/config.php</filename>
+	<filename>openinviter/index.html</filename>
+	<filename>openinviter/log_error.log</filename>
+	<filename>openinviter/openinviter.php</filename>
+	<filename>openinviter/openinviter_base.php</filename>
+	<filename>openinviter/plugins/aol.php</filename>
+	<filename>openinviter/plugins/gmail.php</filename>
+	<filename>openinviter/plugins/hotmail.php</filename>
+	<filename>openinviter/plugins/index.html</filename>
+	<filename>openinviter/plugins/lycos.php</filename>
+	<filename>openinviter/plugins/mail_com.php</filename>
+	<filename>openinviter/plugins/mail_ru.php</filename>
+	<filename>openinviter/plugins/rambler.php</filename>
+	<filename>openinviter/plugins/rediff.php</filename>
+	<filename>openinviter/plugins/yahoo.php</filename>
+	<filename>openinviter/plugins/facebook.php</filename>
+	<filename>openinviter/plugins/friendster.php</filename>
+	<filename>openinviter/plugins/gmx_net.php</filename>
+	<filename>openinviter/plugins/hi5.php</filename>
+	<filename>openinviter/plugins/katamail.php</filename>
+	<filename>openinviter/plugins/linkedin.php</filename>
+	<filename>openinviter/plugins/myspace.php</filename>
+	<filename>openinviter/plugins/operamail.php</filename>
+	<filename>openinviter/plugins/orkut.php</filename>
+	<filename>openinviter/plugins/twitter.php</filename>
+	<filename>openinviter/plugins/yandex.php</filename>
+	<filename>openinviter/plugins/libero.php</filename>
+	<filename>openinviter/plugins/fastmail.php</filename>
+	<filename>openinviter/plugins/flickr.php</filename>
+	<filename>openinviter/plugins/flixster.php</filename>
+	<filename>openinviter/plugins/lastfm.php</filename>
+	<filename>lang/english.php</filename>
+	<filename>lang/index.html</filename>
+	<filename>cron.php</filename>
+	<filename>index.html</filename>
+   </files>
+   <install>
+      <queries>
+        <query>
+		CREATE TABLE IF NOT EXISTS `#__joominvites` (
+			`id` mediumint not null auto_increment primary key,
+			`invitee_name` varchar(100) not null default '',
+			`invitee_email` varchar(50) not null default '',
+			`invited_by_name` varchar(100) not null default '',
+			`invited_by_email` varchar(50) not null default '',
+			`to_be_invited` smallint not null default 0,
+			`last_sent` datetime NOT NULL default '0000-00-00 00:00:00',
+			`msg` text character set utf8 collate utf8_unicode_ci,
+			`checked_out` int(11) NOT NULL default '0',
+			`checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+			UNIQUE KEY `invitee_email` (`invitee_email`,`invited_by_email`)); 
+	 </query>
+	 <query>
+DROP TABLE IF EXISTS `#__joominvite_config`;
+</query>
+<query>
+CREATE TABLE IF NOT EXISTS `#__joominvite_config` (
+  `id` mediumint NOT NULL auto_increment,
+  `msg` text character set utf8 collate utf8_unicode_ci,
+  `auto_invites` smallint(6) NOT NULL default '0',
+  `send_after` smallint(6) NOT NULL default '30',
+  `email_from_user` tinyint(4) NOT NULL default '1',
+  `bcc_admin` tinyint(4) NOT NULL default '0',
+  `custom_subject` varchar(150) character set utf8 collate utf8_unicode_ci default NULL,
+  `use_custom_msg` tinyint(4) NOT NULL default '1',
+  PRIMARY KEY  (`id`)
+);
+	</query>
+	<query>
+INSERT INTO `#__joominvite_config` (`msg`, `auto_invites`, `send_after`, `email_from_user`, `bcc_admin`, `custom_subject`, `use_custom_msg`) VALUES ('<p>BarakBangla.com is a Web 2.0 development company based in India. It specialises in Joomla website design and custom Joomla extension development. BarakBangla.com also provides Facebook, MySpace, Hi5, Orkut and other OpenSocial application development. The email that you are receiving is sent using JoomInvite component developed by BarakBangla.com</p><p>Visit BarakBangla.com for all your web development needs and give us an opportunity to serve you.</p><p><a href="http://barakbangla.com" title="BarakBangla">http://barakbangla.com</a></p><br/>', 1, 30, 1, 0, '{user}  has recommended you {my_site}', 1);
+	</query>
+    </queries>
+   </install>
+   <installfile>install.joominvite.php</installfile>
+   <uninstallfile>uninstall.joominvite.php</uninstallfile>
+   <administration>
+      <menu>JoomInvite</menu>	
+	<submenu>
+		<menu task="show">JoomInvite</menu>
+		<menu task="send">Mass Mail</menu>
+		<menu task="config">JoomInvite Config</menu>
+	</submenu>
+      <files>
+         <filename>admin.joominvite.php</filename>
+         <filename>admin.joominvite.html.php</filename>  
+	   <filename>lang/admin.english.php</filename>
+         <filename>index.html</filename>   
+	   <filename>toolbar.joominvite.html.php</filename>         
+	   <filename>toolbar.joominvite.php</filename>         
+      </files>
+   </administration>
+</mosinstall>

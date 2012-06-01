@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<install type="plugin" version="1.5.0" group="content">
+	<name>chronocontact</name>
+	<author>ChronoEngine.com</author>
+	<creationDate>03 May 2009</creationDate>
+	<copyright>(C) ChronoEngine.com</copyright>
+	<license>same as chronoforms component license</license>
+	<authorEmail>webmaster@chronoengine.com</authorEmail>
+	<authorUrl>www.chronoengine.com</authorUrl>
+	<version>V3.1 RC5</version>
+	<description><![CDATA[
+	This mambot must have ChronoForms component in order for it to work.
+	You just need to put the name of the form you want to show between : {chronocontact}&{/chronocontact}, Example: {chronocontact}form1{/chronocontact} where form1 is the form name which will be displayed!!
+	]]></description>
+	<files>
+		<filename plugin="chronocontact">chronocontact.php</filename>
+	</files>
+	<params>
+		<param name="type" type="radio" default="1" label="View (Not ready yet) :" description="Do you like to show the form as a link and a popup or normal ?">
+			<option value="1">Normal</option>
+			<option value="0">Popup</option>
+		</param>
+	</params>
+</install>

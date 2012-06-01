@@ -1,0 +1,439 @@
+form.search {  margin:1em; }
+ul.no-bullets { list-style:none; margin:0; padding:0 0 0 1.5em; }
+#main #system-message { margin:0; padding:0; }
+#main #system-message dt { display:none; }
+#main #system-message dd.error { margin:1em 1em 1em 1.5em; padding:1em; border:3px solid #DE7A7B; background-color:#E6C0C0; color:#300; }
+#main #system-message dd.error ul { margin:0 0 0 1em; padding:0; }
+#main #system-message dd.notice { margin:1em 1em 1em 1.5em; padding:1em; border:0.2em solid #0B0; background-color:#BFB; color:#030; }
+#main #system-message dd.notice ul { margin:0 0 0 1em; padding:0; }
+fieldset { border:none; width:620px;}
+        legend { font-size:1em; margin:0px; padding:0; 
+	color: #2e2e2e; font-weight:bold;}
+        label { }
+fieldset h4 {margin: 0; padding: 0; font-size: 0.9em; }
+        
+       #main a:link.prev,#main a:link.next, #main a:visited.prev, #main a:visited.next { border: none;}
+        .prev:hover, .next:hover { background-color:#000; text-decoration:none;}
+        .prev { float:left;}
+        .next { float:right;}
+        #steps { list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px;}
+        #steps li {font-size:18px; float:left; padding:5px; color:#b0b1b3; width: 126px;}
+        #steps li span {font-size:11px; display:block;}
+        #steps li.current { color:#000;}
+        #makeWizard { background-color:#b0232a; color:#fff; padding:5px 10px; text-decoration:none; font-size:18px;}
+        #makeWizard:hover { background-color:#000;}
+ul.no-bullets { list-style:none; margin:0; padding:0 0 0 1.5em; }
+li#stepDesc0 { margin-left: 30px;}
+#SaveAccount {background-image: url(images/submit.gif);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	font-size: 0;
+	border: 0px solid #FFFFFF;}
+	#SaveAccount:active {
+		border: 1px solid grey;
+	}
+#main p#submitP {
+	text-align: right;
+	width: 350px;
+	height: 100px;
+	margin-top: -90px;
+}
+	
+ label.greyOut { color: #ccc; }
+    #mapholder {
+	width: 650px;
+	height: 450px;
+	position: relative;
+}
+.caveat {display: none; }
+.instructions {font-size: 85%;  font-style: italic; }
+.stateName {
+	position: absolute;
+	background-image: url("images/thinkcollege_map_names_grey.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+}.stateName.blue {
+	background-image: url("images/thinkcollege_map_names.png");
+}
+.stateName.blue:hover {
+	background-image: url("images/thinkcollege_map_names_on.png");
+}
+
+#main p.heightfix2 { 
+	width: 350px;
+	height: 60px;
+	}
+
+#main p.heightfix { 
+	width: 350px;
+	margin: -15px 0 5px 25px;
+	}
+	.heightfix img {
+		display: block;
+	}
+.iconclass { display: block; width: 80px; height: 80px; margin: 5px; }
+#stepDesc0 .currenticon { background-image: url(images/usa.gif); background-repeat: no-repeat; }
+#stepDesc0 .officon { background-image: url(images/usa_off.gif); background-repeat: no-repeat; }
+#stepDesc1 .currenticon { background-image: url(images/college.gif); background-repeat: no-repeat; }
+#stepDesc1 .officon { background-image: url(images/college_off.gif); background-repeat: no-repeat; }
+#stepDesc2 .currenticon { background-image: url(images/mortarboard.gif); background-repeat: no-repeat; }
+#stepDesc2 .officon { background-image: url(images/mortarboard_off.gif); background-repeat: no-repeat; }
+#stepDesc3 .currenticon { background-image: url(images/bed.gif); background-repeat: no-repeat; }
+#stepDesc3 .officon { background-image: url(images/bed_off.gif); background-repeat: no-repeat; }
+#AL{
+height: 15px;
+width: 54px;
+	left: 397px;
+	top: 247px;
+	background-position: -397px -247px;	}
+#AK{
+height: 15px;
+width: 44px;
+left: 389px;
+	top: 365px;
+	background-position: -389px -365px;	}
+#AZ{
+	height: 15px;
+	width: 53px;
+	top: 236px;
+	left: 92px;
+	background-position: -92px -236px;
+}
+#AR{
+	height: 15px;
+	width: 59px;
+	top: 228px;
+	left: 328px;
+	background-position: -328px -228px;
+}
+#CA{
+	height: 15px;
+	width: 61px;
+	top: 204px;
+	left: 19px;
+	background-position: -19px -204px;
+}
+#CO{
+	height: 15px;
+	width: 58px;
+	top: 165px;
+	left: 168px;
+	background-position: -168px -165px;
+}
+#CT{
+	height: 15px;
+	width: 73px;
+	top: 119px;
+	left: 558px;
+	background-position: -558px -119px;
+}
+#DE{
+	height: 15px;
+	width: 61px;
+	top: 145px;
+	left: 554px;
+	background-position: -554px -145px;
+}
+#FL{
+	height: 15px;
+	width: 46px;
+	top: 315px;
+	left: 461px;
+	background-position: -461px -315px;
+}
+#GA{
+	height: 15px;
+	width: 49px;
+	top: 262px;
+	left: 444px;
+	background-position: -444px -262px;
+}
+#HI{
+	height: 15px;
+	width: 42px;
+	top: 373px;
+	left: 296px;
+	background-position: -296px -373px;
+}
+#ID{
+	height: 15px;
+	width: 39px;
+	top: 93px;
+	left: 97px;
+	background-position: -97px -93px;
+}
+#IL{
+	height: 15px;
+	width: 42px;
+	top: 152px;
+	left: 354px;
+	background-position: -354px -152px;
+}
+#IN{
+	height: 15px;
+	width: 44px;
+	top: 143px;
+	left: 396px;
+	background-position: -396px -143px;
+}
+#IA{
+	height: 15px;
+	width: 33px;
+	top: 124px;
+	left: 319px;
+	background-position: -319px -124px;
+}
+#KS{
+	height: 15px;
+	width: 45px;
+	top: 176px;
+	left: 254px;
+	background-position: -254px -176px;
+}
+#KE{
+	height: 15px;
+	width: 58px;
+	top: 187px;
+	left: 397px;
+	background-position: -397px -187px;
+}
+#LA{
+	height: 15px;
+	width: 56px;
+	top: 307px;
+	left: 345px;
+	background-position: -345px -307px;
+}
+#ME{
+	height: 15px;
+	width: 38px;
+	top: 37px;
+	left: 563px;
+	background-position: -563px -37px;
+}
+#MD{
+	height: 15px;
+	width: 60px;
+	top: 159px;
+	left: 551px;
+	background-position: -551px -159px;
+}
+#MA{
+	height: 15px;
+	width: 94px;
+	top: 87px;
+	left: 559px;
+	background-position: -559px -87px;
+}
+#MI{
+	height: 15px;
+	width: 54px;
+	top: 96px;
+	left: 404px;
+	background-position: -404px -96px;
+}
+#MN{
+	height: 15px;
+	width: 63px;
+	top: 44px;
+	left: 296px;
+	background-position: -296px -44px;
+}
+#MS{
+	height: 15px;
+	width: 63px;
+	top: 269px;
+	left: 367px;
+	background-position: -367px -269px;
+}
+#MO{
+	height: 15px;
+	width: 54px;
+	top: 184px;
+	left: 325px;
+	background-position: -325px -184px;
+}
+#MT{
+	height: 15px;
+	width: 55px;
+	top: 46px;
+	left: 147px;
+	background-position: -147px -46px;
+}
+#NE{
+	height: 15px;
+	width: 58px;
+	top: 131px;
+	left: 238px;
+	background-position: -238px -131px;
+}
+#NV{
+	height: 15px;
+	width: 48px;
+	top: 138px;
+	left: 50px;
+	background-position: -50px -138px;
+}
+#NH{
+	height: 15px;
+	width: 91px;
+	top: 31px;
+	left: 459px;
+	background-position: -459px -31px;
+}
+#NJ{
+	height: 15px;
+	width: 73px;
+	top: 131px;
+	left: 556px;
+	background-position: -556px -131px;
+}
+#NM{
+	height: 26px;
+	width: 45px;
+	top: 226px;
+	left: 168px;
+	background-position: -168px -226px;
+}
+#NY{
+	height: 15px;
+	width: 61px;
+	top: 88px;
+	left: 477px;
+	background-position: -477px -88px;
+}
+#NC{
+	height: 15px;
+	width: 91px;
+	top: 204px;
+	left: 465px;
+	background-position: -465px -204px;
+}
+#ND{
+	height: 26px;
+	width: 46px;
+	top: 41px;
+	left: 235px;
+	background-position: -235px -41px;
+}
+#OH{
+	height: 15px;
+	width: 28px;
+	top: 132px;
+	left: 438px;
+	background-position: -438px -132px;
+}
+#OK{
+	height: 15px;
+	width: 60px;
+	top: 221px;
+	left: 262px;
+	background-position: -262px -221px;
+}
+#OR{
+	height: 15px;
+	width: 46px;
+	top: 70px;
+	left: 30px;
+	background-position: -30px -70px;
+}
+#PA{
+	height: 15px;
+	width: 78px;
+	top: 127px;
+	left: 471px;
+	background-position: -471px -127px;
+}
+#RI{
+	height: 15px;
+	width: 76px;
+	top: 105px;
+	left: 562px;
+	background-position: -562px -105px;
+}
+#SC{
+	height: 15px;
+	width: 90px;
+	top: 236px;
+	left: 485px;
+	background-position: -485px -236px;
+}
+#SD{
+	height: 26px;
+	width: 46px;
+	top: 86px;
+	left: 237px;
+	background-position: -237px -86px;
+}
+#TN{
+	height: 15px;
+	width: 63px;
+	top: 210px;
+	left: 385px;
+	background-position: -385px -210px;
+}
+#TX{
+	height: 15px;
+	width: 39px;
+	top: 278px;
+	left: 248px;
+	background-position: -248px -278px;
+}
+#UT{
+	height: 15px;
+	width: 32px;
+	top: 155px;
+	left: 122px;
+	background-position: -122px -155px;
+}
+#VT{
+	height: 15px;
+	width: 55px;
+	top: 45px;
+	left: 485px;
+	background-position: -485px -45px;
+}
+#VA{
+	height: 15px;
+	width: 47px;
+	top: 172px;
+	left: 497px;
+	background-position: -497px -172px;
+}
+#WA{
+	height: 15px;
+	width: 72px;
+	top: 22px;
+	left: 24px;
+	background-position: -24px -22px;
+}
+#WV{
+	height: 26px;
+	width: 47px;
+	top: 156px;
+	left: 453px;
+	background-position: -453px -156px;
+}
+#WI{
+	height: 15px;
+	width: 61px;
+	top: 83px;
+	left: 339px;
+	background-position: -339px -83px;
+}
+#WY{
+	height: 15px;
+	width: 56px;
+	top: 105px;
+	left: 158px;
+	background-position: -158px -105px;
+}
+#DC{
+	height: 26px;
+	width: 66px;
+	top: 174px;
+	left: 553px;
+	background-position: -553px -174px;
+}

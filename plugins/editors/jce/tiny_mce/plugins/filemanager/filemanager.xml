@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<install version="1.5" type="plugin" plugin="filemanager">
+	<name>File Manager</name>
+	<version>1.5.2</version>
+	<creationDate>15 February 2009</creationDate>
+	<author>Ryan Demmer</author>
+	<authorEmail>ryandemmer@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlacontenteditor.net/</authorUrl>
+	<copyright>Ryan Demmer</copyright>
+	<license>GPL</license>
+	<description><![CDATA[ 
+	<p>File Manager Plugin 1.5.2</p>
+	<p>Changelog (from 1.5.1)</p>
+	<p><ul>
+		<li>Fixed: Spaces before and after link text</li>
+		<li>Fixed: Minor language change.</li>
+	</ul></p>
+	<p>Changelog (from 1.5.0)</p>
+	<p><ul>
+		<li>Changed: Minor file URL changes.</li>
+	</ul></p>
+	<p>Changelog (from 1.5.0 RC1)</p>
+	<p><ul>
+		<li>Added: Automatic selection of file link node when clicked on.</li>
+		<li>Added: Icon highlighted when node selected.</li>
+		<li>Added: Date and Size fields are now editable in the popup (as they no longer will be in the editor!)</li>
+		<li>Added: Tooltips.</li>
+		<li>Added: File extension grouping support.</li>
+		<li>Changed: Label URL to Link</li>
+		<li>Changed: Label Title to Text</li>
+		<li>Changed: Some File Manager parameter names</li>
+		<li>Fixed: Class/Date list updated on edit</li>
+	</ul></p>
+	<p>Changelog (from 1.5.0 beta 3)</p>
+	<p><ul>
+		<li>Release Candidate</li>
+	</ul></p>	
+	<p>Changelog (from 1.5.0 beta 2)</p>
+	<p><ul>
+		<li>Added: Support for JCE Groups</li>
+		<li>Added: ppt and docx to extensions list</li>
+		<li>Fixed: Loading icon in Size and Date boxes</li>
+		<li>Fixed: File size error on files in sub folders</li>
+	</ul></p>
+	<p>Changelog (from 1.5.0 beta)</p>
+	<p><ul>
+		<li>Added: Class options for Date and Size</li>
+		<li>Fixed: Issues with file extenions/plugin parameters</li>
+	</ul></p>
+	]]></description>
+	<icon>filemanager</icon>
+	<layout>filemanager</layout>
+	<elements></elements>
+	<files>
+		<filename>editor_plugin.js</filename>
+		<filename>filemanager.php</filename>
+	    <filename>index.html</filename>
+		<filename>classes/index.html</filename>
+        <filename>classes/filemanager.php</filename>
+        <filename>css/index.html</filename>
+        <filename>css/filemanager.css</filename>
+		<filename>img/icons.gif</filename>
+		<filename>img/filemanager.gif</filename>
+		<filename>img/preview.jpg</filename>
+        <filename>img/index.html</filename>
+		<filename>img/ext/css_small.gif</filename>
+        <filename>img/ext/dcr_small.gif</filename>
+        <filename>img/ext/def_small.gif</filename>
+        <filename>img/ext/doc_small.gif</filename>
+        <filename>img/ext/flv_small.gif</filename>
+        <filename>img/ext/gif_small.gif</filename>
+        <filename>img/ext/gz_small.gif</filename>
+        <filename>img/ext/htm_small.gif</filename>
+        <filename>img/ext/html_small.gif</filename>
+        <filename>img/ext/jpg_small.gif</filename>
+        <filename>img/ext/mov_small.gif</filename>
+		<filename>img/ext/mp3_small.gif</filename>
+        <filename>img/ext/pdf_small.gif</filename>
+        <filename>img/ext/png_small.gif</filename>
+        <filename>img/ext/ppt_small.gif</filename>
+        <filename>img/ext/rar_small.gif</filename>
+        <filename>img/ext/rm_small.gif</filename>
+        <filename>img/ext/rtf_small.gif</filename>
+        <filename>img/ext/swf_small.gif</filename>
+		<filename>img/ext/tar_small.gif</filename>
+        <filename>img/ext/txt_small.gif</filename>
+		<filename>img/ext/wav_small.gif</filename>
+        <filename>img/ext/wmv_small.gif</filename>
+        <filename>img/ext/xls_small.gif</filename>
+        <filename>img/ext/zip_small.gif</filename>
+		<filename>img/ext/index.html</filename>
+        <filename>js/index.html</filename>
+        <filename>js/filemanager.js</filename>
+        <filename>langs/en.js</filename>
+        <filename>langs/en_dlg.js</filename>
+        <filename>langs/index.html</filename>
+    </files>
+	<params group="standard">
+        <param name="filemanager_dir" type="text" default="" size="60" label="MANAGER PARAM DIRECTORY" description="MANAGER PARAM DIRECTORY DESC"/>
+		<param name="filemanager_max_size" type="text" default="" label="MANAGER PARAM UPLOAD SIZE" description="MANAGER PARAM UPLOAD SIZE DESC"/>
+        <param name="filemanager_extensions" type="textarea" rows="10" cols="50" default="xml=xml;html=htm,html;word=doc,docx;powerpoint=ppt;excel=xls;text=txt,rtf;image=gif,jpeg,jpg,png;acrobat=pdf;archive=zip,tar,gz;flash=swf;winrar=rar;quicktime=mov,mp4,qt;windowsmedia=wmv,asx,asf,avi;audio=wav,mp3,aiff;openoffice=odt,odg,odp,ods,odf" label="PARAM EXTENSIONS" description="PARAM EXTENSIONS DESC"/>
+	</params>
+	<params group="advanced">
+		<param name="filemanager_extensions_viewable" type="textarea" rows="5" cols="50" default="html,htm,doc,docx,ppt,rtf,xls,txt,gif,jpeg,jpg,png,pdf,swf,mov,mpeg,mpg,avi,asf,asx,dcr,flv,wmv,wav,mp3" label="MANAGER VIEWABLE" description="MANAGER VIEWABLE DESC"/>
+		<param name="filemanager_extensions_path" type="text" size="80" default="plugins/editors/jce/tiny_mce/plugins/filemanager/img/ext" label="PARAM ICON PATH" description="PARAM ICON PATH DESC"/>
+		<param name="filemanager_extensions_prefix" type="text" default="_small" label="PARAM ICON PREFIX" description="PARAM ICON PREFIX DESC"/>
+		<param name="filemanager_date_format" type="text" default="%d/%m/%Y, %H:%M" label="PARAM DATE FORMAT" description="PARAM DATE FORMAT DESC" />
+	</params>
+	<params group="access">
+        <param name="filemanager_upload" type="list" default="1" label="UPLOAD" description="UPLOAD DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="filemanager_upload_conflict" type="list" default="" label="PARAM UPLOAD EXISTS" description="PARAM UPLOAD EXISTS DESC">
+			<option value="">NOT SET</option>
+			<option value="overwrite">PARAM UPLOAD EXISTS OVERWRITE</option>
+			<option value="unique">PARAM UPLOAD EXISTS UNIQUE</option>
+			<option value="overwrite|unique">PARAM UPLOAD EXISTS OVERWRITE PARAM UPLOAD EXISTS UNIQUE</option>
+        </param>
+		<param name="filemanager_folder_new" type="list" default="1" label="FOLDER CREATE" description="FOLDER CREATE DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="filemanager_folder_delete" type="list" default="1" label="FOLDER DELETE" description="FOLDER DELETE DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="filemanager_folder_rename" type="list" default="1" label="FOLDER RENAME" description="FOLDER RENAME DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="filemanager_file_delete" type="list" default="1" label="FILE DELETE" description="FILE DELETE DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="filemanager_file_rename" type="list" default="1" label="FILE RENAME" description="FILE RENAME DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+		<param name="filemanager_file_move" type="list" default="1" label="FILE PASTE" description="FILE PASTE DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+		</param>
+	</params>
+	<languages>
+		<language tag="en-GB">en-GB.com_jce_filemanager.ini</language>
+	</languages>
+	<help>
+		<topic key="filemanager.about" title="Help About" />
+		<topic key="filemanager.interface" title="Help Interface" />
+		<topic key="filemanager.insert" title="Help Insert" />
+	</help>
+</install>

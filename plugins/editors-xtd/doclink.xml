@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" group="editors-xtd">
+  <name>DOCLink</name>
+  <version>1.5.0rc1</version>
+  <creationDate>September 2007</creationDate>
+  <author>DOCman Development Team</author>
+  <authorEmail>support@joomlatools.org</authorEmail>
+  <authorUrl>www.joomlatools.org</authorUrl>
+  <copyright>2004-2007 DOCman Project</copyright>
+  <license>This extension is released under the GNU/GPL License</license>
+  <description>DOCLink is a Joomla! editor plugin that allows the insertion of links to DOCman files using a popup dialog.</description>
+  <files>
+  	<folder>doclink</folder>
+	<filename plugin="doclink">doclink.php</filename>
+  </files>
+</install>

@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="2.0">
+    <name>JShare Social Bookmarking Module for Joomla 1.5</name>
+    <author>Joomify.com, Inc.</author>
+    <creationDate>Feb 2008</creationDate>
+    <copyright>Copyright (C)2008 Joomify.com. All rights reserved.</copyright>
+    <license>LGPL</license>
+    <version>2.0</version>
+    <description><![CDATA[
+
+    JShare - an Advanced Social Bookmarking Plugin for Joomla 1.5.
+
+    Once installed to configure JShare, go to Extensions -> Module Manager, and look for "JShare" in the modules list. Click on it and enable the social bookmarking sites you wish to have show to your website visitors, it's really that simple.
+
+    When an icon within the JShare module is clicked, the website will be opened in a new popup window adding the url,title and description but only if the social bookmarking site supports this feature.
+
+    JShare is 100% Free, thanks to Donations (paypal@joomify.com) from people like you:)! Please show your support by either linking to us from your website..
+
+    ]]>
+
+    </description>
+    <files>
+        <filename module="mod_jshare">mod_jshare.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>version.txt</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+
+	<filename>images/jbm.png</filename>
+	<filename>images/jbm_trans.png</filename>
+	
+	<filename>images/live.png</filename>
+	<filename>images/live_trans.png</filename>
+
+	<filename>images/fark.png</filename>
+	<filename>images/fark_trans.png</filename>
+
+	<filename>images/ximmy.gif</filename>
+	<filename>images/ximmy_trans.gif</filename>
+
+	<filename>images/facebook.gif</filename>
+	<filename>images/facebook_trans.gif</filename>
+
+    <filename>images/blinklist.gif</filename>
+	<filename>images/blinklist_trans.gif</filename>
+
+	<filename>images/buzka.gif</filename>
+	<filename>images/buzka_trans.gif</filename>
+
+	<filename>images/del.gif</filename>
+	<filename>images/del_trans.gif</filename>
+
+	<filename>images/webnews.gif</filename>
+	<filename>images/webnews_trans.gif</filename>
+
+	<filename>images/icio.gif</filename>
+	<filename>images/icio_trans.gif</filename>
+
+	<filename>images/oneview.gif</filename>
+	<filename>images/oneview_trans.gif</filename>
+
+	<filename>images/digg.gif</filename>
+	<filename>images/digg_trans.gif</filename>
+
+	<filename>images/boni.gif</filename>
+	<filename>images/boni_trans.gif</filename>
+
+	<filename>images/power.gif</filename>
+	<filename>images/power_trans.gif</filename>
+
+	<filename>images/favoriten.gif</filename>
+	<filename>images/favoriten_trans.gif</filename>
+
+	<filename>images/bookmarkscc.gif</filename>
+	<filename>images/bookmarkscc_trans.gif</filename>
+
+	<filename>images/kledy.gif</filename>
+	<filename>images/kledy_trans.gif</filename>
+
+	<filename>images/jumptags.gif</filename>
+	<filename>images/jumptags_trans.gif</filename>
+
+	<filename>images/upchuckr.gif</filename>
+	<filename>images/upchuckr_trans.gif</filename>
+
+	<filename>images/stumbleupon.gif</filename>
+	<filename>images/stumbleupon_trans.gif</filename>
+
+	<filename>images/slashdot.gif</filename>
+	<filename>images/slashdot_trans.gif</filename>
+
+	<filename>images/netscape.gif</filename>
+	<filename>images/netscape_trans.gif</filename>
+
+	<filename>images/folkd.gif</filename>
+	<filename>images/folkd_trans.gif</filename>
+
+	<filename>images/furl.gif</filename>
+	<filename>images/furl_trans.gif</filename>
+
+	<filename>images/google.gif</filename>
+	<filename>images/google_trans.gif</filename>
+
+	<filename>images/linkarena.gif</filename>
+	<filename>images/linkarena_trans.gif</filename>
+
+	<filename>images/reddit.gif</filename>
+	<filename>images/reddit_trans.gif</filename>
+
+	<filename>images/spurl.gif</filename>
+	<filename>images/spurl_trans.gif</filename>
+
+	<filename>images/wong.gif</filename>
+	<filename>images/wong_trans.gif</filename>
+
+	<filename>images/yahoo.gif</filename>
+	<filename>images/yahoo_trans.gif</filename>
+
+	<filename>images/yigg.gif</filename>
+	<filename>images/yigg_trans.gif</filename>
+
+	<filename>images/blogmarks.gif</filename>
+	<filename>images/blogmarks_trans.gif</filename>
+
+	<filename>images/ma.gnolia.gif</filename>
+	<filename>images/ma.gnolia_trans.gif</filename>
+
+	<filename>images/smarking.gif</filename>
+	<filename>images/smarking_trans.gif</filename>
+
+	<filename>images/netvouz.gif</filename>
+	<filename>images/netvouz_trans.gif</filename>
+
+	<filename>images/technorati.gif</filename>
+	<filename>images/technorati_trans.gif</filename>
+
+	<filename>images/newsvine.gif</filename>
+	<filename>images/newsvine_trans.gif</filename>
+
+	<filename>images/blinkbits.gif</filename>
+	<filename>images/blinkbits_trans.gif</filename>
+
+	<filename>images/diigo.gif</filename>
+	<filename>images/diigo_trans.gif</filename>
+
+	<filename>images/simpy.gif</filename>
+	<filename>images/simpy_trans.gif</filename>
+
+	<filename>images/newsider.gif</filename>
+	<filename>images/newsider_trans.gif</filename>
+
+	<filename>images/seekxl.gif</filename>
+	<filename>images/seekxl_trans.gif</filename>
+
+	<filename>images/newskick.gif</filename>
+	<filename>images/newskick_trans.gif</filename>
+
+	<filename>images/favit.gif</filename>
+	<filename>images/favit_trans.gif</filename>
+
+	<filename>images/sbdk.gif</filename>
+	<filename>images/sbdk_trans.gif</filename>
+
+	<filename>images/linksilo.gif</filename>
+	<filename>images/linksilo_trans.gif</filename>
+
+	<filename>images/readster.gif</filename>
+	<filename>images/readster_trans.gif</filename>
+
+	<filename>images/what.gif</filename>
+	<filename>images/what_trans.gif</filename>
+    </files>
+
+    <params>
+  <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling"></param>
+	
+
+    	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+
+    <param name="wong" type="radio" default='2' label="Enable Mr. Wong" description="Mister Wong is Europe's largest social bookmark portal, with over two million visitors per month.">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="wongl" type="text" default="" label="Alternative TLD" description="The default TLD is .com, unless one is specified. Alternative TLD's currently available for Mr Wong are ( .es | .fr | .de | .ru | .cn ). Specify only one.">
+	</param>
+	
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+		<param name="facebook" type="radio" default='2' label="Enable Facebook.com" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+
+
+         <param name="ximmy" type="radio" default='2' label="Enable Ximmy" description="A social bookmarking site that pays you $5 for signing up as an affiliate, and $0.50 for every referral.">
+		<option value='1'>Yes</option>
+        <option value='2'>No</option>
+	</param>
+
+
+ 	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+
+
+
+	<param name="webnews" type="radio" default='2' label="Enable Webnews.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="iciode" type="radio" default='2' label="Enable Icio.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+
+        <param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+
+	
+	<param name="buzka" type="radio" default='2' label="Enable Buzka.com" description="Buzka is a free and easy way to share your favorite web stuff. You can save and organize all your favorite web pages by creating Spots on any interest or topic.">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+
+        <param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+
+
+	<param name="live" type="radio" default='2' label="Windows Live" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	
+		<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+
+
+
+	
+	<param name="oneview" type="radio" default='2' label="Enable Oneview.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="seekxl" type="radio" default='2' label="Enable social-bookmarking.seekxl.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="favoriten" type="radio" default='2' label="Enable Favoriten.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="kledy" type="radio" default='2' label="Enable Kledy.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="favit" type="radio" default='2' label="Enable Favit.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="sbdk" type="radio" default='2' label="Enable social-bookmarking.dk" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="boni" type="radio" default='2' label="Enable BoniTrust.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="power" type="radio" default='2' label="Enable Power-Oldie.com" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="powerl" type="text" default="en" label="default language. " description="The default is en, unless one is specified. Alternative languages's currently available for Power-Oldie.com are ( de | en ). Specify only one.">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="newskick" type="radio" default='2' label="Enable Newskick.de" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="newskickl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="bookmarkscc" type="radio" default='2' label="Enable Bookmarks.cc" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="bookmarksccl" type="text" default='' label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="newsider" type="radio" default='2' label="Enable Newsider (Ger.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="newsiderl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="linksilo" type="radio" default='2' label="Enable Linksilo (Ger.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="linksilol" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="readster" type="radio" default='2' label="Enable Readster (Ger.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="readsterl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="yigg" type="radio" default='2' label="Enable Yigg (Ger.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="yiggl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="linkarena" type="radio" default='2' label="Enable Linkarena (Ger./Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="linkarenal" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="icio" type="radio" default='2' label="Enable Del.icio.us (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="iciol" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="digg" type="radio" default='2' label="Enable Digg (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="diggl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="reddit" type="radio" default='2' label="Enable Reddit (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="redditl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	
+		<param name="jumptags" type="radio" default='2' label="Enable Jumptags (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="jumptagsl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+		<param name="upchuckr" type="radio" default='2' label="Enable Upchuckr (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="upchuckrl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="simpy" type="radio" default='2' label="Enable Simpy (Ger./Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="simpyl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="stumbleupon" type="radio" default='2' label="Enable StumbleUpon (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="stumbleuponl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="slashdot" type="radio" default='2' label="Enable Slashdot (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="slashdotl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="netscape" type="radio" default='2' label="Enable Netscape (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="netscapel" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="furl" type="radio" default='2' label="Enable Furl (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="furll" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="yahoo" type="radio" default='2' label="Yahoo (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="yahool" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="blogmarks" type="radio" default='2' label="Blogmarks (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="blogmarksl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="diigo" type="radio" default='2' label="Diigo (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="diigol" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="technorati" type="radio" default='2' label="Enable Technorati (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="technoratil" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="newsvine" type="radio" default='2' label="Enable Newsvine (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="newsvinel" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="blinkbits" type="radio" default='2' label="Blinkbits (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="blinkbitsl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="magnolia" type="radio" default='2' label="Ma.Gnolia (Eng.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="magnolial" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="smarking" type="radio" default='2' label="Smarking (Eng./Ita.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="smarkingl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="netvouz" type="radio" default='2' label="Enable Netvouz (Eng./Swe.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="netvouzl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="folkd" type="radio" default="2" label="Enable Folkd (Ger./Eng./Spa./Fra.)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="folkdl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="spurl" type="radio" default="2" label="Spurl (Multilanguage)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="spurll" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+
+
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="google" type="radio" default='2' label="Google (Multilanguage)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="googlel" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+
+    <param name="blinklist" type="radio" default="2" label="Enable Blinklist (Multilanguage)" description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+	<param name="blinklistl" type="text" default="" label="If you don't want use default domain, example: .com " description="If you don't want use default domain, example: .com. Please note that the special domain must exist!">
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+	
+	<param name="what" type="radio" default='1' label="Display information icon." description="">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+		<param name="whatlink" type="text" size="60" default="http://en.wikipedia.org/wiki/social_bookmarking" label="Link to external or internal infopage." description="Link to external or internal infopage.">
+	</param>
+	
+		<param name="linktype" type="radio" default='1' label="External or internal link." description="External or internal link.">
+		<option value='1'>External</option>
+		<option value='2'>Internal</option>
+	</param>
+	<param name="@spacer" type="spacer" default="" label="" description="">
+	</param>
+		<param name="align" type="radio" default='Left' label="Align" description="">
+		<option value='left'>Left</option>
+		<option value='center'>Center</option>
+		<option value='right'>Right</option>
+	</param>
+	
+    <param name="padding" type="text" default='2' label="Padding" description="">
+	</param>
+
+		<param name="style" type="radio" default='1' label="Icon Style" description="">
+		<option value='1'>Transparent</option>
+		<option value='2'>Not Transparent</option>
+	</param>
+
+	<param name="alt" type="text" default="Add to:" label="Alternative text used for Accessability" description="alt text for html img tag">
+	</param>
+
+    	<param name="ani" type="radio" default='1' label="Opacity Effect" description="Requires Mootools">
+		<option value='1'>Yes</option>
+		<option value='2'>No</option>
+	</param>
+
+
+    </params>
+</install>

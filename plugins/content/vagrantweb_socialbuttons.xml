@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>VagrantWeb Social Buttons</name>
+	<author>Carter McLaughlin</author>
+	<creationDate>08/12/2010</creationDate>
+	<copyright>Carter McLaughlin</copyright>
+	<license>This component is released under the GNU/GPL License</license>
+	<authorEmail>carter@vagrantweb.ca</authorEmail>
+	<authorUrl>http://www.vagrantweb.ca</authorUrl>
+	<version>1.0.2</version>
+	<description></description>
+	<files>
+		<filename plugin="vagrantweb_socialbuttons">vagrantweb_socialbuttons.php</filename>
+	</files>	
+	<params>
+		<param name="position" type="list" default="1" label="Position" description="Position of page navigation in relation to text">
+			<option value="0">Below Content</option>
+			<option value="1">Above Content</option>
+                        <option value="2">Both</option>
+		</param>
+		<param name="like" type="list" default="1" label="Facebook Like button" description="">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>	
+		<param name="retweet" type="list" default="1" label="Twitter Tweet button" description="">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>	
+                <param name="buzz" type="list" default="1" label="Buzz button" description="">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>
+		<param name="digg" type="list" default="1" label="Digg button" description="">
+			<option value="1">Enabled</option>
+			<option value="0">Disabled</option>
+		</param>	
+		<param name="twitter_account" type="text" size="20" default="vagrantweb" label="Twitter Account Name" description="This user will be @ mentioned in the suggested Tweet" />	
+		<param name="twitter_account2" type="text" size="20" default="carter_vagrant" label="Related Twitter Account Name" description="" />	
+		<param name="count" type="list" default="horizontal" label="Tweet Button Style" description="">
+			<option value="horizontal">Horizontal Count</option>
+			<option value="vertical">Vertical Count</option>
+			<option value="none">No Count</option>
+		</param>
+		<param name="count-width" type="list" default="horizontal" label="Match Width With Button Style" description="">
+			<option value="110">Horizontal 110px</option>
+			<option value="55">Vertical 55px</option>
+			<option value="55">No Count 55px</option>
+		</param>
+		<param name="float" type="list" default="left" label="Button Align" description="">
+			<option value="right">Right</option>
+			<option value="left">Left</option>
+		</param>
+
+		<param name="where" type="list" default="1" label="Where to show" description="">
+			<option value="1">All views</option>
+			<option value="0">Only article views</option>
+		</param>		
+		<param name="like_style" type="list" default="button_count" label="FB Like Layout Style" description="">
+			<option value="button_count">button_count</option>
+			<option value="standard">standard</option>
+		</param>		
+		<param name="like_width" type="text" size="4" default="90" label="Facebook Like Width pixels" description="" />
+		<param name="like_height" type="text" size="4" default="20" label="Facebook Like Height pixels" description="" />		
+		<param name="like_verb" type="list" default="like" label="Facebook Like text to display" description="">
+			<option value="like">Like</option>
+			<option value="recommend">Recommend</option>
+		</param>		
+		<param name="like_color_scheme" type="list" default="light" label="Facebook Like color scheme" description="">
+			<option value="light">light</option>
+			<option value="dark">dark</option>
+		</param>	
+		
+		
+							
+	</params>	
+</install>

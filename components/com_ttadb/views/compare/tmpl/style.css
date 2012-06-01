@@ -1,0 +1,6 @@
+table#compare p.checkall { padding:0 0 0 0.8em; margin:0; text-indent:-0.8em; font-size:100%; }
+tbody * { margin:0; }
+table#compare { margin:0 1em; }
+thead th, tbody th, tbody td, tfoot th { padding:0.2em }
+tbody th { font-weight:normal; text-size:0.9em; background-color:#f0f0f0 }
+thead th, tfoot th { background-color:#d1d2ec }

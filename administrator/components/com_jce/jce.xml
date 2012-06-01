@@ -1,0 +1,262 @@
+<install type="component" version="1.5.0">
+	<name>JCE</name>
+	<author>Ryan Demmer</author>
+	<creationDate>5 May 2009</creationDate>
+	<copyright>(C) 2005 - 2009 Ryan Demmer. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>ryandemmer@gmail.com</authorEmail>
+	<authorUrl>www.joomlacontenteditor.net</authorUrl>
+	<version>1.5.5</version>
+    <description><![CDATA[ 
+	<p>JCE Administration Component 1.5.5</p>
+	<p>Changelog (from 1.5.4):
+	<ul>
+		<li>Fixed: Editor Plugin manual install link</li>
+	</ul>
+	</p>
+	<p>Changelog (from 1.5.3):
+	<ul>
+		<li>Fixed: Bug in updater class</li>
+	</ul>
+	</p>
+	<p>Changelog (from 1.5.2):
+	<ul>
+		<li>Changed: Rebuilt installation / update functions</li>
+		<li>Fixed: Group edit page tabs / missing layout</li>
+	</ul>
+	</p> 
+	<p>Changelog (from 1.5.0):
+	<ul>
+		<li>Removed: Plugin Parameters in Plugin Manager</li>
+		<li>Removed: Plugin Layout Editor in Plugin Manager</li>
+		<li>Removed: Group Configration options in JCE Configuration</li>
+		<li>Removed: JCE News Feed Module</li>
+		<li>Fixed: Group Ordering</li>
+		<li>Changed: Group Editor options into tabbed sections</li>
+		<li>Changed: Group Plugin Parameters use tabs instead of accordian. Added identifying icons</li>
+		<li>Added: Width inidicator on Group layouts. Updates when width value set in Editor Parameters</li>
+		<li>Added: Sample Frontend group</li>
+		<li>Added: 'All Components' option in Group Manager Setup components List</li>
+		<li>Added: Explanatory notes in Group Manager Setup</li>
+	</ul>
+	</p>
+	<p>Changelog (from 1.5.0 RC4):
+	<ul>
+		<li>Fixed: User State variables in Admin Component</li>
+		<li>Fixed: Default parameters for Default group</li>
+		<li>Added: Group Manager Copy Group</li>
+		<li>Added: Group Edit Component restrictions</li>
+		<li>Added: Group Edit Types Add All/Remove All</li>
+		<li>Added: Group Edit Option for all additional plugins</li>
+		<li>Added: Group Edit Plugin parameters hidden unless plugin in Editor Layout</li>
+		<li>Added: Group Edit Plugin Extension Parameters</li>
+		<li>Added: Group Edit Plugin Parameters and Editor Configuration used as default parameters for new groups</li>
+		<li>Added: Group Edit Plugin Parameters and Editor Configuration used as default parameters for new groups</li>
+		<li>Update: Reorganized Configuration</li>
+		<li>Update: Reorganized Control Panel, added version and support information.</li>
+		<li>Update: Uninstalling the component removes the editor and all plugins!</li>
+	</ul>
+	</p>
+	<p>Changelog (from 1.5.0 RC3):
+	<ul>
+		<li>Fixed: Difficult layout icon re-ordering</li>
+		<li>Added: Fix Groups button for installations that fail to install groups tables!</li>
+		<li>Added: New window popup code. Adds some better javascript and css.</li>
+		<li>Added: Groups table check/fix.</li>
+		<li>Changed: Default Group parameters not added on install</li>
+	</ul>
+	</p>
+	<p>Changelog (from 1.5.0 RC2):
+	<ul>
+		<li>Added: JCE Groups Permissions System</li>
+		<li>Added: Preview image in plugin view</li>
+	</ul>
+	</p>
+	<p>Changelog (from 1.5.0 RC1):
+	<ul>
+		<li>Added: Control Panel now uses modules for feed and buttons.</li>
+	</ul>
+	</p>
+	<p>Changelog (from 1.5.0 beta 2):
+	<ul>
+		<li>Added: Control Panel menu option</li>
+		<li>Added: Component DB Install Fixer</li>
+	</ul>
+	</p>
+	<p>Changelog (from 1.5.0 beta 1):
+	<ul>
+		<li>Fixed: Various errors in installer and plugins view</li>
+		<li>Fixed: SQL errors</li>
+	</ul>
+	</p>
+	]]></description>
+	<installfile>install.php</installfile>
+  	<uninstallfile>install.php</uninstallfile>
+    <files folder="components/com_jce">
+        <filename>index.html</filename>
+        <filename>jce.php</filename>
+		<filename>popup.php</filename>
+		<filename>css/popup.css</filename>
+		<filename>css/index.html</filename>
+		<filename>js/popup.js</filename>
+		<filename>js/index.html</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.com_jce.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.com_jce.xml</language>
+        <language tag="en-GB">language/en-GB/en-GB.com_jce_advlink.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.com_jce_browser.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.com_jce_imgmanager.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.com_jce_media.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.com_jce_paste.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.com_jce_spellchecker.ini</language>
+    </languages>
+    <administration>
+        <menu img="components/com_jce/img/logo.png" link="option=com_jce">JCE Administration</menu>
+		<submenu>
+			<menu img="templates/khepri/images/menu/icon-16-cpanel.png" link="option=com_jce">Control Panel</menu>
+			<menu img="templates/khepri/images/menu/icon-16-config.png" link="option=com_jce&amp;type=config">Configuration</menu>
+			<menu img="templates/khepri/images/menu/icon-16-user.png" link="option=com_jce&amp;type=group">Groups</menu>
+			<menu img="templates/khepri/images/menu/icon-16-plugin.png" link="option=com_jce&amp;type=plugin">Plugins</menu>
+			<menu img="templates/khepri/images/menu/icon-16-install.png" link="option=com_jce&amp;type=install">Install</menu>
+		</submenu>
+        <files folder="administrator/components/com_jce">
+			<filename>editor.php</filename>
+            <filename>jce.php</filename>
+			<filename>index.html</filename>
+			<filename>install.php</filename>
+			<filename>helper.php</filename>
+			<filename>updater.php</filename>
+			<!-- Controller -->
+			<filename>controller/config.php</filename>
+			<filename>controller/cpanel.php</filename>
+			<filename>controller/groups.php</filename>
+			<filename>controller/plugin.php</filename>
+			<filename>controller/installer.php</filename>
+			<filename>controller/index.html</filename>
+			<!-- Config -->           
+            <filename>config/controller.php</filename>
+            <filename>config/index.html</filename>
+            <filename>config/views/config/index.html</filename>
+            <filename>config/views/config/tmpl/default.php</filename>
+            <filename>config/views/config/tmpl/index.html</filename>
+            <filename>config/views/config/view.html.php</filename>
+            <filename>config/views/index.html</filename>
+            <!-- CPanel -->
+            <filename>cpanel/controller.php</filename>
+            <filename>cpanel/index.html</filename>
+            <filename>cpanel/views/cpanel/index.html</filename>
+            <filename>cpanel/views/cpanel/tmpl/default.php</filename>
+            <filename>cpanel/views/cpanel/tmpl/index.html</filename>
+            <filename>cpanel/views/cpanel/view.html.php</filename>
+            <filename>cpanel/views/index.html</filename>
+            <!-- CSS -->
+			<filename>css/icons.css</filename>
+            <filename>css/index.html</filename>
+            <filename>css/layout.css</filename>
+			<filename>css/styles.css</filename>
+			 <!-- Elements -->
+			<filename>elements/uploadsize.php</filename>
+			<!-- Groups -->
+            <filename>groups/index.html</filename>
+			<filename>groups/controller.php</filename>
+			<filename>groups/groups.php</filename>
+			<filename>groups/helper.php</filename>
+			<filename>groups/views/index.html</filename>
+			<filename>groups/views/group/index.html</filename>
+			<filename>groups/views/group/view.html.php</filename>
+			<filename>groups/views/group/tmpl/form.php</filename>
+			<filename>groups/views/group/tmpl/index.html</filename>			
+			<filename>groups/views/groups/index.html</filename>
+			<filename>groups/views/groups/view.html.php</filename>
+			<filename>groups/views/groups/tmpl/default.php</filename>
+			<filename>groups/views/groups/tmpl/index.html</filename>			
+			<filename>groups/views/legend/index.html</filename>
+			<filename>groups/views/legend/view.html.php</filename>
+			<filename>groups/views/legend/tmpl/default.php</filename>
+			<filename>groups/views/legend/tmpl/index.html</filename>			
+			<filename>groups/views/users/index.html</filename>
+			<filename>groups/views/users/view.html.php</filename>
+			<filename>groups/views/users/tmpl/default.php</filename>
+			<filename>groups/views/users/tmpl/index.html</filename>
+			<!-- Plugins -->
+            <filename>plugins/controller.php</filename>
+            <filename>plugins/extension.php</filename>
+            <filename>plugins/index.html</filename>
+            <filename>plugins/plugin.php</filename>
+            <filename>plugins/views/access/index.html</filename>
+            <filename>plugins/views/access/tmpl/default.php</filename>
+            <filename>plugins/views/access/tmpl/index.html</filename>
+            <filename>plugins/views/access/view.html.php</filename>
+            <filename>plugins/views/index.html</filename>
+            <filename>plugins/views/layout/index.html</filename>
+            <filename>plugins/views/layout/tmpl/default.php</filename>
+            <filename>plugins/views/layout/tmpl/index.html</filename>
+            <filename>plugins/views/layout/view.html.php</filename>
+            <filename>plugins/views/plugin/index.html</filename>
+            <filename>plugins/views/plugin/tmpl/form.php</filename>
+            <filename>plugins/views/plugin/tmpl/index.html</filename>
+            <filename>plugins/views/plugin/view.html.php</filename>
+            <filename>plugins/views/plugins/index.html</filename>
+            <filename>plugins/views/plugins/tmpl/default.php</filename>
+            <filename>plugins/views/plugins/tmpl/index.html</filename>
+            <filename>plugins/views/plugins/view.html.php</filename>
+			<!-- IMG -->
+            <filename>img/index.html</filename>
+			<filename>img/add.png</filename>
+			<filename>img/delete.png</filename>
+			<filename>img/icons.png</filename>
+			<filename>img/logo.png</filename>
+			<filename>img/tick.png</filename>
+            <filename>img/toolbar/icon-32-lock.png</filename>
+            <filename>img/toolbar/icon-32-refresh.png</filename>
+            <filename>img/toolbar/index.html</filename>
+            <!-- Installer -->
+            <filename>installer/adapters/extension.php</filename>
+            <filename>installer/adapters/index.html</filename>
+            <filename>installer/adapters/language.php</filename>
+            <filename>installer/adapters/plugin.php</filename>
+            <filename>installer/controller.php</filename>
+            <filename>installer/index.html</filename>
+            <filename>installer/installer.php</filename>
+            <filename>installer/models/extension.php</filename>
+            <filename>installer/models/extensions.php</filename>
+            <filename>installer/models/index.html</filename>
+            <filename>installer/models/install.php</filename>
+            <filename>installer/models/language.php</filename>
+            <filename>installer/models/plugin.php</filename>
+            <filename>installer/views/default/index.html</filename>
+            <filename>installer/views/default/tmpl/default_ftp.php</filename>
+            <filename>installer/views/default/tmpl/default_message.php</filename>
+            <filename>installer/views/default/tmpl/index.html</filename>
+            <filename>installer/views/default/view.php</filename>
+            <filename>installer/views/extension/index.html</filename>
+            <filename>installer/views/extension/tmpl/default.php</filename>
+            <filename>installer/views/extension/tmpl/default_item.php</filename>
+            <filename>installer/views/extension/tmpl/index.html</filename>
+            <filename>installer/views/extension/view.php</filename>
+            <filename>installer/views/index.html</filename>
+            <filename>installer/views/install/index.html</filename>
+            <filename>installer/views/install/tmpl/default.php</filename>
+            <filename>installer/views/install/tmpl/default_form.php</filename>
+            <filename>installer/views/install/tmpl/index.html</filename>
+            <filename>installer/views/install/view.php</filename>
+            <filename>installer/views/language/index.html</filename>
+            <filename>installer/views/language/tmpl/default.php</filename>
+            <filename>installer/views/language/tmpl/default_item.php</filename>
+            <filename>installer/views/language/tmpl/index.html</filename>
+            <filename>installer/views/language/view.php</filename>
+            <filename>installer/views/plugin/index.html</filename>
+            <filename>installer/views/plugin/tmpl/default.php</filename>
+            <filename>installer/views/plugin/tmpl/default_item.php</filename>
+            <filename>installer/views/plugin/tmpl/index.html</filename>
+            <filename>installer/views/plugin/view.php</filename>
+            <!-- JS -->
+			<filename>js/index.html</filename>
+            <filename>js/sortables.js</filename>
+        </files>
+        <languages folder="administrator/language/en-GB">
+            <language tag="en-GB">en-GB.com_jce.ini</language>
+        </languages>
+    </administration>
+</install>

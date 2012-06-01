@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+  <name>Definition</name>
+  <creationDate>9 April 2008</creationDate>
+  <author>GranholmCMS.com</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>stefangranholm@gmail.com</authorEmail>
+  <authorUrl>http://www.granholmcms.com</authorUrl>
+  <version>1.1.7</version>
+  <description>Definition - by www.granholmcms.com</description>
+  <files>
+    	<filename>definition.php</filename>
+    	<filename>definition.html.php</filename>
+    	<filename>definition.class.php</filename>
+    	<filename>images/email.gif</filename>
+    	<filename>images/homepage.gif</filename>
+	<filename>languages/croatian.php</filename>
+    	<filename>languages/english.php</filename>
+    	<filename>languages/catalan.php</filename>
+	<filename>languages/danish.php</filename>
+    	<filename>languages/dutch.php</filename>
+    	<filename>languages/estonian.php</filename>
+    	<filename>languages/french.php</filename>
+	<filename>languages/german.php</filename>
+    	<filename>languages/germanf.php</filename>
+    	<filename>languages/germani.php</filename>
+	<filename>languages/greek.php</filename>
+    	<filename>languages/norwegian.php</filename>
+	<filename>languages/russian.php</filename>
+    	<filename>languages/spanish.php</filename>
+	<filename>languages/slovak.php</filename>
+    	<filename>languages/spanishf.php</filename>
+    	<filename>languages/turkish.php</filename>
+    	<filename>languages/romanian.php</filename>
+    	<filename>languages/italiano.php</filename>
+    	<filename>languages/catala.php</filename>
+    	<filename>languages/hungarian.php</filename>
+    	<filename>languages/romaniannodiacritice.php</filename>
+	<filename>languages/brazilian_portuguese.php</filename>
+	</files>
+  <install>
+    <queries>
+      <query>
+       CREATE TABLE IF NOT EXISTS `#__definition` (
+          `id` int(10) NOT NULL auto_increment,
+          `tletter` char(1) NOT NULL default '',
+          `tterm` varchar(40) NOT NULL default '',
+          `tdefinition` text NOT NULL,
+          `tname` varchar(20) NOT NULL default '',
+          `tloca` varchar(60) default NULL,
+          `tmail` varchar(60) default NULL,
+          `tpage` varchar(150) default NULL,
+          `tdate` datetime default NULL,
+          `tcomment` text,
+          `tedit` enum('y','n') NOT NULL default 'n',
+          `teditdate` datetime default NULL,
+          `published` tinyint(1) NOT NULL default '0',
+          `catid` int(3) NOT NULL default '0',
+          `checked_out` int(11) NOT NULL default '0',
+          UNIQUE KEY `term` (`tterm`),
+          PRIMARY KEY  (`id`),
+          FULLTEXT (`tdefinition`)
+        ) TYPE=MyISAM
+      </query>
+    </queries>
+  </install>
+  <uninstall>
+      <queries>
+      </queries>
+  </uninstall>
+    <installfile>install.definition.php</installfile>
+    <uninstallfile>uninstall.definition.php</uninstallfile>
+  <administration>
+    <menu>Definition</menu>
+    <submenu>
+      <menu task="view">View Terms</menu>
+      <menu task="categories">Categories</menu>
+      <menu task="config">Edit Config</menu>
+    </submenu>
+    <files>
+      <filename>admin.definition.php</filename>
+      <filename>admin.definition.html.php</filename>
+      <filename>class.definition.php</filename>
+      <filename>config.definition.php</filename>
+      <filename>install.definition.php</filename>
+      <filename>toolbar.definition.php</filename>
+      <filename>toolbar.definition.html.php</filename>
+      <filename>uninstall.definition.php</filename>
+	  <filename>changelog.txt</filename>
+	  <filename>license.txt</filename>
+	  <filename>images/logo.png</filename>
+	  <filename>images/icon.png</filename>
+    </files>
+  </administration>
+</install>

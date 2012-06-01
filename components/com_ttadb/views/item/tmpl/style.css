@@ -1,0 +1,58 @@
+#program p.answer { margin-top:1em; padding-bottom:0; margin-bottom:0; }
+#program p.answer + ul { padding:0 0 0 3em; margin-top:0; }
+#program h1 { margin-bottom:0; padding-bottom:0;}
+#program p { margin:0 0 0.75em; }
+#program .contact { width:45%; float:left; }
+#program .contact address { margin-top:0; margin-left:25px;}
+#program .clear { clear:both; }
+/* The hover class, when the user hovers over a star */
+.hover {
+background: url('../images/star.png');
+z-index: 1;
+}
+
+/* This is for the span classes, that represent the seperate stars. You might want to change this to a seperate class */
+.stardiv span {
+float: left;
+cursor: pointer;
+}
+
+/* So that we can break the float left elements */
+.clearleft {
+clear: left;
+}
+
+/* Again, you might want to make this a seperate class. */
+div.stardiv {
+display: block;
+width: 120px;
+padding-top: 10px;
+height: 16px;
+margin: 0 0 0 25px;
+}
+
+/* Floats stuff to the left */
+.floatleft {
+float: left;
+}
+
+/* Text to display when the user presses a star */
+.highlight {
+font-family: Arial, sans-serif;
+font-size: 14px;
+position: relative;
+bottom: 9px;
+color: #93784b;
+font-weight: bold;
+}
+
+/* The text beside the rating, displaying the rating in text, incase the user doesn't 'get it' */
+.star_rating {
+font-family: Arial, sans-serif;
+font-size: 14px;
+color: #93784b;
+float: left;
+width: 100px;
+position: relative;
+top: 10px;
+}

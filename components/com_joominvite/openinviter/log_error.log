@@ -1,0 +1,1311 @@
+[2008-11-09 04:28:09] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: orkut
+USER: anikendra
+PASSWORD: inmiAtnu84
+STEPS: 
+	secondary_get :
+		URL: http://www.orkut.com/
+		METHOD: GET
+		RESPONSE: OK
+	the_redirect2 :
+		URL: https://www.google.com/accounts/ServiceLoginAuth?service=orkut
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-09 22:46:10] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: esiken@hotmail.com
+PASSWORD: aurelia
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226250658&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1604626552&id=64855&bk=1226250658
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=PassportR
+			type=11
+			login=esiken@hotmail.com
+			passwd=aurelia
+			remMe=1
+			NewUser=0
+			PPFT=B0dK1QZU7WgPfVtHT2PnpMkG7tI5Za3Lp9SbUTcDmb7ALRgX7lzGHZ93ldZ5zOxGx0V1aVuNjzEdqXOAWNZVNKDarrbwepL6xP8Lx6Tok0z12b!d1whg6iOpURICR1zwgCc4RHSBV3c8seWF2cueXsAGyqkh0sUDru8bYM4$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://co108w.col108.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 04:26:27] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: rebich@hotmail.com
+PASSWORD: marija
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226270034&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D971641295&id=64855&bk=1226270034
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pass
+			type=11
+			login=rebich@hotmail.com
+			passwd=marija
+			remMe=1
+			NewUser=0
+			PPFT=B3h0YHtXQNHQftAYVQTnmdfrghc*ASJVRCrk2T1cvp8clgMPu5!qHhvNn2EA!kjq3wX98ZoEBXKtpjgizKDcI*mqLCZSF16GeABVmZ0RQ2D5PUkVg8tkdumniTpNF!V245xwopZVPwbdiloOtI2Bq0uu66aQMEsFyV*iACM$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by130w.bay130.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 04:26:50] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: rebich@hotmail.com
+PASSWORD: marija
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226270056&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1879502557&id=64855&bk=1226270056
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passpor
+			type=11
+			login=rebich@hotmail.com
+			passwd=marija
+			remMe=1
+			NewUser=0
+			PPFT=B7laXEux3I!jxvuQQdIGYUSyGIBteIF4eodowK73anHlfLoFXHFbrJnGL9uoghNq*XM3SGNp3NTcLjMZ9PlrnTTIHOak7gI!n7OpZ!WUckzNp5VDhrWx1860NfADkGIK2FDT7kHNcJlt8*TLwh8OnMLCVRGArB08WLrwc54$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by130w.bay130.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 04:27:07] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: rebich@hotmail.com
+PASSWORD: marija82
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226270073&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D199825677&id=64855&bk=1226270073
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pas
+			type=11
+			login=rebich@hotmail.com
+			passwd=marija82
+			remMe=1
+			NewUser=0
+			PPFT=B1t*df0BXAFIKKWb1ss6JtHnB1pdIA8ciXQDOUt*o9KyCQ2IdeI9hOenYHiDGNeaOdhNzBuDalorggu1*5s*4aEFHzxhyozbSe75voK7MX4JaZn7XWXOkS8Z9FUnOYIpykrbBY*bU2z5IiQ7D1B3LuCGlBYc7Mt*Z8nMTLw$
+			i1=0
+			i2=2
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 04:27:59] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: rebich@hotmail.com
+PASSWORD: marija
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226270120&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1808010037&id=64855&bk=1226270120
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pass
+			type=11
+			login=rebich@hotmail.com
+			passwd=marija
+			remMe=1
+			NewUser=0
+			PPFT=BxrHPnDO!8eGIi7QagMHn6j1sZDdqn2DtZTcdwfx1pZqVgEG9SV5wC5cWYNzKrjwXQQ84J6ZY2WrO9QfN8aimvSY8o4LwJWhabn0!A*72QVMLNzb1brnNHUwQ5LPBW4ecAJhcNzRa0Oa84Olu2AjIsEWMUoFbOMifIH22P8$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by130w.bay130.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 06:54:56] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: myspace
+USER: anikendra@gmail.com
+PASSWORD: khulja1
+STEPS: 
+	initial_get :
+		URL: http://www.myspace.com/
+		METHOD: GET
+		RESPONSE: OK
+	get_url_friends :
+		URL: http://secure.myspace.com/index.cfm?fuseaction=login.process
+		METHOD: POST
+		ELEMENTS: 
+			__VIEWSTATE=/wEPDwUJNTU4OTgyNDc1ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUnY3RsMDAkY3BNYWluJExvZ2luQm94JFJlbWVtYmVyX0NoZWNrYm94
+			NextPage=
+			ctl00_ctl00_cpMain_cpMain_LoginBox_Email_Textbox=anikendra@gmail.com
+			ctl00_ctl00_cpMain_cpMain_LoginBox_Password_Textbox=khulja1
+			dlb=Log In
+			ctl00_ctl00_cpMain_cpMain_LoginBox_SingleSignOnHash=
+			ctl00_ctl00_cpMain_cpMain_LoginBox_SingleSignOnRequestUri=
+			ctl00_ctl00_cpMain_cpMain_LoginBox_nexturl=
+			ctl00_ctl00_cpMain_cpMain_LoginBox_apikey=
+			ctl00_ctl00_cpMain_cpMain_LoginBox_ContainerPage=
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 06:55:46] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: orkut
+USER: anikendra@gmail.com
+PASSWORD: inmiAtnu84
+STEPS: 
+	secondary_get :
+		URL: http://www.orkut.com/
+		METHOD: GET
+		RESPONSE: OK
+	the_redirect2 :
+		URL: https://www.google.com/accounts/ServiceLoginAuth?service=orkut
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 06:57:55] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: anikendra@gmail.com
+PASSWORD: inmiAtnu84
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=anikendra@gmail.com
+			Passwd=inmiAtnu84
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 06:58:41] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: anikendra
+PASSWORD: inmiAtnu84
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=anikendra
+			Passwd=inmiAtnu84
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 07:07:14] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: anikendra
+PASSWORD: inmiAtnu84
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=anikendra
+			Passwd=inmiAtnu84
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 19:50:56] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: salehqasimi@hotmail.com
+PASSWORD: Skfazmail
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226326162&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D781761966&id=64855&bk=1226326162
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pas
+			type=11
+			login=salehqasimi@hotmail.com
+			passwd=Skfazmail
+			remMe=1
+			NewUser=0
+			PPFT=B9!!e3CXpAL69YukwGOaFQhOHXUS8ObVRyjqJhcyqOVSn0ejQ3!AvT7PwClpgFTFBRfMGsATq3GszgmB0I49kUbmWDUMt3l0OFTz4yytphsKSIpmC3jPaAWQk0hZvIyOrf6*4Rt1nf!XyaPaTHY1!RzT4V!7L6VAt94jccg$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by121w.bay121.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 19:51:27] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: salehqasimi@hotmail.com
+PASSWORD: Skfazmail
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226326189&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D961173584&id=64855&bk=1226326189
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passport
+			type=11
+			login=salehqasimi@hotmail.com
+			passwd=Skfazmail
+			remMe=1
+			NewUser=0
+			PPFT=B07rrNCBdzG4GXfNfulw4CMavsjgjgK7MgbyJ6fTXHdzNalZgy80AUVF7XdV2KhsYTEROB9XlZL4zs6EOk*xwMkbo4k5TUjkdayo0erf9YePMJZJDBD0rYzDsHLl*YNsjDVZSLNROUspQ84Qf4F1MfoLxb8lR9RQAi2bZUg$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by121w.bay121.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-10 19:52:08] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: salehqasimi@hotmail.com
+PASSWORD: Skfazmail
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226326227&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1337343577&id=64855&bk=1226326227
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passport
+			type=11
+			login=salehqasimi@hotmail.com
+			passwd=Skfazmail
+			remMe=1
+			NewUser=0
+			PPFT=BzWB!FHsDSFH!sGaaq2NwMsVbEBjlT7yb6WuLJYN*djYXD89XOeASYC0wVpokcV*QNs4QDIGNG4kq!vWFgy7VbVnzLj1TPNdPpJG4!OtO4j*48fpOIASSh94pU1BS!szlVSem13MClquiw5fV*tJFAXEhO6DfCUfPHYvjsw$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by121w.bay121.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 03:14:28] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: planetali
+PASSWORD: makali
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=planetali
+			Passwd=makali
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:02:20] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hi5
+USER: haferlin
+PASSWORD: sanpacho
+STEPS: 
+	initial_get :
+		URL: http://www.hi5.com/
+		METHOD: GET
+		RESPONSE: OK
+	login_post :
+		URL: http://www.hi5.com/friend/login.do
+		METHOD: POST
+		ELEMENTS: 
+			email=haferlin
+			password=sanpacho
+			remember=on
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:03:12] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: chocosabor.com@hotmail.com
+PASSWORD: sanpacho
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226373353&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D540015385&id=64855&bk=1226373353
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passp
+			type=11
+			login=chocosabor.com@hotmail.com
+			passwd=sanpacho
+			remMe=1
+			NewUser=0
+			PPFT=B40l1hlS7d8l1zZs8yIDQQhxD*gVqfYyR2Mv7JhhLiVSEo*bbWZ4W7ZbX7Idre7BzcTd*4mZJYKOMaSt300f7NJJPmd84BAeu2dhV21Z2v59z6y*SMhptlp1k93ubACB0h7Nw3ir23zQ9izY0HTx5xgVX7vQ15W*tYi6T24$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://bl139w.blu139.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:04:13] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: chocosabor.com@hotmail.com
+PASSWORD: sanpacho
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226373409&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D281441810&id=64855&bk=1226373409
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passpo
+			type=11
+			login=chocosabor.com@hotmail.com
+			passwd=sanpacho
+			remMe=1
+			NewUser=0
+			PPFT=BzCA0bvug*CAAPRCUh*PwSPaJvlWL9S6rjrPeO!5SpUAUdg6uXFxBigq8eg5TTcQxZMHJdUYGl1!S1sZiSTkVWb2SN!il68hFHXO9z47sa3D6TDW!QJNJrkuSqHQDaGnE4NLITpCMFwX3gqE11UHbE1l4yvS0tSOBgm8yBA$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://bl139w.blu139.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:04:38] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: chocosabor.com@hotmail.com
+PASSWORD: sanpacho
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226373434&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1343885917&id=64855&bk=1226373434
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=P
+			type=11
+			login=chocosabor.com@hotmail.com
+			passwd=sanpacho
+			remMe=1
+			NewUser=0
+			PPFT=BwBFtGZf4ZArMibdt2k2*Mittg*MAABFkTh7HFdrG1xuAC7oHDkZul1o*t6DIBYDo*VE09h8rRnmxuhCthSp7v8rNtvh41Ioqok0XzJPoVDMc69egECEE*fpDT7FjY!XWR50t3JN7djegl4sHIlbKXNygw30Nzk9Bxns5z4$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://bl139w.blu139.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:06:05] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: yahoo
+USER: alexismorenomoreno@yahoo.com
+PASSWORD: gaitan
+STEPS: 
+	initial_get :
+		URL: https://login.yahoo.com/config/mail?.intl=us&rl=1
+		METHOD: GET
+		RESPONSE: OK
+	contacts_page :
+		URL: http://address.mail.yahoo.com/
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:06:44] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: yahoo
+USER: alemomo@yahoo.com
+PASSWORD: gaitan
+STEPS: 
+	initial_get :
+		URL: https://login.yahoo.com/config/mail?.intl=us&rl=1
+		METHOD: GET
+		RESPONSE: OK
+	contacts_page :
+		URL: http://address.mail.yahoo.com/
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:07:19] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: yahoo
+USER: alexismorenomoreno@yahoo.com
+PASSWORD: gaitan
+STEPS: 
+	initial_get :
+		URL: https://login.yahoo.com/config/mail?.intl=us&rl=1
+		METHOD: GET
+		RESPONSE: OK
+	contacts_page :
+		URL: http://address.mail.yahoo.com/
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:08:44] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: lycos
+USER: haferlin
+PASSWORD: sanpacho2
+STEPS: 
+	file_contacts :
+		URL: http://lycos.com/
+		METHOD: GET
+		RESPONSE: OK
+	login :
+		URL: http://registration.lycos.com/login.php?
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:10:48] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: yahoo
+USER: alexismorenomoreno
+PASSWORD: gaitan
+STEPS: 
+	initial_get :
+		URL: https://login.yahoo.com/config/mail?.intl=us&rl=1
+		METHOD: GET
+		RESPONSE: OK
+	contacts_page :
+		URL: http://address.mail.yahoo.com/
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:11:54] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: yahoo
+USER: alemomo
+PASSWORD: gaitan
+STEPS: 
+	initial_get :
+		URL: https://login.yahoo.com/config/mail?.intl=us&rl=1
+		METHOD: GET
+		RESPONSE: OK
+	contacts_page :
+		URL: http://address.mail.yahoo.com/
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:12:24] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: yahoo
+USER: alexismorenomoreno
+PASSWORD: gaitan
+STEPS: 
+	initial_get :
+		URL: https://login.yahoo.com/config/mail?.intl=us&rl=1
+		METHOD: GET
+		RESPONSE: OK
+	contacts_page :
+		URL: http://address.mail.yahoo.com/
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 09:12:54] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: yahoo
+USER: alexismoreno
+PASSWORD: gaitan
+STEPS: 
+	initial_get :
+		URL: https://login.yahoo.com/config/mail?.intl=us&rl=1
+		METHOD: GET
+		RESPONSE: OK
+	contacts_page :
+		URL: http://address.mail.yahoo.com/
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 13:25:34] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: arthas_vt85@hotmail.com
+PASSWORD: viabava
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226389564&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1310508409&id=64855&bk=1226389564
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passport
+			type=11
+			login=arthas_vt85@hotmail.com
+			passwd=viabava
+			remMe=1
+			NewUser=0
+			PPFT=B0Rot34Xx7nUaxxQ8VulEBsVYLVDLdAMgHoJFFDI2mQ6QPRbRufCgtrA8QjfgevFExBPMWcfZzIBNCKLflRC!wghHuBMt!mrReSl!zgxJAOvcZL!R48J4hjvU1Htil6i6F4lF31NZ9I2IJawRIUQcfBELhKT8VUgfhVZoPU$
+			i1=0
+			i2=2
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 13:26:01] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: arthas_vr85@hotmail.com
+PASSWORD: viabava
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226389589&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1471600609&id=64855&bk=1226389589
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pas
+			type=11
+			login=arthas_vr85@hotmail.com
+			passwd=viabava
+			remMe=1
+			NewUser=0
+			PPFT=Bwv*zjbuRiQ*YDiepZR8OI6y5GZE8avGHN!7Y!bbtepfvGR1LsWW2yPBrdT9!z7HGf30MHPBO74RJNgBrRwR!gjDaVS3fqpTtlTyJQnX90TX7ZXQn20X28LASI4o9!u*ofWlOz3YDaM6K8*aQhLxmVbt*V!C0hxkwyPhtMM$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://bl134w.blu134.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-11 13:26:49] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: cruisemelchiori@live.it
+PASSWORD: cruise
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226389632&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D400919994&id=64855&bk=1226389632
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pas
+			type=11
+			login=cruisemelchiori@live.it
+			passwd=cruise
+			remMe=1
+			NewUser=0
+			PPFT=B9EEDKqb6GY!YQiAqGgU3Vl2YoCi9T6jVK4hNSaElnn2NKs2YdL2NqWh!5KTouxb1YW6u536hg3DkqpbQhxvhvlmCX5IRfzaa1ULoCrQu5ywBOCNCe8DSiLjt7o2pWwbHXEJKWR*h2C0QAlV9ydY!slDmcbr4XkzRK8Y2Zc$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by111w.bay111.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 01:48:25] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: irpdomaind
+PASSWORD: miamicash
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=irpdomaind
+			Passwd=miamicash
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 01:48:51] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: caribooks@gmail.com
+PASSWORD: miamicash
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=caribooks@gmail.com
+			Passwd=miamicash
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 02:55:45] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: dj_madou@hotmail.com
+PASSWORD: 08341552
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226437834&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1314989986&id=64855&bk=1226437834
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passpo
+			type=11
+			login=dj_madou@hotmail.com
+			passwd=08341552
+			remMe=1
+			NewUser=0
+			PPFT=B5za5lXt!v*8aKyZP0gRSNPjZ3X!1EmxL**GJPxPJ15EKB1awiDPvYKxNgnpwSEbxkrbXTfVfJ*fL3wuNnbUqD!ewn8NIC6oRUptIUDqnoaIpadsa7M!iaEYZCZQfZwsJDNILzqpCFzvKaZUlYIyp3t47k8sxOwrtCLWwOo$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by135w.bay135.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 02:56:25] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: dj_madou@hotmail.com
+PASSWORD: 08341552
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226437871&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1216835452&id=64855&bk=1226437871
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passport
+			type=11
+			login=dj_madou@hotmail.com
+			passwd=08341552
+			remMe=1
+			NewUser=0
+			PPFT=BzckGk1aE49KxF2xk7M3bG1XPwO2TbjLaMCA9GjG!rPlLyGo6FFeanKdHSiqoDgiKdvDd3aXHTqV6NM6xZWAYaY7d7Dc8QMO8meQ!ZuyP5teeqFnd676RaxBJjh4drDotDIzJGReYaP6VHH!!oSc01e2ok2VHa05Vr1x3!Q$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by135w.bay135.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 02:56:56] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: dj_madou@hotmail.com
+PASSWORD: 08341552
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226437898&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D465347678&id=64855&bk=1226437898
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=PassportR
+			type=11
+			login=dj_madou@hotmail.com
+			passwd=08341552
+			remMe=1
+			NewUser=0
+			PPFT=B2kryzH!GD0oymBoBhMouvUDRK2TtQCPhhv0yQd9zQkSj*Wm6vN6H25Gte3KY2i!!NuIcWh9GkXHt7eWKzbtEnvDgLuFMb7XBX*mkFtbIY1BpNq*j5ySe0frItCpNp4cy1buyiQDB0xi6b2!vOA6ZaNYvNJnyEibVdaooys$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by135w.bay135.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 03:20:50] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: caribooks@gmail.com
+PASSWORD: miamicash
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=caribooks@gmail.com
+			Passwd=miamicash
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 06:03:17] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: jose_mirandap@hotmail.com
+PASSWORD: maldito1
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226449832&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1649407245&id=64855&bk=1226449833
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=P
+			type=11
+			login=jose_mirandap@hotmail.com
+			passwd=maldito1
+			remMe=1
+			NewUser=0
+			PPFT=B6OFJqPnJvxI0rVVZZmd365Ds3swBs4VDQfTY3a!hF2Ytl!NL!Ij3UsXK!fBrlkacYEdVGrbA6TBEBk4T6kEj1yG5aqytCiUL9K0b72YJS*s5foz9Gz5i5iJcTxpMYWz8j4LYAMXjVBc1TqL1PWsVB1pt3Fn67cfqL2IAP2y!1azoMX8ibnAhrrwOa5m
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://bl121w.blu121.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 06:03:43] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: jose_mirandap@hotmail.com
+PASSWORD: maldito1
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226449857&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D885138703&id=64855&bk=1226449857
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pass
+			type=11
+			login=jose_mirandap@hotmail.com
+			passwd=maldito1
+			remMe=1
+			NewUser=0
+			PPFT=B*HIhlW0aaa4GG3cTuwCiC0U1dZLAdbd07pLdtju2mO*eABFdzpXmH8ucZdxvBDvoIl!unF94AQPuZOhsUWIGJHu8Fb8DRp!0*bSelVTfw!4sunHQh2dr9IcHnDIpmWzv2dB3ARSnqC7lUFTyNH63RwHT9TkaEFSxiGSNxQ$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://bl121w.blu121.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 06:04:38] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: jose_mirandap
+PASSWORD: maldito1
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226449908&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D2047107652&id=64855&bk=1226449908
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pas
+			type=11
+			login=jose_mirandap
+			passwd=maldito1
+			remMe=1
+			NewUser=0
+			PPFT=BzaYDCQ*C1Yewzlj1Bndc3spogExEsGx0OznLryqrHFK2vdaNrlvmtlgMFQJt6dI31!v6Fh91fFJSY4Y09KYrQtbU5e6s5RPGwQ96487ziXTHaPhEJ0ldzCZBAVwbh97*!1Jg3GqwrMj39Xev1s1lQw3N7UXqGSYPII6Q0A$
+			i1=0
+			i2=2
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 06:05:53] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: jose_mirandap@hotmail.com
+PASSWORD: maldito1
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226449977&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1003117833&id=64855&bk=1226449977
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passpor
+			type=11
+			login=jose_mirandap@hotmail.com
+			passwd=maldito1
+			remMe=1
+			NewUser=0
+			PPFT=Bym4VaVmZt4k8245Gc0xBULVALNo!q5lBgIzPzSXIMBAoViU5hLB7FbwpV7LygrJ0Cor4bqnG3IpxRvSVQryxEp4ZJI7JddbwCt!nuVPYEtua7l5G9Yz2vNzdLpD9GImpa6xhoclKvcrZCp!BTGNRSRccStoruxhBSSYBmc$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://bl121w.blu121.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-12 08:19:36] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: anikendra
+PASSWORD: inmiAtnu84
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=anikendra
+			Passwd=inmiAtnu84
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-13 10:08:57] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: jose_mirandap@hotmail.com
+PASSWORD: maldito1
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226549777&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1540223330&id=64855&bk=1226549777
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Pas
+			type=11
+			login=jose_mirandap@hotmail.com
+			passwd=maldito1
+			remMe=1
+			NewUser=0
+			PPFT=B1p4bvgWZLjUrQITnPZ!4U90X7VMogt!GjnfWLaYZS!nCLxDckqk2!mxrbmrRmAHCBdht0wmeEPIeWEAA2JLlPNRZ39DJDxJE4ddi1wBoeQjbAkvtLNsV6QtdjEGDTl6NA4ksXz*1L*Vx8xQPLLCUmUjIZ8onHLRm1xTfnk$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://bl121w.blu121.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-14 15:03:13] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: zipryh@gmail.com
+PASSWORD: 46876132
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=zipryh@gmail.com
+			Passwd=46876132
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-14 15:03:37] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: hotmail
+USER: zipry@hotmail.com
+PASSWORD: karpediem
+STEPS: 
+	initial_get :
+		URL: http://www.mail.live.com
+		METHOD: GET
+		RESPONSE: OK
+	post_login :
+		URL: https://login.live.com/ppsecure/post.srf?wa=wsignin1.0&rpsnv=10&ct=1226654297&rver=5.5.4177.0&wp=MBI&wreply=http:%2F%2Fmail.live.com%2Fdefault.aspx%3Fn%3D1953317000&id=64855&bk=1226654297
+		METHOD: POST
+		ELEMENTS: 
+			idsbho=1
+			LoginOptions=2
+			CS=
+			FedState=
+			PPSX=Passpo
+			type=11
+			login=zipry@hotmail.com
+			passwd=karpediem
+			remMe=1
+			NewUser=0
+			PPFT=B5cT!2XsRTf2xRfEH7hTkRaBC9rHhh*xVqmWGx9KhUlLP*c1EQdUAw2eSRTMyu4Fz*Jn9oO*Qb3ky11h09Ws3t46aEhv4s5m15FV45Eb6xdUALYun4Nu*u039vQgjQS*ekaGqdxXQ6yk9H5ZxkYEFBna6384bt0FwZ7Dbf0$
+			i1=0
+			i2=2
+		RESPONSE: OK
+	get_contacts :
+		URL: http://by104w.bay104.mail.live.com/mail/GetContacts.aspx?n=
+		METHOD: GET
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-14 19:30:49] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: ricknock
+PASSWORD: dd4146
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=ricknock
+			Passwd=dd4146
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+
+[2008-11-14 20:44:55] Local Debugger
+----------DETAILS START----------
+TRANSPORT: curl
+SERVICE: gmail
+USER: georgesyovo@gmail.com
+PASSWORD: georgesy
+STEPS: 
+	login_post :
+		URL: https://www.google.com/accounts/ServiceLoginAuth
+		METHOD: POST
+		ELEMENTS: 
+			ltmpl=yj_blanco
+			ltmplcache=2
+			continue=http%3A%2F%2Fmail.google.com%2Fmail%3F
+			service=mail
+			rm=false
+			Email=georgesyovo@gmail.com
+			Passwd=georgesy
+			rmShown=1
+			null=Sign+in
+		RESPONSE: FAILED
+
+----------DETAILS END----------
+

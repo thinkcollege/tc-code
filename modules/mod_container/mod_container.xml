@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Container</name>
+	<author>Paul Foos</author>
+	<creationDate>October 2008</creationDate>
+	<copyright>Copyright (C) 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>paul.foos@umb.edu</authorEmail>
+	<version>1.5.0</version>
+	<description>This module displays a content item</description>
+	<files>
+		<filename module="mod_container">mod_container.php</filename>
+	</files><params>
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	
+	<param name="db_selector" type="text" default="" label="Select Content Item from DB" description="Select a Content Item by its ID number" />
+	</params>
+</install>

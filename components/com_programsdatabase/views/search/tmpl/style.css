@@ -1,0 +1,16 @@
+#programsdatabase ul.results { padding:0; margin:0; list-style:none; }
+#programsdatabase ul.results .location { float:right;  display:inline-block; }
+#programsdatabase ul.results li { margin:0.75em 0; }
+#programsdatabase ul.results li.bg-gray { background-color:#CCC; }
+#programsdatabase ul.results li .prog { margin-left:1.2em; display:inline-block; }
+#main #programsdatabase .list-footer .limit, #main .list-footer ul.pagination, #main .list-footer .counter { display:block; float:left; margin:0 0.75em; }
+#main #programsdatabase .list-footer .limit { width:10em; }
+#main .list-footer ul.pagination { width:20em; }
+#main .list-footer .counter { width:6em; }
+#main #programsdatabase .list-footer ul.pagination { margin:0; padding:0 0 0.5em 0; }
+#main #programsdatabase .list-footer ul.pagination li { padding:0 0.2em; display:block; float:left; }
+#main #programsdatabase a:link { color:blue; padding-right:0; }
+#programsdatabase { padding:4px 1em 0 25px; }
+#programsdatabase h1 { display: inline; padding:0; }
+#main #programsdatabase h3 { margin-bottom: 10px; }
+#main #programsdatabase .searchAgain {margin: 13px 0 0 200px;}

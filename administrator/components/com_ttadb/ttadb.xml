@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+ <name>TtaDb</name>
+ <creationDate>1 June 2010</creationDate>
+ <author>Paul Foos</author>
+ <authorEmail>paul.foos@umb.edu</authorEmail>
+ <authorUrl>http://www.thinkcollege.net/</authorUrl>
+ <copyright>Copyright 2010 Institute for Community Inclusion.</copyright>
+ <license>UMass Boston All Rights Reserved</license>
+ <version>0.0.1</version>
+ <description>A database of training and technical assistance materials.</description>
+ <files folder="site">
+  <filename>index.html</filename>
+  <filename>ttadb.php</filename>
+  <filename>controller.php</filename>
+  <filename>router.php</filename>
+  <folder>helpers</folder>
+  <folder>models</folder>
+  <folder>views</folder>
+ </files>
+<install>
+  <sql>
+   <file charset="utf8" driver="mysql">install.sql</file>
+  </sql>
+ </install>
+ <uninstall><sql><file charset="utf8" driver="mysql">uninstall.sql</file></sql></uninstall>
+ <administration>
+  <menu>TTA Database</menu>
+  <submenu>
+   <!-- Note that all & must be escaped to &amp; for the file to be valid XML and be parsed by the installer -->
+   <!--  <menu link="option=com_helloworld&amp;task=hello&amp;who=world">Hello World!</menu> -->
+   <!-- Instead of link you can specify individual link attributes -->
+   <menu img="icon" task="listItems" typeId="110">Edit TTA Literature</menu>
+   <menu img="icon" task="listTypes">Edit Types</menu>
+  </submenu>
+  <files folder="admin">
+   <filename>ttadb.php</filename>
+   <filename>controller.php</filename>
+   <filename>install.sql</filename>
+   <filename>uninstall.sql</filename>
+<filename>install.sql</filename>
+   <folder>helpers</folder>
+   <folder>models</folder>
+   <folder>tables</folder>
+   <folder>tmp</folder>
+   <folder>views</folder>
+  </files>    
+ </administration>
+</install>

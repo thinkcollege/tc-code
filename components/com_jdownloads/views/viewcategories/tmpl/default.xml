@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="JD_MENU_CATEGORIES_LIST_LAYOUT">
+		<message>
+			<![CDATA[JD_MENU_CATEGORIES_LIST_LAYOUT_DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>JD_MENU_CATEGORIES_LIST_LAYOUT</name>
+		<description>JD_MENU_CATEGORIES_LIST_LAYOUT_DESC</description>
+		<params>
+		</params>
+	</state>
+</metadata>

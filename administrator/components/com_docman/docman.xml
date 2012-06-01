@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<mosinstall type="component" version="1.0">
+  <name>docman</name>
+  <creationDate>February 2008</creationDate>
+  <author>DOCman Development Team</author>
+  <copyright>Copyright (c) 2003-2008 DOCman Development Team</copyright>
+  <license>This extension is released under the GNU/GPL License</license>
+  <authorEmail>support@joomlatools.org</authorEmail>
+  <authorUrl>http://www.joomlatools.org</authorUrl>
+  <version>1.4.0rc3</version>
+  <description>DOCman is a document management and download component for Joomla! v1.0.x and v1.5.x</description>
+  <params>
+		<param name="cat_id" type="text" default="" label="Default category ID" description="The ID of the category that should be loaded when the user clicks the DOCman menu item." />
+  </params>
+  <files>
+  	<filename>docman.html.php</filename>
+    <filename>docman.php</filename>
+    <filename>footer.php</filename>
+    <filename>router.php</filename>
+
+    <filename>assets/css/doclink.css</filename>
+    <filename>assets/images/blank.png</filename>
+    <filename>assets/images/btnBack.gif</filename>
+    <filename>assets/images/btnFolderNew.gif</filename>
+    <filename>assets/images/btnFolderUp.gif</filename>
+    <filename>assets/images/dots.gif</filename>
+    <filename>assets/images/downsimple.png</filename>
+    <filename>assets/images/edit_active.gif</filename>
+    <filename>assets/images/edit_trash.gif</filename>
+    <filename>assets/images/folder.gif</filename>
+    <filename>assets/images/upsimple.png</filename>
+    <filename>assets/js/dialog.js</filename>
+    <filename>assets/js/dldialog.js</filename>
+    <filename>assets/js/dlutils.js</filename>
+    <filename>assets/js/doclink.js</filename>
+    <filename>assets/js/listview.js</filename>
+    <filename>assets/js/numberksorttype.js</filename>
+    <filename>assets/js/popup.js</filename>
+    <filename>assets/js/sortabletable.js</filename>
+
+    <filename>includes_frontend/categories.php</filename>
+    <filename>includes_frontend/categories.html.php</filename>
+    <filename>includes_frontend/doclink.php</filename>
+    <filename>includes_frontend/doclink.html.php</filename>
+    <filename>includes_frontend/documents.php</filename>
+    <filename>includes_frontend/documents.html.php</filename>
+    <filename>includes_frontend/download.php</filename>
+    <filename>includes_frontend/download.html.php</filename>
+    <filename>includes_frontend/search.php</filename>
+    <filename>includes_frontend/search.html.php</filename>
+    <filename>includes_frontend/upload.php</filename>
+    <filename>includes_frontend/upload.html.php</filename>
+    <filename>includes_frontend/upload.http.php</filename>
+    <filename>includes_frontend/upload.http.html.php</filename>
+    <filename>includes_frontend/upload.transfer.php</filename>
+    <filename>includes_frontend/upload.transfer.html.php</filename>
+    <filename>includes_frontend/upload.link.php</filename>
+    <filename>includes_frontend/upload.link.html.php</filename>
+
+    <filename>themes/default/css/theme.css</filename>
+    <filename>themes/default/css/theme10.css</filename>
+    <filename>themes/default/css/theme15.css</filename>
+    <filename>themes/default/js/theme.js</filename>
+    <filename>themes/default/themeDetails.xml</filename>
+    <filename>themes/default/themeConfig.php</filename>
+
+    <filename>themes/default/language/english.php</filename>
+
+    <filename>themes/default/images/save.png</filename>
+    <filename>themes/default/images/save-over.png</filename>
+    <filename>themes/default/images/cancel.png</filename>
+    <filename>themes/default/images/cancel-over.png</filename>
+    <filename>themes/default/images/message.gif</filename>
+
+    <filename>themes/default/images/icons/16x16/cancel.png</filename>
+    <filename>themes/default/images/icons/16x16/checkedout.png</filename>
+    <filename>themes/default/images/icons/16x16/edit.png</filename>
+    <filename>themes/default/images/icons/16x16/email.png</filename>
+    <filename>themes/default/images/icons/16x16/folder.png</filename>
+    <filename>themes/default/images/icons/16x16/generic.png</filename>
+    <filename>themes/default/images/icons/16x16/gz.png</filename>
+    <filename>themes/default/images/icons/16x16/history.png</filename>
+    <filename>themes/default/images/icons/16x16/home.png</filename>
+    <filename>themes/default/images/icons/16x16/lock.png</filename>
+    <filename>themes/default/images/icons/16x16/no.png</filename>
+    <filename>themes/default/images/icons/16x16/rar.png</filename>
+    <filename>themes/default/images/icons/16x16/save.png</filename>
+    <filename>themes/default/images/icons/16x16/search.png</filename>
+    <filename>themes/default/images/icons/16x16/submit.png</filename>
+    <filename>themes/default/images/icons/16x16/tar.png</filename>
+    <filename>themes/default/images/icons/16x16/tooltip.png</filename>
+    <filename>themes/default/images/icons/16x16/trash.png</filename>
+    <filename>themes/default/images/icons/16x16/yes.png</filename>
+    <filename>themes/default/images/icons/16x16/zip.png</filename>
+
+    <filename>themes/default/images/icons/16x16/avi.png</filename>
+    <filename>themes/default/images/icons/16x16/bmp.png</filename>
+    <filename>themes/default/images/icons/16x16/doc.png</filename>
+    <filename>themes/default/images/icons/16x16/eps.png</filename>
+    <filename>themes/default/images/icons/16x16/exe.png</filename>
+    <filename>themes/default/images/icons/16x16/gif.png</filename>
+    <filename>themes/default/images/icons/16x16/html.png</filename>
+    <filename>themes/default/images/icons/16x16/jpg.png</filename>
+    <filename>themes/default/images/icons/16x16/mid.png</filename>
+    <filename>themes/default/images/icons/16x16/mov.png</filename>
+    <filename>themes/default/images/icons/16x16/mp3.png</filename>
+    <filename>themes/default/images/icons/16x16/mpeg.png</filename>
+    <filename>themes/default/images/icons/16x16/mpg.png</filename>
+    <filename>themes/default/images/icons/16x16/odg.png</filename>
+    <filename>themes/default/images/icons/16x16/odp.png</filename>
+    <filename>themes/default/images/icons/16x16/ods.png</filename>
+    <filename>themes/default/images/icons/16x16/odt.png</filename>
+    <filename>themes/default/images/icons/16x16/pdf.png</filename>
+    <filename>themes/default/images/icons/16x16/png.png</filename>
+    <filename>themes/default/images/icons/16x16/ra.png</filename>
+    <filename>themes/default/images/icons/16x16/rtf.png</filename>
+    <filename>themes/default/images/icons/16x16/swf.png</filename>
+    <filename>themes/default/images/icons/16x16/tex.png</filename>
+    <filename>themes/default/images/icons/16x16/tif.png</filename>
+    <filename>themes/default/images/icons/16x16/txt.png</filename>
+    <filename>themes/default/images/icons/16x16/wav.png</filename>
+    <filename>themes/default/images/icons/16x16/wma.png</filename>
+    <filename>themes/default/images/icons/16x16/wmv.png</filename>
+    <filename>themes/default/images/icons/16x16/xls.png</filename>
+
+    <filename>themes/default/images/icons/32x32/avi.png</filename>
+    <filename>themes/default/images/icons/32x32/bmp.png</filename>
+    <filename>themes/default/images/icons/32x32/doc.png</filename>
+    <filename>themes/default/images/icons/32x32/eps.png</filename>
+    <filename>themes/default/images/icons/32x32/exe.png</filename>
+    <filename>themes/default/images/icons/32x32/folder.png</filename>
+    <filename>themes/default/images/icons/32x32/generic.png</filename>
+    <filename>themes/default/images/icons/32x32/gif.png</filename>
+    <filename>themes/default/images/icons/32x32/gz.png</filename>
+    <filename>themes/default/images/icons/32x32/home.png</filename>
+    <filename>themes/default/images/icons/32x32/html.png</filename>
+    <filename>themes/default/images/icons/32x32/jpg.png</filename>
+    <filename>themes/default/images/icons/32x32/mid.png</filename>
+    <filename>themes/default/images/icons/32x32/mov.png</filename>
+    <filename>themes/default/images/icons/32x32/mp3.png</filename>
+    <filename>themes/default/images/icons/32x32/mpeg.png</filename>
+    <filename>themes/default/images/icons/32x32/mpg.png</filename>
+    <filename>themes/default/images/icons/32x32/odg.png</filename>
+    <filename>themes/default/images/icons/32x32/odp.png</filename>
+    <filename>themes/default/images/icons/32x32/ods.png</filename>
+    <filename>themes/default/images/icons/32x32/odt.png</filename>
+    <filename>themes/default/images/icons/32x32/pdf.png</filename>
+    <filename>themes/default/images/icons/32x32/png.png</filename>
+    <filename>themes/default/images/icons/32x32/ra.png</filename>
+    <filename>themes/default/images/icons/32x32/rar.png</filename>
+    <filename>themes/default/images/icons/32x32/rtf.png</filename>
+    <filename>themes/default/images/icons/32x32/search.png</filename>
+    <filename>themes/default/images/icons/32x32/submit.png</filename>
+    <filename>themes/default/images/icons/32x32/swf.png</filename>
+    <filename>themes/default/images/icons/32x32/tar.png</filename>
+    <filename>themes/default/images/icons/32x32/tex.png</filename>
+    <filename>themes/default/images/icons/32x32/tif.png</filename>
+    <filename>themes/default/images/icons/32x32/txt.png</filename>
+    <filename>themes/default/images/icons/32x32/wav.png</filename>
+    <filename>themes/default/images/icons/32x32/wma.png</filename>
+    <filename>themes/default/images/icons/32x32/wmv.png</filename>
+    <filename>themes/default/images/icons/32x32/xls.png</filename>
+    <filename>themes/default/images/icons/32x32/zip.png</filename>
+
+    <filename>themes/default/images/icons/32x32/no_alpha/avi.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/bmp.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/doc.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/eps.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/exe.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/folder.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/generic.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/gif.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/gz.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/home.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/html.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/jpg.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/mid.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/mov.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/mp3.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/mpeg.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/mpg.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/odg.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/odp.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/ods.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/odt.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/pdf.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/png.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/ra.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/rar.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/rtf.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/search.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/submit.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/swf.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/tar.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/tex.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/tif.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/txt.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/wav.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/wma.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/wmv.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/xls.png</filename>
+    <filename>themes/default/images/icons/32x32/no_alpha/zip.png</filename>
+
+    <filename>themes/default/templates/page_docbrowse.tpl.php</filename>
+    <filename>themes/default/templates/page_docmove.tpl.php</filename>
+    <filename>themes/default/templates/page_docsearch.tpl.php</filename>
+    <filename>themes/default/templates/page_doclicense.tpl.php</filename>
+    <filename>themes/default/templates/page_docdetails.tpl.php</filename>
+    <filename>themes/default/templates/page_docedit.tpl.php</filename>
+    <filename>themes/default/templates/page_docupload.tpl.php</filename>
+    <filename>themes/default/templates/page_msgbox.tpl.php</filename>
+    <filename>themes/default/templates/script_docedit.tpl.php</filename>
+    <filename>themes/default/templates/script_docupload.tpl.php</filename>
+    <filename>themes/default/templates/categories/category.tpl.php</filename>
+    <filename>themes/default/templates/categories/list.tpl.php</filename>
+    <filename>themes/default/templates/categories/list_item.tpl.php</filename>
+    <filename>themes/default/templates/documents/list.tpl.php</filename>
+    <filename>themes/default/templates/documents/list_order.tpl.php</filename>
+    <filename>themes/default/templates/documents/list_item.tpl.php</filename>
+    <filename>themes/default/templates/documents/tasks.tpl.php</filename>
+    <filename>themes/default/templates/documents/document.tpl.php</filename>
+    <filename>themes/default/templates/documents/tooltip.tpl.php</filename>
+    <filename>themes/default/templates/general/pagenav.tpl.php</filename>
+    <filename>themes/default/templates/general/pagetitle.tpl.php</filename>
+    <filename>themes/default/templates/general/menu.tpl.php</filename>
+    <filename>themes/default/templates/general/pathway.tpl.php</filename>
+    <filename>themes/default/templates/upload/step_1.tpl.php</filename>
+    <filename>themes/default/templates/upload/step_2.tpl.php</filename>
+    <filename>themes/default/templates/upload/step_3.tpl.php</filename>
+    <filename>themes/default/templates/scripts/form_docedit.tpl.php</filename>
+  </files>
+
+  <install>
+    <queries>
+      <query>CREATE TABLE IF NOT EXISTS `#__docman` (
+      `id` int(11) NOT NULL auto_increment,
+      `catid` int(11) NOT NULL default 1,
+      `dmname` text NOT NULL, `dmdescription` longtext,
+      `dmdate_published` datetime NOT NULL default '0000-00-00 00:00:00',
+      `dmowner` int(4) NOT NULL default -1,
+      `dmfilename` text NOT NULL,
+      `published` tinyint(1) NOT NULL default 0,
+      `dmurl` text NULL,
+      `dmcounter` int(11) NULL default 0,
+      `checked_out` int(11) NOT NULL default 0,
+      `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+      `approved` tinyint(1) NOT NULL default 0,
+      `dmthumbnail` text NULL,
+      `dmlastupdateon` datetime default '0000-00-00 00:00:00',
+      `dmlastupdateby` int(5) NOT NULL default -1,
+      `dmsubmitedby` int(5) NOT NULL default -1,
+      `dmmantainedby` int(5) default 0,
+      `dmlicense_id` int(5) default 0,
+      `dmlicense_display` tinyint(1) NOT NULL default 0,
+      `access` int(11) unsigned NOT NULL default 0,
+      `attribs` text NOT NULL,
+      PRIMARY KEY (`id`),
+	  KEY `pub_appr_own_cat_name` (`published`,`approved`,`dmowner`,`catid`,`dmname`(64)),
+	  KEY `appr_pub_own_cat_date` (`approved`,`published`,`dmowner`,`catid`,`dmdate_published`),
+	  KEY `own_pub_appr_cat_count`(`dmowner`,`published`,`approved`,`catid`,`dmcounter`),
+	  KEY `own_pub_appr_cat_id`   (`dmowner`, `published`, `approved`, `catid`, `id`)
+      )
+      TYPE=MyISAM</query>
+      <query>CREATE TABLE IF NOT EXISTS `#__docman_groups` (
+      `groups_id` int(11) NOT NULL auto_increment,
+      `groups_name` text NOT NULL,
+      `groups_description` longtext,
+      `groups_access` tinyint(4) NOT NULL default 1,
+      `groups_members` text NULL,
+       PRIMARY KEY (`groups_id`) )
+       TYPE=MyISAM</query>
+      <query>CREATE TABLE IF NOT EXISTS `#__docman_history` (
+      `id` INT NOT NULL AUTO_INCREMENT,
+      `doc_id` INT NOT NULL ,
+      `revision` INT( 5 ) DEFAULT 1 NOT NULL,
+      `his_date` DATETIME NOT NULL ,
+      `his_who` INT NOT NULL ,
+      `his_obs` LONGTEXT, PRIMARY KEY (`id`) )
+      TYPE=MyISAM</query>
+      <query>CREATE TABLE IF NOT EXISTS `#__docman_licenses` (
+      `id` INT NOT NULL AUTO_INCREMENT,
+      `name` text NOT NULL ,
+      `license` text NOT NULL, PRIMARY KEY (`id`) )
+      TYPE=MyISAM</query>
+      <query>CREATE TABLE IF NOT EXISTS `#__docman_log` (
+      `id` INT NOT NULL AUTO_INCREMENT,
+      `log_docid` INT NOT NULL ,
+      `log_ip` text NOT NULL,
+      `log_datetime` DATETIME NOT NULL,
+      `log_user` INT NOT NULL DEFAULT 0,
+      `log_browser` text, `log_os` text,
+      PRIMARY KEY (`id`) )
+      TYPE=MyISAM</query>
+      <query>INSERT INTO `#__modules`
+      SET title='Latest docs', ordering=2, position='dmcpanel', published=1, module='mod_docman_latest', access=2, showtitle=1, iscore=2, client_id=1</query>
+      <query>INSERT INTO `#__modules`
+      SET title='Top docs', ordering=3, position='dmcpanel', published=1, module='mod_docman_top', access=2, showtitle=1, iscore=2, client_id=1</query>
+	  <query>INSERT INTO `#__modules`
+	  SET title='Latest logs', ordering=4, position='dmcpanel', published=1, module='mod_docman_logs', access=2, showtitle=1, iscore=2, client_id=1</query>
+	  <query>INSERT INTO `#__modules`
+	  SET title='News', ordering=0, position='dmcpanel', published=1, module='mod_docman_news', access=2, showtitle=1, iscore=2, client_id=1</query>
+	  <query>INSERT INTO `#__modules`
+	  SET title='Unapproved', ordering=1, position='dmcpanel', published=1, module='mod_docman_approval', access=2, showtitle=1, iscore=2, client_id=1</query>
+	</queries>
+  </install>
+
+  <uninstall>
+    <queries>
+      <query>DELETE FROM `#__modules` WHERE `position` = 'dmcpanel'</query>
+    </queries>
+  </uninstall>
+
+  <installfile>install.docman.php</installfile>
+  <uninstallfile>uninstall.docman.php</uninstallfile>
+
+  <administration>
+    <menu>DOCman</menu>
+    <submenu>
+      <menu task="cpanel">Home</menu>
+      <menu link="option=com_docman&amp;section=files">Files</menu>
+      <menu link="option=com_docman&amp;section=documents">Documents</menu>
+      <menu link="option=com_docman&amp;section=categories">Categories</menu>
+      <menu link="option=com_docman&amp;section=groups">Groups</menu>
+      <menu link="option=com_docman&amp;section=licenses">Licenses</menu>
+      <menu task="stats">Statistics</menu>
+      <menu link="option=com_docman&amp;section=logs">Download Logs</menu>
+      <menu link="option=com_docman&amp;section=config">Configuration</menu>
+      <menu link="option=com_docman&amp;section=themes">Themes</menu>
+    </submenu>
+    <files>
+      <filename>admin.docman.php</filename>
+      <filename>admin.docman.html.php</filename>
+      <filename>CHANGELOG.php</filename>
+      <filename>htaccess.txt</filename>
+      <filename>docman.class.php</filename>
+      <filename>docman.config.php</filename>
+      <filename>docman.params.xml</filename>
+      <filename>install.docman.php</filename>
+      <filename>install.docman.helper.php</filename>
+      <filename>README.php</filename>
+      <filename>toolbar.docman.php</filename>
+      <filename>toolbar.docman.html.php</filename>
+      <filename>toolbar.docman.class.php</filename>
+      <filename>toolbar.docman.class15.php</filename>
+      <filename>uninstall.docman.php</filename>
+      <filename>modules/admin/mod_docman_approval.php</filename>
+      <filename>modules/admin/mod_docman_approval.xml.php</filename>
+      <filename>modules/admin/mod_docman_latest.php</filename>
+      <filename>modules/admin/mod_docman_latest.xml.php</filename>
+      <filename>modules/admin/mod_docman_logs.php</filename>
+      <filename>modules/admin/mod_docman_logs.xml.php</filename>
+      <filename>modules/admin/mod_docman_top.php</filename>
+      <filename>modules/admin/mod_docman_top.xml.php</filename>
+      <filename>modules/admin/mod_docman_news.php</filename>
+      <filename>modules/admin/mod_docman_news.xml.php</filename>
+
+	  <filename>classes/DOCMAN_button.class.php</filename>
+      <filename>classes/DOCMAN_cleardata.class.php</filename>
+      <filename>classes/DOCMAN_compat.class.php</filename>
+      <filename>classes/DOCMAN_compat10.class.php</filename>
+      <filename>classes/DOCMAN_compat15.class.php</filename>
+      <filename>classes/DOCMAN_config.class.php</filename>
+      <filename>classes/DOCMAN_file.class.php</filename>
+      <filename>classes/DOCMAN_groups.class.php</filename>
+      <filename>classes/DOCMAN_html.class.php</filename>
+      <filename>classes/DOCMAN_install.class.php</filename>
+      <filename>classes/DOCMAN_jbrowser.class.php</filename>
+      <filename>classes/DOCMAN_jobject.class.php</filename>
+      <filename>classes/DOCMAN_mambots.class.php</filename>
+      <filename>classes/DOCMAN_mime.class.php</filename>
+      <filename>classes/DOCMAN_model.class.php</filename>
+      <filename>classes/DOCMAN_theme.class.php</filename>
+      <filename>classes/DOCMAN_token.class.php</filename>
+      <filename>classes/DOCMAN_tree.class.php</filename>
+      <filename>classes/DOCMAN_user.class.php</filename>
+      <filename>classes/DOCMAN_utils.class.php</filename>
+      <filename>classes/DOCMAN_params.class.php</filename>
+      <filename>classes/mime.mapping.php</filename>
+      <filename>classes/mime.magic.php</filename>
+
+      <filename>contrib/pear/HTML_Common.php</filename>
+      <filename>contrib/pear/HTML_Select.php</filename>
+      <filename>contrib/pear/PHP_Compat.php</filename>
+      <filename>contrib/pear/PEAR.php</filename>
+      <filename>contrib/savant2/Savant2.php</filename>
+      <filename>contrib/savant2/Savant2/Compiler.php</filename>
+      <filename>contrib/savant2/Savant2/Error.php</filename>
+      <filename>contrib/savant2/Savant2/Filter.php</filename>
+      <filename>contrib/savant2/Savant2/Plugin.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_tooltip.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_javascript.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_overlib.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_stylesheet.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Error_docman.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Filter_trimwhitespace.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_dateformat.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_calendar.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_validator.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_document.php</filename>
+      <filename>contrib/savant2/Savant2/Savant2_Plugin_pagetitle.php</filename>
+
+      <filename>includes/categories.php</filename>
+      <filename>includes/categories.html.php</filename>
+      <filename>includes/cleardata.php</filename>
+      <filename>includes/cleardata.html.php</filename>
+      <filename>includes/config.php</filename>
+      <filename>includes/config.html.php</filename>
+      <filename>includes/defines.php</filename>
+      <filename>includes/docman.css</filename>
+      <filename>includes/docman.php</filename>
+      <filename>includes/docman.html.php</filename>
+      <filename>includes/documents.php</filename>
+      <filename>includes/documents.html.php</filename>
+      <filename>includes/files.php</filename>
+      <filename>includes/files.html.php</filename>
+      <filename>includes/groups.php</filename>
+      <filename>includes/groups.html.php</filename>
+      <filename>includes/licenses.php</filename>
+      <filename>includes/licenses.html.php</filename>
+      <filename>includes/logs.php</filename>
+      <filename>includes/logs.html.php</filename>
+      <filename>includes/modules.php</filename>
+      <filename>includes/themes.php</filename>
+      <filename>includes/themes.html.php</filename>
+      <filename>includes/js/docmanjavascript.js</filename>
+
+      <filename>language/english.common.php</filename>
+      <filename>language/english.backend.php</filename>
+      <filename>language/english.frontend.php</filename>
+      <filename>language/english.doclink.php</filename>
+      <filename>language/english.modules.php</filename>
+
+      <filename>plugins/standardbuttons.php</filename>
+      <filename>plugins/standardbuttons.xml.php</filename>
+
+      <filename>temp/index.html</filename>
+
+      <filename>images/dm_apply_32.png</filename>
+      <filename>images/dm_back_32.png</filename>
+      <filename>images/dm_cancel_32.png</filename>
+      <filename>images/dm_categories_16.png</filename>
+      <filename>images/dm_categories_48.png</filename>
+      <filename>images/dm_cleardata_32.png</filename>
+      <filename>images/dm_cleardata_48.png</filename>
+      <filename>images/dm_config_16.png</filename>
+      <filename>images/dm_config_48.png</filename>
+      <filename>images/dm_copy_32.png</filename>
+      <filename>images/dm_cpanel_16.png</filename>
+      <filename>images/dm_cpanel_32.png</filename>
+      <filename>images/dm_cpanel_48.png</filename>
+      <filename>images/dm_credits_16.png</filename>
+      <filename>images/dm_credits_48.png</filename>
+      <filename>images/dm_delete_32.png</filename>
+      <filename>images/dm_documents_16.png</filename>
+      <filename>images/dm_documents_32.png</filename>
+      <filename>images/dm_documents_48.png</filename>
+      <filename>images/dm_edit_32.png</filename>
+      <filename>images/dm_edit_48.png</filename>
+      <filename>images/dm_editcss_32.png</filename>
+      <filename>images/dm_edittheme_48.png</filename>
+      <filename>images/dm_files_16.png</filename>
+      <filename>images/dm_files_48.png</filename>
+      <filename>images/dm_groups_16.png</filename>
+      <filename>images/dm_groups_48.png</filename>
+      <filename>images/dm_help_16.png</filename>
+      <filename>images/dm_help_32.png</filename>
+      <filename>images/dm_help_48.png</filename>
+      <filename>images/dm_licenses_16.png</filename>
+      <filename>images/dm_licenses_48.png</filename>
+      <filename>images/dm_logs_16.png</filename>
+      <filename>images/dm_logs_48.png</filename>
+      <filename>images/dm_move_32.png</filename>
+      <filename>images/dm_newdocument_32.png</filename>
+      <filename>images/dm_newdocument_48.png</filename>
+      <filename>images/dm_newfile_48.png</filename>
+      <filename>images/dm_progress.gif</filename>
+      <filename>images/dm_publish_32.png</filename>
+      <filename>images/dm_save_32.png</filename>
+      <filename>images/dm_sendemail_16.png</filename>
+      <filename>images/dm_sendemail_32.png</filename>
+      <filename>images/dm_sendemail_48.png</filename>
+      <filename>images/dm_spacer_16.png</filename>
+      <filename>images/dm_stats_16.png</filename>
+      <filename>images/dm_stats_48.png</filename>
+      <filename>images/dm_templates_16.png</filename>
+      <filename>images/dm_templates_48.png</filename>
+      <filename>images/dm_unpublish_32.png</filename>
+      <filename>images/dm_upload_16.png</filename>
+      <filename>images/dm_upload_32.png</filename>
+      <filename>images/dm_upload_48.png</filename>
+      <filename>images/dm_logo_small.png</filename>
+      <filename>images/dm_logo.png</filename>
+      <filename>images/updates.png</filename>
+    </files>
+  </administration>
+</mosinstall>

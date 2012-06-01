@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>DefinitionBot</name>
+	<author>GranholmCMS.com</author>
+	<creationDate>5 April 2008</creationDate>
+	<copyright>This component is released under the GNU/GPL License</copyright>
+	<authorEmail>stefangranholm@gmail.com</authorEmail>
+	<authorUrl>http://www.granholmCMS.com</authorUrl>
+	<version>1.1.7</version>
+	<description>Definitionbot for Joomla </description>
+	
+	<files>
+		<filename plugin="definitionbot">definitionbot.php</filename>
+		<filename>definitionbot/messagebox_info.png</filename>
+		<filename>definitionbot/next.png</filename>
+		<filename>definitionbot/2rightarrow.png</filename>
+		<filename>definitionbot/redo.png</filename>
+		<filename>definitionbot/1rightarrow.png</filename>
+		<filename>definitionbot/chart_line_add.png</filename>
+		<filename>definitionbot/car_add.png</filename>
+		<filename>definitionbot/folder_go.png</filename>
+		<filename>definitionbot/jabber_protocol.png</filename>
+		<filename>definitionbot/bookmark.png</filename>
+		<filename>definitionbot/knewstuff.png</filename>
+		<filename>definitionbot/book_edit.png</filename>
+		<filename>definitionbot/book_open.png</filename>
+		<filename>definitionbot/apply_f2.png</filename>
+		<filename>definitionbot/bookcase.png</filename>
+		<filename>definitionbot/lock_break.png</filename>
+		<filename>definitionbot/none.png</filename>
+		<filename>definitionbot/kopete009.png</filename>
+	</files>
+    <params>
+    <param name="outputmode" type="list" default="0" label="Select ouput mode" description="If you selected GlossarBox Module you need to install the Modul: Glossary Description Box">
+		<option value="0">Popup on mouseover</option>	
+		<option value="4">Popup on mouseover and click</option>
+		<option value="3">Popup on click only</option>
+    	<option value="1">Browser ToolTips</option>
+		<option value="2">GlossarBox Module</option>	
+		</param>
+ 		<param name="show_image" type="radio" default="1" label="Show Image" description="If set to yes, a small image will be displayed on generated links.">
+			<option value="0">No</option>
+			<option value="1">Yes</option> 
+		</param>
+		 <param name="find_exact" type="radio" default="1" label="Find exact Terms" description="If set to yes, the bot only searches for the exact term (means that there will be no popup generated for moonwalker if the term is moon). Otherwise, the bot will find terms which are used within other words (a box will be created for the part -moon- in moonwalker.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+ 	<param name="show_once_only" type="radio" default="1" label="Show only first found Term" description="If set to yes, the bot continues with the next term, if a term was found. Otherwise it will create boxes for every time a term was found.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_frontpage" type="radio" default="1" label="Show on Frontpage" description="If set to yes, the popup boxes will also be created on frontpage.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="run_default" type="radio" default="1" label="Run default" description="If set to yes, the bot scans the content automaticly. You can use \{definitionbot=disable\} in your content to disable it for an article. If set to no, you have to use the command \{definitionbot=enable\} to enable the bot for an article">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="fgcolor" type="text" default="#CCCCFF" label="Box forceground color (text)" description=""></param>
+		<param name="bgcolor" type="text" default="#333399" label="Box background color (border and caption)" description=""></param>
+		<param name="txtcolor" type="text" default="#000000" label="Box textcolor" description=""></param>
+		<param name="capcolor" type="text" default="#FFFFFF" label="Box caption textcolor" description=""></param>
+		<param name="width" type="text" default="300" label="Box width" description="Width if the box"></param>
+		<param name="position" type="list" default="BELOW" label="Box position" description="Set the postion of the box to below or above mousepointer">
+			<option value="BELOW">BELOW</option>
+			<option value="ABOVE">ABOVE</option>
+		</param>
+		<param name="alignment" type="list" default="RIGHT" label="Box alignment" description="Set alignment of the box from mousepointer">
+			<option value="LEFT">LEFT</option>
+			<option value="CENTER">CENTER</option>
+			<option value="RIGHT">RIGHT</option>
+		</param>
+		<param name="offset_x" type="text" default="10" label="X Offset" description="How far away from the mousepointer the popup will show up, horizontally"></param>
+		<param name="offset_y" type="text" default="10" label="Y Offset" description="How far away from the mousepointer the popup will show up, vertically"></param>
+		<param name="show_headline" type="text" default="1" label="Show table header" description="When creating a table of used terms, you can define if the table use a header or not"></param>
+		<param name="headline" type="text" default="Nomenclature" label="Text for table headline" description="When creating a table of used terms, you can define if the table use a headline or not"></param>
+		<param name="head_term" type="text" default="Term" label="Text used for term row in table" description="When creating a table of used terms, you can define if the table use a header or not"></param>
+		<param name="head_explanation" type="text" default="Description" label="Text used for description row in table" description="When creating a table of used terms, you can define if the table use a header or not"></param>
+		<param name="css" type="text" default="cursor:help;border-bottom:1px dotted #000000;" label="CSS-Style for the term"></param>
+		<param name="icon" type="imagelist" default="messagebox_info.png" directory="/plugins/content/definitionbot" label="Image" description="Image to display before a highlighted word"></param>
+		</params>
+		
+</install>

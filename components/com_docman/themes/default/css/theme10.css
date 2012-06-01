@@ -1,0 +1,28 @@
+/**
+ * DOCman 1.4.x - Joomla! Document Manager
+ * @version $Id: theme10.css 561 2008-01-17 11:34:40Z mjaz $
+ * @package DOCman_1.4
+ * @copyright (C) 2003-2008 The DOCman Development Team
+ * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+ * @link http://www.joomlatools.org/ Official website
+ **/
+
+/**
+ * Default DOCman Theme
+ * CSS for Joomla! v1.0.x only
+ *
+ * Creator:  The DOCman Development Team
+ * Website:  http://www.joomlatools.org/
+ * Email:    support@joomlatools.org
+ * Revision: 1.4
+ * Date:     February 2007
+ **/
+ 
+.message {
+	padding: 10px 10px 10px 50px; 
+	margin-bottom: 10px;
+	border: 1px solid gray; 
+	background: #FFFFCC url(../images/message.gif) no-repeat 10px 50%;
+	color: red; 
+	font-weight: bold;
+}

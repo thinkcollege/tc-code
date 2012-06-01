@@ -1,0 +1,19 @@
+#ttadatabase ul.results { padding:0; margin:0; list-style:none; }
+#ttadatabase ul.results .location { float:right;  display:inline-block; }
+#ttadatabase ul.results li { margin:0.75em 0; }
+#ttadatabase ul.results li.bg-gray { background-color:#CCC; }
+#ttadatabase ul.results li .prog { margin-left:1.2em; display:inline-block; }
+#main #ttadatabase .list-footer .limit, #main .list-footer ul.pagination, #main .list-footer .counter { display:block; float:left; margin:0 0.75em; }
+#main #ttadatabase .list-footer .limit { width:10em; }
+#main .list-footer ul.pagination { width:20em; }
+#main .list-footer .counter { width:6em; }
+#main #ttadatabase .list-footer ul.pagination { margin:0; padding:0 0 0.5em 0; }
+#main #ttadatabase .list-footer ul.pagination li { padding:0 0.2em; display:block; float:left; }
+#main #ttadatabase a:link { color:blue; padding-right:0; }
+#ttadatabase { padding:0 1em 0 25px; }
+#ttadatabase h1 { padding:0; }
+
+.choices { padding:0; margin:0 0 1em 0.25em; list-style:none; }
+.allBut {font-weight: bold;}
+.selectIndent { margin-left: 25px; font-size: .90em; }
+#main p.introText { font-size: 94%; }

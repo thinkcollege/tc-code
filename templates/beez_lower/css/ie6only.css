@@ -1,0 +1,53 @@
+#myHealthtwo .popupList, #myHealth .popupList,#resourcesList .popupList, .clickList .popupList, #lockerList .popupList {
+
+background-color: #89E9FF; /* fallback color if gradients are not supported */
+}
+
+#iewarn {
+	background: #C6D3DA url(../images/error.png) 10px 20px no-repeat;
+	position: relative;
+	z-index: 1;
+	opacity: 0;
+	margin: -150px auto 0;
+	font-size: 110%;
+	color: #001D29;
+}
+
+#iewarn div {
+	position: relative;
+	border-top: 5px solid #95B8C9;
+	border-bottom: 5px solid #95B8C9;
+	padding: 10px 80px 10px 220px;	
+}
+
+#iewarn h3, #iewarn h4 {
+	font-family: verdana, sans-serif;
+}
+
+#iewarn h4 {
+	color: #900;
+	font-weight: bold;
+	line-height: 120%;
+}
+
+#iewarn a {
+	color: #296AC6;
+	font-weight: bold;
+}
+
+#iewarn_close {
+	background: url(../images/close.png) 50% 50% no-repeat;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	width: 61px;
+	height: 21px;
+	top: 25px;
+	right: 12px;
+}
+
+#iewarn_close.cHover {
+	background: url(../images/close_hover.png) 50% 50% no-repeat;
+}
+
+

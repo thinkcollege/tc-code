@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+#preview { float:right; width:638px; }
+#preview p.answer { margin:1em 0 0; }
+#sPreview ul { list-style:none; margin:0; padding:0; }
+#sPreview ul li { padding:0 0 0 1.6em; text-indent:-1.6em; }
+#pPreview ul { padding:0 0 0 1.6em; margin:0; }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.5.2" type="mambot" group="search">
+	<name>Search PDFs</name>
+	<creationDate>May 2008</creationDate>
+  	<author>Nate Maxfield</author>
+  	<copyright>Nate Maxfield</copyright>
+  	<authorEmail>nate@natemaxfield.com</authorEmail>
+  	<authorUrl>http://joomla.natemaxfield.com</authorUrl>
+  	<version>2.3</version>
+	<description>Allows Searching of indexed PDFs</description>
+	<files>
+		<filename mambot="pdfs.searchbot">pdfs.searchbot.php</filename>
+	</files>
+	<params>
+		<param name="nonmenu" type="radio" default="0" label="URL Type" description="Protect URLs of the PDFs from being seen.">
+			<option value="0">No Protection</option>
+			<option value="1">Protect URLs</option>
+			<option value="2">Protect URLs plus Anti-Leech</option>
+		</param>
+	</params>
+</mosinstall>

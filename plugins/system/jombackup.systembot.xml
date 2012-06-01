@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5.0" type="plugin" group="system">
+	<name>JomBackup system plugin</name>
+	<license>http://www.jomres.net</license>
+	<author>Vince Wooll</author>
+	<authorEmail>jomres@woollyinwales.co.uk</authorEmail>
+	<authorUrl>http://www.jomres.net</authorUrl>
+	<creationDate>2007-06-1</creationDate>
+	<copyright>(C) 2006 Vince Wooll</copyright>
+	<version>1.5.2</version>
+	<description>When activated this plugin will perform a daily mysql backup and email it to your preferred email address. 
+	Modified for Joomla 1.5 compatibility by Rich Dorfman, 11 May 2007. 
+	email: webhead@web-feats.com web: www.web-feats.com 
+	1.5.2 version modified to use DS in place of /.
+	</description>
+	<files>
+		<filename plugin="jombackup.systembot">jombackup.systembot.php</filename>
+		<filename plugin="jombackup.systembot">jombackup/mysql_db_backup.class.php</filename>
+	</files> 
+	<params>
+		<param name="testing" type="radio" default="0" label="Testing" description="Jombackup creates a file in the media sub folder with todays date in it so that it knows to only run this script once a day. If Testing is set to Yes then Jombackup will not create this file, consequentially forcing this script to run every time the page is reloaded. This is great if you're testing the script on a quite server, but if you're on a busy server you'll bring it to it's knees, so use with care!   Also note: If you set this to Yes you will have some output at the top of the page to keep you informed. It is highly likely that this will result in you getting errors similar to: Cannot modify header information - headers already sent by. This is inevitable.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="compress" type="radio" default="1" label="Compress backup file?" description="Set this to No to receive the backup file as a plain text file">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="deletefile" type="radio" default="1" label="Delete backup file" description="Delete the backup file after the email is sent?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="drop_tables" type="radio" default="1" label="Add DROP TABLE IF EXISTS " description="Add DROP TABLE IF EXISTS queries before CREATE TABLE in backup file">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="create_tables" type="radio" default="1" label="Table structure" description="Table structure will not be backed up if set to No">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="struct_only" type="radio" default="0" label="Only structure" description="Only structure of the tables will be backed up if Yes">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="locks" type="radio" default="0" label="Add LOCK TABLES" description="Add LOCK TABLES before data backup and UNLOCK TABLES after">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="comments" type="radio" default="1" label="Include comments" description="Include comments in backup file if Yes">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="recipient" type="text" default="" size="40" label="To Email address" description="Email address to send the backup file to. Leave empty to send to the system default email address." />
+		<param name="subject" type="text" default="Jombackup Mysql daily backup" size="40" label="Subject" description="" />
+		<param name="body" type="text" default="Backup completed successfully at " size="40" label="Body" description="" />
+		<param name="backuppath" type="text" default="" size="40" label="Backup path" description="By default this script saves backups to the /media folder. You may define an alternative path, preferable above the root of your www server. You must enter the absolute path to the backup folder in this field for this to work." />
+		<param name="tables_to_ignore" type="text" default="" size="40" label="Tables to ignore" description="A comma seperated list of tables to ignore when building the backup" />
+	</params>
+</install>

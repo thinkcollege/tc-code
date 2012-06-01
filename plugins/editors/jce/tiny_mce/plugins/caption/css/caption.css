@@ -1,0 +1,44 @@
+/* CSS file for caption plugin */
+.panel_wrapper div.current {
+	height: 270px;
+	overflow: auto;
+	padding-top: 10px;
+}
+/* IE */
+* html .panel_wrapper  div.current {
+	height: 290px;
+	width: auto;
+}
+div#preview fieldset {
+	background: white;
+}
+#margin_top, #margin_right, #margin_bottom, #margin_left, 
+#padding_top, #padding_right, #padding_bottom, #padding_left, 
+#text_padding_top, #text_padding_right, #text_padding_bottom, #text_padding_left,
+#text_margin_top, #text_margin_right, #text_margin_bottom, #text_margin_left,
+#border_style, #border_width, #border_color {
+	margin: 0px 5px;
+	text-align: center;
+}
+#text_color {
+	margin-right: 5px;
+}
+#border_style, #border_width {
+	text-align: left;
+}
+div#caption {
+	border: 1px dotted #cc0000;
+	display: inline-block;
+}
+div#caption div#caption_text {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+#text_color_pickcontainer, #bgcolor_pickcontainer, #text_bgcolor_pickcontainer, #border_color_pickcontainer {
+	width: 20px;
+	text-align: left;
+}
+#classes, #text_classes, #text {
+	width: 99%;
+}

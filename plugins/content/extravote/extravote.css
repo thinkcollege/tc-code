@@ -1,0 +1,22 @@
+/* extravote.css */
+.extravote-container{display:inline-block;line-height:25px;vertical-align:middle;}
+.extravote-container-small{display:inline-block;line-height:22px;vertical-align:middle}
+ul.extravote-stars{height:25px;width:125px;padding:0!important;margin:0!important;}
+ul.extravote-stars-small{height:22px;width:110px;padding:0!important;margin:0!important;}
+ul.extravote-stars li, ul.extravote-stars-small li{background-position:0!important;padding:0!important;margin:0!important;}
+ul.extravote-stars, ul.extravote-stars li a:hover, ul.extravote-stars li.current-rating{background-image:url(star.png)!important;background-color:transparent!important;background-repeat:repeat-x!important;background-position:left -1000px;}
+ul.extravote-stars-small, ul.extravote-stars-small li a:hover, ul.extravote-stars-small li.current-rating{background-image:url(star_small.png)!important;background-color:transparent!important;background-repeat:repeat-x!important;background-position:left -1000px;}
+ul.extravote-stars,ul.extravote-stars-small{background-position:left top;list-style-image:none;list-style-position:outside;list-style-type:none;margin:0pt;overflow:hidden;padding:0pt;position:relative;}
+ul.extravote-stars li, ul.extravote-stars-small li{background-image:none;display:inline;padding:0pt;}
+ul.extravote-stars li a, ul.extravote-stars li.current-rating,ul.extravote-stars-small li a, ul.extravote-stars-small li.current-rating{border:medium none;cursor:pointer;left:0pt;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;overflow:hidden;position:absolute;text-indent:-1000em!important;top:0pt;}
+ul.extravote-stars li a, ul.extravote-stars li.current-rating{height:25px;line-height:25px;}
+ul.extravote-stars-small li a, ul.extravote-stars-small li.current-rating{height:22px;line-height:22px;}
+ul.extravote-stars li a:hover,ul.extravote-stars-small li a:hover{background-position:left bottom!important;}
+ul.extravote-stars li a:focus,ul.extravote-stars-small li a:focus{background:none;}
+ul.extravote-stars li.current-rating, ul.extravote-stars-small li.current-rating{background-position:left center;z-index:1;}
+li a.ev-one-star{width:20%;padding:0;margin:0;z-index:6;}
+li a.ev-two-stars{width:40%;padding:0;margin:0;z-index:5;}
+li a.ev-three-stars{width:60%;padding:0;margin:0;z-index:4;}
+li a.ev-four-stars{width:80%;padding:0;margin:0;z-index:3;}
+li a.ev-five-stars{width:100%;padding:0;margin:0;z-index:2;}
+.extravote-count{vertical-align:middle;}

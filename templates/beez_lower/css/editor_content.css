@@ -1,0 +1,164 @@
+/**
+ * @version $Id: layout.css 10387 2008-06-03 10:59:16Z pasamio $
+ * @author Design & Accessible Team ( Angie Radtke  )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+
+
+
+body
+{
+	background: #fff;
+	color: #000000;
+	font-family: verdana, arial, sans-serif;
+	font-size: 100.1%;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+a img
+{
+	border: none;
+}
+
+#main h1 {
+	font-size: 1.2em;
+	color: #1d3f69;
+	padding: 0 0 0 25px;
+}
+
+#main h2 {
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0 0 0 25px;
+	color: #676564;
+	
+}
+
+#main h3 {
+	font-size:1em;
+	font-weight:bold;
+	margin: 0;
+	padding: 0 25px;
+
+	color: #1d3f69;
+}
+
+h4 {
+	border:solid 0;
+	color:#000;
+	font-size:1em;
+}
+
+
+ol.list {
+	list-style-position:inside;
+	margin:20px 0;
+	padding:0;
+}
+
+ol.list li {
+	border-bottom:solid 1px #ffffff;
+	margin:10px 0;
+	padding:10px;
+	background:#FBF7FA;
+}
+
+ol.list li h4 {
+	border-bottom:solid 0 #CCC;
+	color:#099;
+	display:inline;
+	margin:0 0 10px;
+}
+
+#main p, #main ul {
+	color: #333333;
+	font-size: 88%;
+	padding: 2px 25px;
+
+}
+
+ul li a.u2:focus,p a.u2:active
+{
+	padding:0.5em;
+	background-color:#000;
+	color:#FFF;
+	display:inline;
+	height:2.5em;
+	left:0;
+	margin-top:0;
+	padding-left:15px;
+	position:absolute;
+	top:0;
+	width:13.8em;
+}
+
+p.counter {
+	background:#EEE;
+	color:#000;
+	font-weight:bold;
+	margin:10px 0;
+	padding:5px;
+}
+
+p.buttonheading {
+	width: 100px;
+	float: right;
+	text-align:right;
+	padding: 0;
+	margin: 0;
+}
+
+.buttonheading img
+{
+	border:0;
+}
+
+p.buttonheading a:hover
+{
+	background:none !important;
+	color:#000 !important;
+}
+
+
+
+
+/* ###########  header content #############  */
+#header h1
+{
+	font-weight:normal;
+	text-transform:uppercase;
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+#logo
+{
+	font-weight:bold !important;
+	position:relative;
+	text-align:left;
+	text-transform:none !important;
+	z-index:0;
+}
+
+#logo img
+{
+	display: inline;
+}
+
+#logo span
+{
+	display:block;
+	margin:0;
+}

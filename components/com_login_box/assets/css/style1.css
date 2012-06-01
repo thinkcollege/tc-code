@@ -1,0 +1,53 @@
+html {
+   background-color: #2d2d2d;
+}
+
+body {
+   margin: 5px;
+   background-color: #2d2d2d;
+   overflow: hidden;
+}
+
+
+a {
+   text-decoration: underline !important;
+   color: #000 !important;
+} 
+
+a:hover {
+   text-decoration: none !important;
+} 
+
+h3 {
+   font-family: Arial, Verdana, Helvetica;
+   font-size: 16px;
+   color: #333;
+}
+
+label {
+   font-weight: normal;
+	font-size: 88%;
+   color: #000;
+}
+
+.fields {
+   margin-bottom: 7px;
+}
+
+#system-message {
+   position: absolute;
+   left: 20px;
+}
+#system-message dt.error { 
+   display: none; 
+}
+#system-message dd.error ul { 
+   color: #c00; 
+   background-color: #E6C0C0; 
+   border: 3px solid #DE7A7B !important; 
+   list-style: none;
+   padding-right: 5px;
+   height: 50px !important;
+   width: 200px;
+   vertical-align: middle;
+}

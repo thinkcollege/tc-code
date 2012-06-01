@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<install version="1.5.0" type="plugin" plugin="iframe">
+	<name>IFrame Plugin</name>
+	<version>1.5.0</version>
+	<creationDate>20 November 2008</creationDate>
+	<author>Ryan Demmer</author>
+	<authorEmail>ryandemmer@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlacontenteditor.net/jce</authorUrl>
+	<copyright>Ryan Demmer</copyright>
+	<license>GPL</license>
+	<description><![CDATA[
+    IFrame plugin version 1.5.0<br />
+	<h2 style="color:red;font-weight:bold;">Warning!</h2>
+	<p>Making the IFrame plugin available to all users can pose a serious security risk to your site as it may allow users to include external content that you have no control over.</p>
+	<p>It is advisable only to assign this plugin to trusted content authors</p>
+	<p><strong>Please Note: </strong>The potential security risk posed by this plugin is not because of any flaw or security issue within JCE or Joomla! but rather because of the capabilities of the iframe element.</p>
+	<h3>As this plugin has already been assigned to the 'Default' group in the <a href="index.php?option=com_jce&type=group" title="Group Manager" target="_self">JCE Group Manager</a>, it is recomended that you immediately edit this group and remove or re-assign this plugin.</h3>
+    ]]></description>
+	<icon>iframe</icon>
+	<layout>iframe</layout>
+	<elements></elements>
+	<params group="defaults">
+		<param name="iframe_width" type="text" default="100" label="WIDTH" description="WIDTH DESC"/>
+		<param name="iframe_width_type" type="list" default="pct" label="WIDTH TYPE" description="WIDTH TYPE DESC">
+			<option value="pct">%</option>
+			<option value="px">px</option>
+		</param>
+		<param name="iframe_height" type="text" default="100" label="HEIGHT" description="HEIGHT DESC"/>
+		<param name="iframe_height_type" type="list" default="pct" label="HEIGHT TYPE" description="HEIGHT TYPE DESC">
+			<option value="pct">%</option>
+			<option value="px">px</option>
+		</param>
+		<param name="iframe_margin_top" type="list" default="default" label="MARGIN TOP" description="MARGIN DESC">
+			<option value="default">NOT SET</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="iframe_margin_right" type="list" default="default" label="MARGIN RIGHT" description="MARGIN DESC">
+			<option value="default">NOT SET</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="iframe_margin_bottom" type="list" default="default" label="MARGIN BOTTOM" description="MARGIN DESC">
+			<option value="default">NOT SET</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="iframe_margin_left" type="list" default="default" label="MARGIN LEFT" description="MARGIN DESC">
+			<option value="default">NOT SET</option>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+        <param name="iframe_frameborder" type="list" default="0" label="FRAMEBORDER" description="FRAMEBORDER DESC">
+				<option value="0">NO</option>
+                <option value="1">YES</option>
+		</param>
+		<param name="iframe_scrolling" type="list" default="auto" label="SCROLLING" description="SCROLLING DESC">
+				<option value="no">NO</option>
+                <option value="yes">YES</option>
+				<option value="auto">AUTO</option>
+		</param>
+		<param name="iframe_marginwidth" type="text" default="100" label="MARGINWIDTH" description="MARGINWIDTH DESC"/>
+		<param name="iframe_marginheight" type="text" default="100" label="MARGINHEIGHT" description="MARGINHEIGHT DESC"/>
+        <param name="iframe_align" type="list" default="default" label="ALIGN" description="ALIGN DESC">
+                <option value="default">NOT SET</option>
+                <option value="top">ALIGN TOP</option>
+                <option value="middle">ALIGN MIDDLE</option>
+                <option value="bottom">ALIGN BOTTOM</option>
+                <option value="left">ALIGN LEFT</option>
+                <option value="right">ALIGN RIGHT</option>
+        </param>
+	</params>
+	<files>
+        <filename>editor_plugin.js</filename>
+        <filename>index.html</filename>
+        <filename>iframe.php</filename>
+        <filename>css/iframe.css</filename>
+        <filename>css/content.css</filename>
+        <filename>css/index.html</filename>
+		<filename>classes/index.html</filename>
+		<filename>classes/iframe.php</filename>
+        <filename>img/iframe.gif</filename>
+		<filename>img/trans.gif</filename>
+		<filename>img/preview.jpg</filename>
+		<filename>img/sample.jpg</filename>
+        <filename>img/index.html</filename>
+        <filename>js/iframe.js</filename>
+        <filename>js/index.html</filename>
+        <filename>langs/en.js</filename>
+        <filename>langs/index.html</filename>
+    </files>
+	<languages>
+		<language tag="en-GB">en-GB.com_jce_iframe.ini</language>
+	</languages>
+	<help>
+		<topic key="iframe.about" title="Help About" />
+		<topic key="iframe.interface" title="Help Interface" />
+		<topic key="iframe.advanced" title="Help Advanced" />
+		<topic key="iframe.insert" title="Help Insert" />
+	</help>
+</install>

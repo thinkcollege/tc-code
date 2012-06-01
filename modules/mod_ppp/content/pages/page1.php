@@ -1,0 +1,5 @@
+<div class="contentdiv clearfix">
+
+<p>Good job development starts with really getting to know your students--but in a different way. Learn ways to turn your students' talents and skills into features that will appeal to a specific employer. This will help you come up with a clear job development plan, and give you an easy and effective entry into businesses.
+</p><div align="center"><h3>How to use this activity:</h3><div class="blueBox clearfix"><div class="leftFloat"><a href="content.php?p=2"><img src="/modules/mod_ppp/images/ppp_arrow.png" alt="Positive Personal Profile" /></a></div><div class="rightFloat"><p style="padding-top: 0; margin-top: 0">Start here to review guiding questions and download a Positive Personal Profile template (PPP) for yourself or a client. </p></div></div>
+<div class="blueBox clearfix"><div class="leftFloat"><a href="content.php?p=15"><img src="/modules/mod_ppp/images/ppp_case_study.png" alt="Case Study" /></a></div><div class="rightFloat"><p style="padding-top: 0; margin-top: 0">Start here to download or listen to a guided Positive Personal Profile Case study</p></div></div></div></div>

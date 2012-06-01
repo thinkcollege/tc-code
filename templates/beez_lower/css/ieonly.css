@@ -1,0 +1,107 @@
+
+	
+ul.mainleveltopmenu li{
+	padding: 6px 0 0 0;
+	}
+	
+
+
+
+#main ul.navigation a:link, #main ul.navigation a:visited {
+font-size: 95%;
+font-weight: bold;
+color: #fff;    
+padding: 5px;
+    text-decoration: none;
+
+	background-color: #1d3f69;
+}
+
+#slider {
+width: 540px;
+margin: 0 0 0 50px;
+position: relative;
+
+}
+
+
+
+.hide {
+display: none;
+}
+
+
+
+.scroll {
+position: relative;
+overflow: auto;
+height: 450px;
+width: 500px;
+clear: left;
+overflow-x: scroll;
+background: #FFFFFF url(images/content_pane-gradient.gif) repeat-x scroll left bottom;
+}
+
+.scrollContainer div.panel {
+padding: 20px;
+height: 450px;
+width: 500px; /* change to 560px if not using JS to remove rh.scroll */
+}
+
+
+.popupList .leftFloat { 
+	float: left;
+	width: 120px;
+}
+
+
+#lockerList .popupList .leftFloat { 
+	float: left;
+	width: 35%;
+}
+#lockerList .popupList .rightFloat {
+	float: left;
+	width: 55%;
+}
+#headerList li:hover .topDrop {
+	
+	z-index: 2000;
+}
+#headerList {
+	
+	z-index: 2000;
+}
+.homeTop img { display: block;
+}
+.clickList .popupList ul {
+	font-family: verdana, sans-serif;
+	font-size: 98%;
+} 
+ .infoBubblMid {
+	font-family: verdana, sans-serif;
+	font-size: 85%;
+} 
+div.faceandtweet {
+	margin-top: -28px;
+	z-index: 1200;
+}
+#headerList li:hover .topDrop {
+	
+	top: 75px;
+}
+#headerList li.moreLinkstop:hover .topDrop  {
+	right: 75px;
+}
+
+#headerList li.resourcesTop:hover .topDrop  {
+	right: 55px;
+}
+#lockerList, .clickList .popupList {
+	z-index: 10000;
+}
+
+}
+#lockerList li .popupList {
+
+	font-size: 85%;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="JD_MENU_VIEWDOWNLOAD_LAYOUT">
+		<message>
+			<![CDATA[JD_MENU_VIEWDOWNLOAD_LAYOUT_DESC]]>
+		</message>
+	</layout>
+    <state>
+		<name>JD_MENU_VIEWDOWNLOAD_LAYOUT</name>
+		<description>JD_MENU_VIEWDOWNLOAD_LAYOUT_DESC</description>
+		<url>
+			<param name="catid" type="sql" default="0" label="JD_MENU_CATEGORY_LIST_LABEL1" description="JD_MENU_CATEGORY_LIST_LABEL1_DESC" query="SELECT cat_id, concat_ws(' / ', cat_title, cat_id) AS title FROM #__jdownloads_cats WHERE published = 1 ORDER BY cat_title" key_field="cat_id" value_field="title"  />
+            <param name="cid" type="sql" default="0" label="JD_MENU_VIEWDOWNLOAD_LABEL2" description="JD_MENU_VIEWDOWNLOAD_LABEL2_DESC" query="SELECT file_id, concat_ws(' / ', file_title, file_id, cat_id) AS title FROM #__jdownloads_files WHERE published = 1 ORDER BY file_title" key_field="file_id" value_field="title"  />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,32 @@
+.panel_wrapper div.current {
+	height: 200px;
+}
+.preview {
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+	font-size: 0.9em;;
+	text-align:left;
+	max-height: 150px;
+}
+#width, #height {
+	vertical-align: middle;
+	width: 50px;
+	text-align: center;
+}
+input {
+	vertical-align: middle;
+}
+
+#constrain {
+	width: auto;
+}
+#src, #name, #id, #longdesc, #class, #classlist, #style, #classes, #title {
+	width: 350px;
+}
+#margin_top, #margin_right, #margin_bottom, #margin_left {
+	margin: 0px 5px;
+}
+#align {
+	margin-right: 5px;
+}

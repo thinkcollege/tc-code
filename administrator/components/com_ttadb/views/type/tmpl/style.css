@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+#attributes { width:50%; }
+#attributes #list, #attributes #details { float:left; }
+
+#attributes #details { padding-left:0.5em; }
+#attributes #details label { display:inline-block; }
+#attributes #details .glue { display:inline-block; vertical-align:top; padding:0.1em 0 0 0.5em; }
+#attributes #details .glue .fix { display:inline-block; padding-left:0.5em; width:5em; }
+#attributes button abbr { text-decoration:none; border:0; }
+#preview { float:right; width:638px; }
+#preview p.answer { margin:1em 0 0; }
+#sPreview ul { list-style:none; margin:0; padding:0; }
+#sPreview ul li { padding:0 0 0 1.6em; text-indent:-1.6em; }
+#pPreview ul { padding:0 0 0 1.6em; margin:0; }

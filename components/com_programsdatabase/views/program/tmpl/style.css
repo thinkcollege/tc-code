@@ -1,0 +1,7 @@
+#program p.answer { margin-top:1em; padding-bottom:0; margin-bottom:0; }
+#program p.answer + ul { padding:0 0 0 3em; margin-top:0; }
+#program h1 { margin-bottom:0; padding-bottom:0;}
+#program p { margin:0 0 0.75em; }
+#program .contact { width:45%; float:left; }
+#program .contact address { margin-top:0; margin-left:25px;}
+#program .clear { clear:both; }

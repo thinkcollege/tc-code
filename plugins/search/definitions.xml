@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="search">
+	<name>Search - Definitions</name>
+	<author>Jonathan Hack</author>
+	<creationDate>April 2008</creationDate>
+	<copyright>Copyright 2008 Look Matters</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@lookmatters.com</authorEmail>
+	<authorUrl>www.lookmatters.com</authorUrl>
+	<version>1.1</version>
+	<description>Allows Searching of the Definitions Component created by granholmcms.com</description>
+	<files>
+		<filename plugin="definitions">definitions.php</filename>
+	</files>
+	<params>
+		<param name="search_limit" type="text" size="5" default="50" label="Search Limit" description="Number of Search items to return"/>
+		<param name="returntype" type="list" default="single" label="Return to which page?" description="Should the results link to the single definition or to the page corresponding to the first letter of the word found?">
+			<option value="single">Single Definition</option>
+			<option value="letter">Letter Page</option>
+		</param>
+	</params>
+</install>

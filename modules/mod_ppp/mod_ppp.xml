@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>PPP Tutorial</name>
+	<author>Paul Foos</author>
+	<creationDate>February 2011</creationDate>
+	<copyright>Copyright (C) 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>paul.foos@umb.edu</authorEmail>
+	<version>1.5.0</version>
+	<description>This module displays a Slider panel</description>
+	<files>
+		<filename module="mod_ppp">mod_ppp.php</filename>
+		<filename>mod_ppp.xml</filename>
+		<filename>index.html</filename>
+		<filename>content/content.php</filename>
+		<filename>content/header.php</filename>
+		<filename>content/footer.php</filename>
+		<folder>content/pages</folder>
+		<filename>content/index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>css/style.css</filename>
+		<filename>images/hs_v_college.gif</filename>
+		<filename>images/grace.jpg</filename>
+		<filename>images/index.html</filename>
+	</files><params>
+	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	
+
+	</params>
+</install>

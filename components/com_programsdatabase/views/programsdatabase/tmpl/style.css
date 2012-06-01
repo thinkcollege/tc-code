@@ -1,0 +1,88 @@
+form.search { border:1px solid rgb(24, 43, 96); margin:1em; }
+ul.no-bullets { list-style:none; margin:0; padding:0 0 0 1.5em; }
+#main #system-message { margin:0; padding:0; }
+#main #system-message dt { display:none; }
+#main #system-message dd.error { margin:1em 1em 1em 1.5em; padding:1em; border:3px solid #DE7A7B; background-color:#E6C0C0; color:#300; }
+#main #system-message dd.error ul { margin:0 0 0 1em; padding:0; }
+#main #system-message dd.notice { margin:1em 1em 1em 1.5em; padding:1em; border:0.2em solid #0B0; background-color:#BFB; color:#030; }
+#main #system-message dd.notice ul { margin:0 0 0 1em; padding:0; }
+#buttonBox { border: 2px solid #1d3f69; padding: 18px 0 0 0; text-align: center; margin: 0 24px; background-image: url('button_bg.gif'); background-position: 10px 20px; background-repeat: no-repeat; }
+#videoInclude { margin-top: 14px; }
+#main .startP {
+	color: #1d3f69;
+	margin-top: 4px;
+}
+#main p.blueText {
+	color: #1d3f69;
+	font-size: 90%;
+}
+#main .startP a:link, #main .startP a:visited {
+	color: #1d3f69;
+	text-decoration: none;
+	line-height: 24px;
+}
+
+#main .startP a:hover {
+	color: #1d3f69;
+	text-decoration: underline;
+}
+
+.startBut {
+	vertical-align: middle;
+}
+#main #videoInclude p {
+	line-height: 74px;
+	font-size: 74%; 
+}
+#main #videoInclude p img {
+	vertical-align: middle;
+}
+#main #videoInclude p a:link, #main #videoInclude p a:visited {
+	text-decoration: none;
+		color: #1d3f69;
+}
+#main #videoInclude p a:hover {
+	text-decoration: underline;
+}
+#buttonContain {
+text-align: center;
+width: 430px;
+margin: 0 auto;
+}
+#main #buttonContain p {
+	padding:0;
+	margin: 0;
+}
+.startCon {
+	width: 220px;
+	float: left;
+}
+.browseAllcon {
+		width: 200px;
+	text-align: center;
+	float: left;
+}
+.browseAll {
+	background-image: url('browse_all.gif');
+	background-repeat: no-repeat;
+	width: 121px;
+	height: 119px;
+	text-align: center;
+	margin: 0 auto;
+}
+#main .browseAll a:link, #main .browseAll a:visited {
+	display: block;
+	height: 119px;
+	line-height: 100px;
+	text-decoration: none;
+	color: #1d3f69;
+	font-size: 150%;
+}
+#main .browseAllcon p a:link, #main .browseAllcon p a:visited {
+	color: #1d3f69;
+	text-decoration: none;
+	line-height: 24px;
+}
+#main .browseAllcon p a:hover {
+	text-decoration: underline;
+}

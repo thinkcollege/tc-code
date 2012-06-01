@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<mosinstall type="module">
+	<name>Latest news from www.joomlatools.org - admin module</name>
+	<creationDate>April 2006</creationDate>
+	<author>The DOCman development team</author>
+	<copyright>This template is released under the GNU/GPL License</copyright>
+	<authorEmail>support@joomlatools.org</authorEmail>
+	<authorUrl>www.joomlatools.org</authorUrl>
+	<version>1.4.0</version>
+	<description>Shows the latest news headers from DOCman</description>
+	<files>
+		<filename module="mod_docman_news">mod_docman_news.php</filename>
+	</files>
+	<params>
+ 		<param name="feed_url" type="text" size="50" default="http://feeds.joomlatools.org/docman" label="Feed URL" description="The URL of the feed (leave blank for default)" />
+		<param name="limit" type="text" default="5" label="Limit" description="The number of items to display per channel (default 5)" />
+        <param name="desc_truncate" type="text" default="200" label="Truncate description" description="Truncate the description text (default 200)" />
+		<param name="cachetime" type="text" default="86400" label="Cache Time" description="The cache time in seconds (default 86400s = 24 hours)" />
+	</params>
+</mosinstall>

@@ -1,0 +1,20 @@
+/* joomlalinks CSS */
+
+div.tree ul li div.tree-row span.folder.contact,
+div.tree ul li div.tree-row span.folder.content,
+div.tree ul li div.tree-row span.folder.weblink,
+div.tree ul li div.tree-row span.folder.menu {
+	background: url(../../../../img/icons.gif) no-repeat 0 0;
+}
+div.tree ul li div.tree-row span.folder.contact {
+	background-position: 0 -20px;
+}
+div.tree ul li div.tree-row span.folder.content {
+	background-position: 0 -40px;
+}
+div.tree ul li div.tree-row span.folder.weblink {
+	background-position: 0 -60px;
+}
+div.tree ul li div.tree-row span.folder.menu {
+	background-position: 0 -80px;
+}

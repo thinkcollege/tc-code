@@ -1,0 +1,280 @@
+/**
+ * @version $Id: template.css 10498 2008-07-04 00:05:36Z ian $
+ * @author Design & Accessible Team ( Angie Radtke / Robert Deutz )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+
+
+
+
+body
+{
+	background: #999;
+	color: #2e2e2e;
+	font-family: verdana, arial, sans-serif;
+	font-size: 100.1%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#all {
+	background: #fff;
+	margin: 10px auto 10px auto;
+	padding: 20px 0;
+	width: 1034px;
+	position: relative;
+}
+
+#green {
+width: 954px;
+background-color: #b0c2a5;
+margin: 0 auto;
+border: 1px solid #000;
+position: relative;
+}
+
+* html #green {
+width: 956px;
+}
+
+
+#header {
+	width: 954px;
+	text-align: left;
+	position: relative;
+	border-bottom: 2px solid #fff;
+	padding: 0;
+	margin: 0;
+}
+* html .ie_layout {
+  height: 0;
+  he\ight: auto;
+ 
+}
+
+
+
+#hometab {
+	width:656px;
+	height: 72px;
+	position: absolute;
+	top: 108px;
+	left: 254px;
+}
+#hometab a {
+	border: none;
+	border-width: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+#hometab img {
+	border: none;
+	border-width: 0;
+	margin: 0;
+	position: relative;
+}
+
+#picstrip {
+	border-bottom: 2px solid #fff;
+	
+}
+body.contentpane {
+
+width : auto;
+margin : 10px;
+line-height : 1.4em;
+text-align: left;
+}
+
+#contentarea {
+	position: relative;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+#left {
+	float: left;
+	width: 240px;
+	text-align: left;
+}
+
+#main {
+	float: left;
+	width: 714px;
+	background: #fff;
+	text-align: left;
+	padding: 0;
+}
+
+/* TOC */
+table.contenttoc{
+	float: right;
+}
+
+/* Tooltips */
+.tool-tip {
+	float: left;
+	background: #ffc;
+	border: 1px solid #D4D5AA;
+	padding: 5px;
+	max-width: 200px;
+	text-align:left;
+}
+
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url(../../system/images/selector-arrow.png) no-repeat;
+}
+
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}/* These classes control the tooltips for the glossary component */
+	
+a.glossTip {
+    position:relative; /*this is the key*/
+    z-index:24; 
+    color:#000;
+text-decoration:none;
+border-bottom:1px dotted;
+	}
+
+a.glossTip:hover {
+z-index:25; 
+background-color:#ff0;
+cursor: help;
+}
+
+a.glossTip span { 
+display: none;
+}
+a.glossTip:hover span  { /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:2em; left:1em; width:15em;
+    border-width:4px 1px 1px 1px;
+	border-style: solid;
+	 border-color: #00204a;
+    background-color:#eeeeee; color:#000;
+    text-align: left;
+	padding: 5px;
+	z-index: 100;
+	font-weight:normal;
+	font-size: 12px;
+	}
+	
+.unsichtbar,.u2,.invisible , .unseen {
+	display: inline;
+	height: 0px;
+	left: -3000px;
+	position: absolute;
+	top: -2000px;
+	width: 0px;
+	z-index: 200;
+}
+	
+.frontbox {
+	float: left;
+	border: 1px dashed #666666;
+	background-color: #e8eee3;
+	width: 292px;
+	margin-bottom: 20px;
+	color: #1d3f69;
+	font-size: 85%;
+}
+
+#main .frontbox a:link, .frontbox a:visited {
+	color: #1d3f69;
+	text-decoration: none;
+}
+
+#main .frontbox a:hover {
+	color: #1d3f69;
+	text-decoration: underline;
+}
+
+.frontbox ul {
+	list-style: none;
+	margin: 10px;
+	padding: 10px;
+}
+
+.frontbox ul li {
+	padding: 6px 0 6px 25px;
+	background-image: url(../images/home_bullet.gif);
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+}
+
+.frontbox img {
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.frontright {
+	margin-left: 30px;
+}
+
+.frontleft {
+	margin-left: 25px;
+}
+
+#leftcol {
+	margin: 40px 12px 0 12px;
+}
+
+#leftcol h2 {
+	color: #1d3f69;
+	font-size: .8em;
+	margin: 0; 
+	padding: 0 0 0 10px;
+	
+	
+}
+
+#left ul {
+	
+	list-style: none;
+	margin: 0 10px 10px 10px;
+	padding: 0 10px 10px 10px;
+	color: #1d3f69;
+	font-size: .8em;
+}
+
+#left ul li {
+	padding: 6px 0 6px 0;
+}
+
+
+
+#left ul a {
+	color: #1d3f69;
+	text-decoration: none;
+	}
+
+#left ul a:hover {
+	color: #1d3f69;
+	text-decoration: underline;
+	}

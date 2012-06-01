@@ -1,0 +1,93 @@
+h2.h2large {font-size: 125%;}
+h2.h2blue {color: #29517c; margin: 15px 0 10px 0;} 
+.example { color: #29517c; display: block; margin: 10px 10px 10px 55px; }
+.example a:link, .example a:visited {  color: #29517c; }
+form.search {  margin:0; }
+ul.no-bullets { list-style:none; margin:0; padding:0 0 0 1.5em; }
+#main #system-message { margin:0; padding:0; }
+#main #system-message dt { display:none; }
+#main #system-message dd.error { margin:1em 1em 1em 1.5em; padding:1em; border:3px solid #DE7A7B; background-color:#E6C0C0; color:#300; }
+#main #system-message dd.error ul { margin:0 0 0 1em; padding:0; }
+#main #system-message dd.notice { margin:1em 1em 1em 1.5em; padding:1em; border:0.2em solid #0B0; background-color:#BFB; color:#030; }
+#main #system-message dd.notice ul { margin:0 0 0 1em; padding:0; }
+fieldset { border:none; }
+        legend { font-size:1.2em; margin:0px; padding:0; color:#7e1b19; font-weight:bold;}
+        label { }
+fieldset h4 {margin: 0; padding: 0; font-size: 0.9em; }
+        
+       #main a:link.prev,#main a:link.next, #main a:visited.prev, #main a:visited.next { background-color:#b0232a; padding:5px 10px; color:#fff; text-decoration:none;}
+        .prev:hover, .next:hover { background-color:#000; text-decoration:none;}
+        .prev { float:left;}
+        .next { float:right;}
+        #steps { list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px;}
+        #steps li {font-size:18px; float:left; padding:5px; color:#b0b1b3; width: 126px;}
+        #steps li span {font-size:11px; display:block;}
+        #steps li.current { color:#000;}
+        #makeWizard { background-color:#b0232a; color:#fff; padding:5px 10px; text-decoration:none; font-size:18px;}
+        #makeWizard:hover { background-color:#000;}
+ul.no-bullets { list-style:none; margin:0; padding:0 0 0 1.5em; }
+li#stepDesc0 { margin-left: 30px;}
+#step1commands,#step1commands2, #step0commands,#step0commands2 { margin: 0; padding: 0 135px 0 65px; }
+#ShowSummary {background-image: url(../images/submit_list.gif);
+	background-repeat: no-repeat;
+	width: 175px;
+	height: 45px;
+	font-size: 0;
+	margin-left: 300px;
+border: 0px solid #fff;}
+	#ShowSummary:active {
+	}
+    #mapholder {
+	width: 650px;
+	height: 450px;
+	position: relative;
+}
+.stateName {
+	position: absolute;
+	background-image: url("images/thinkcollege_map_names.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: none;
+}
+.stateName:hover {
+	background-image: url("images/thinkcollege_map_names_on.png");
+}
+.heightfix { height: 30px;
+	padding: 0 0 5px 0;
+	margin: 0;}
+#icon { display: block; width: 80px; height: 80px; margin: 5px; }
+#stepDesc0 .currenticon { background-image: url(images/usa.gif); background-repeat: no-repeat; }
+#stepDesc0 .officon { background-image: url(images/usa_off.gif); background-repeat: no-repeat; }
+#stepDesc1 .currenticon { background-image: url(images/college.gif); background-repeat: no-repeat; }
+#stepDesc1 .officon { background-image: url(images/college_off.gif); background-repeat: no-repeat; }
+#stepDesc2 .currenticon { background-image: url(images/mortarboard.gif); background-repeat: no-repeat; }
+#stepDesc2 .officon { background-image: url(images/mortarboard_off.gif); background-repeat: no-repeat; }
+#stepDesc3 .currenticon { background-image: url(images/bed.gif); background-repeat: no-repeat; }
+#stepDesc3 .officon { background-image: url(images/bed_off.gif); background-repeat: no-repeat; }
+.subhed { width: 70%; 
+	margin-left: 90px;
+	color: #7e1b19;}
+.quesList { list-style: none; width: 70%; }
+.quesList > li { margin: 19px 0; overflow: visible; position: relative;}
+* html .quesList li { margin: 19px 0; overflow: visible; position: relative;}
+.quesList li input { position: absolute; z-index: 500;}
+.quesList li label { display: block; padding-left: 30px; position: relative; }
+
+.dotUnder {
+text-decoration:none;
+border-bottom:1px dotted #333;
+color: #333;
+	cursor: pointer;
+	
+}
+#moreInformation {
+	position: absolute;
+	width: 100px;
+	height: 33px;	
+	background-image: url("../images/more_information.gif");
+	background-repeat: no-repeat;
+	right: -110px;
+	top: 0;
+}
+
+#step0, #step1 { position: relative; }

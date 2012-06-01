@@ -1,0 +1,35 @@
+<?xml version="2.5" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>Custom Code</name>
+  <author>Joomlaspan/FijiWebDesign</author>
+  <creationDate>August 2007</creationDate>
+  <copyright>(C) 2007 Joomlaspan/FijiWebDesign</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>admin@joomlaspan.com</authorEmail>
+  <authorUrl>http://www.joomlaspan.com</authorUrl>
+  <version>1.0</version>
+  <description><![CDATA[
+	<p>Anything in a Module. You can insert any code (php, html, javascript or css) into the text and show it in the Joomla 1.5 frontend.</p>
+	<p>More Joomla! 1.5 and 1.0.x extensions are available on <a href="http://www.joomlaspan.com" target="_blank">Joomlaspan.com</a></p>
+  ]]></description>
+  <files>
+    <filename module="mod_customcode">mod_customcode.php</filename>
+  </files>
+    <params>
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="custom_code" type="textarea" default="" label="Insert Code" description="Add any code here. It may be php, html, javascript or css." cols="60" rows="25" />
+
+		<param name="parse_php" type="list" default="1" label="Parse PHP?" description="Select Yes if the codes entered above is PHP. If it is not, select No to allow faster module performance.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="advanced">		
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="js_custcss" type="text" default="" label="Div CSS codes" description="Input any css code that you want here." />
+
+  </params>
+</install>

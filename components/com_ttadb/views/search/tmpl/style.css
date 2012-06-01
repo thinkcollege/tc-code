@@ -1,0 +1,67 @@
+#programsdatabase ul.results { padding:0; margin:0; list-style:none; }
+#programsdatabase ul.results .location { float:right;  display:inline-block; }
+#programsdatabase ul.results li { margin:0.75em 0; }
+#programsdatabase ul.results li.bg-gray { background-color:#CCC; }
+#programsdatabase ul.results li .prog { margin-left:1.2em; display:inline-block; }
+#main #programsdatabase .list-footer .limit, #main .list-footer ul.pagination, #main .list-footer .counter { display:block; float:left; margin:0 0.75em; }
+#main #programsdatabase .list-footer .limit { width:10em; }
+#main .list-footer { height: 45px; }
+#main .list-footer ul.pagination { width:20em; }
+#main .list-footer .counter { width:6em; }
+#main #programsdatabase .list-footer ul.pagination { margin:0; padding:0 0 0.5em 0; }
+#main #programsdatabase .list-footer ul.pagination li { padding:0 0.2em; display:block; float:left; }
+#main #programsdatabase a:link { color:blue; padding-right:0; }
+#programsdatabase { padding:0 1em 0 25px; }
+#programsdatabase h1 { padding:0; }
+/* This is for the span classes, that represent the seperate stars. You might want to change this to a seperate class */
+.hover {
+background: url('../../item/images/star.png');
+z-index: 1;
+}
+.stardiv span {
+float: left;
+
+}
+
+/* So that we can break the float left elements */
+.clearleft {
+clear: both;
+}
+
+span._title { clear:both; }
+/* Again, you might want to make this a seperate class. */
+span.stardiv {
+display: block;
+width: 120px;
+padding-top: 0;
+height: 16px;
+margin: 0 0 0 5px;
+}
+
+/* Floats stuff to the left */
+.floatright {
+float: right;
+}
+
+/* Text to display when the user presses a star */
+.highlight {
+font-family: Arial, sans-serif;
+font-size: 14px;
+position: relative;
+bottom: 9px;
+color: #93784b;
+font-weight: bold;
+}
+
+/* The text beside the rating, displaying the rating in text, incase the user doesn't 'get it' */
+.star_rating {
+font-family: Arial, sans-serif;
+font-size: 14px;
+color: #93784b;
+float: left;
+width: 100px;
+position: relative;
+top: 10px;
+}
+.results li {overflow: hidden; padding: 5px;}
+.results li p { margin: 0; padding: 0;}

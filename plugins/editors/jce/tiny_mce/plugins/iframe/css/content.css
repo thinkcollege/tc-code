@@ -1,0 +1,7 @@
+.mceItemIFrame {
+	border: 1px dotted #000000;
+	background: #cccccc url('../img/iframe.gif') no-repeat center;
+}
+object.mceItemIFrame {
+	display: block;
+}

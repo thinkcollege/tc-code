@@ -1,0 +1,11 @@
+form.search { border:1px solid rgb(24, 43, 96); margin:1em; }
+ul.no-bullets { list-style:none; margin:0; padding:0 0 0 1.5em; }
+#main .search_result .button { color:#FFF; font-size:60%; text-decoration:none; padding:0.25em 1em 0.25em 3em; }
+#main .search_result { margin-top:0; padding-top:0; }
+#main #system-message { margin:0; padding:0; }
+#main #system-message dt { display:none; }
+#main #system-message dd.error { margin:1em 1em 1em 1.5em; padding:1em; border:3px solid #DE7A7B; background-color:#E6C0C0; color:#300; }
+#main #system-message dd.error ul { margin:0 0 0 1em; padding:0; }
+#main #system-message dd.notice { margin:1em 1em 1em 1.5em; padding:1em; border:0.2em solid #0B0; background-color:#BFB; color:#030; }
+#main #system-message dd.notice ul { margin:0 0 0 1em; padding:0; }
+#main p.introText { font-size: 78%; }

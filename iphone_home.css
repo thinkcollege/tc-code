@@ -1,0 +1,181 @@
+body {
+    background-color: #fff; /* Background color */
+    color: #222;            /* Foreground color used for text */
+    font-family: Helvetica; 
+    font-size: 14px;
+    margin: 0;              /* Amount of negative space around the outside of the body */
+    padding: 0;             /* Amount of negative space around the inside of the body */
+}
+a img {
+	border: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+#main h1 {
+	font-size: 18px;
+}
+#main h2 {
+	font-size: 16px;
+}
+ h1 a {
+    background-color: #ccc;
+    border-bottom: 1px solid #666;
+    color: #222;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logo img, .logolink, form.printBut, #hometab, #breadbar, #speechenabled, #picstrip, #left {
+	display: none;
+}
+.unseen {
+	display: none;
+}
+
+#header ul.hide, #left ul.hide, #searchForm.hide {
+    display: none;
+}
+
+#left ul, #header ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+#left ul li a, #header ul li a {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    color: #222222;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: -1px;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+h1 a {
+    text-shadow: 0px 1px 0px #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, 
+                                       from(#ccc), to(#999));
+background-image: -moz-linear-gradient(top, #ccc, #999); 
+}
+#left ul li:first-child a, #header ul li:first-child a {
+    border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+-moz-border-radius-topright:8px; 
+-moz-border-radius-topleft:8px; 	
+
+}
+#left ul li:last-child a, #header ul li:last-child a {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+-moz-border-radius-bottomright:8px; 
+-moz-border-radius-bottomleft:8px; 
+}
+
+#header div.leftButton {
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    line-height: 28px;
+    border-width: 0 8px 0 8px;
+border-image: url(/images/button.png) 0 8 0 8;
+    -webkit-border-image: url(/images/button.png) 0 8 0 8;
+-moz-border-image: url(/images/button.png) 0 8 0 8;
+}
+#header div.searchButton {
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    line-height: 28px;
+    border-width: 0 8px 0 8px;
+border-image: url(/images/button.png) 0 8 0 8;
+    -webkit-border-image: url(/images/button.png) 0 8 0 8;
+-moz-border-image: url(/images/button.png) 0 8 0 8;
+}
+
+#header div.pressed {
+	color: #999;
+    -webkit-border-image: url(/images/button_clicked.png) 0 8 0 8;
+-moz-border-image: url(/images/button_clicked.png) 0 8 0 8;
+}
+#page {
+	padding: 0 12px;
+}
+
+#altTabs {
+	text-align: center;
+	padding: 4px;
+	text-shadow: 0px 1px 0px #fff;
+	background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, 
+                                       from(#ccc), to(#999));
+background-image: -moz-linear-gradient(top, #ccc, #999); 
+}
+
+#altTabs a {
+	margin: 2px 4px;
+    color: #222;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+	#contain { background:none; }
+	p.grey {
+
+display:block;
+text-align: left;
+margin: 0 5px 10px 5px;
+font-size: 85%;
+color: #1d3f69;
+}
+
+#main { background:none;
+	background-color: #fff; }
+	#searchForm {
+	position: absolute;
+	right: 6px;
+	top: 57px;
+	height: 40px;
+	width: 180px;
+	padding: 9px 6px 0 0;
+	
+}
+form.searchSearch {
+	
+}
+
+form.searchSearch input{
+	float: right;
+}
+#contain {
+	padding: 6px;
+}
+#main .blog {
+	padding: 5px;
+}
+
+.moduletablestudents a#active_menustudents, .moduletablefam a#active_menufam, .moduletablepro a#active_menupro, .moduletableabout a#active_menuabout	{
+	background: #65676a;
+	color: #fff;
+	}
